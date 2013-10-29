@@ -1,8 +1,11 @@
 body{
 	background-color: white;
-	text-align: center;
+	margin-left:25%;
+	margin-right: 25%;
+	max-width: 50em;
 
 }
+
 
 p{
 
@@ -17,17 +20,12 @@ p{
 
 p{
 
-font-size:14px;
+font-size:16px;
 
 }
 	}
 
-section{
-	
-	margin-left: auto;
-	margin-right:auto;
 
-}
 
 section h1{
 
@@ -43,7 +41,4 @@ section h2{
 	text-shadow:1px 1px #808080;
 
 }
-
-
-
 
