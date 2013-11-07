@@ -1,0 +1,126 @@
+body{
+
+	background-image:url('BilderWebb/vigeparken.jpg');
+	background-size:32em 10.4em; 
+	background-position:center top;
+	background-repeat:repeat-x;
+	background-color:#1669E6;
+	/*background-image:linear-gradient(75deg,#1669E6,#5C96EE);*/
+	
+}
+
+.container{
+	background-color: white;
+	width: 70%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 0.9em;
+	box-shadow:0px 0px 5px 3px #FFF;
+}
+
+.container section{
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+header{
+	border-bottom: 1px solid black;
+	background-color:#666666;
+	margin-top:-32px;
+	
+}
+
+header h1{
+	float:left;
+	font-size: 3.5em;
+	font-family:"Impact", sans-serif;
+	color:white;
+	text-shadow:7px 4px 3px #333333;
+	padding-left:4.5%;
+	margin-top:-40px; 
+	margin-bottom:1%;
+
+}
+
+header h2{
+	text-shadow:5px 4px 3px #333333;
+	padding-left:4%; 
+	font-size:2em;
+	font-family: "Segoe Script";
+	color:white; 
+	padding-top:2%;
+
+}
+
+
+
+.mainmenu{
+	width: 100%;
+	list-style-type: none;
+	display: inline-block;
+
+	
+}
+
+.mainmenu ul{
+	list-style-type: none;
+}
+
+.mainmenu ul li{
+	float: left;
+	padding-left: 1%;
+	padding-right: 2.5%;
+	padding-bottom:1%; 
+	border-right: 1px solid black;
+	color:white;
+	text-shadow: 2px 1px 2px #CCFFFF;
+	font-size: 1.2em;
+}
+
+.mainmenu ul li:last-child{
+	border-right: none;
+}
+
+.mainmenu ul li:hover{
+	color:#1669E6;
+	text-shadow: 0.5px 0.5px 1px #FFF;
+}
+
+.mainmenu a{
+	text-decoration: none;
+	color:white;
+}
+
+.mainmenu a:hover{
+	color:#1669E6;
+	text-shadow: 0.5px 0.5px 1px #FFF;
+}
+
+.date{
+	float:right;
+	display:inline-block;
+	padding-top:1%;
+	padding-right:1%; 
+	position:relative;
+	font-size:0.8em; 
+}
+
+
+section h2{
+	color:black;
+	text-align: center;
+}
+
+
+footer{
+	border-top: 2px solid #666666;
+	margin-top: 4%;
+	padding-bottom:1%; 
+}
+
+// Stylesheet til Utesteder
+
+table p{
+
+}
