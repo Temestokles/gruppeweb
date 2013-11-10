@@ -17,6 +17,7 @@
 						<h1>GUIDEN</h1>
 			<nav class="mainmenu">
 				<ul>
+					<li>Startside</li>
 					<li>Resturanter</li>
 					<li><a href="?page=1">Uteliv</a></li>
 					<li>Shopping</li>
