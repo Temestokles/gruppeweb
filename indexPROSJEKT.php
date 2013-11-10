@@ -4,19 +4,20 @@
 	<title>Velkommen til Oslo</title>
 	<meta charset="UTF-8">
 	<link type="text/css" rel="stylesheet" href="oslo.css"/>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="functions.js"></script>
 </head>
 
 <body>
 	<div class="container">
-
+		<div class="header-cont">
 		<header>
 				<h2>Velkommen til</h2>
 					<h1>OSLO</h1>
 						<h1>GUIDEN</h1>
 			<nav class="mainmenu">
 				<ul>
+					<li>Startside</li>
 					<li>Resturanter</li>
 					<li><a href="?page=1">Uteliv</a></li>
 					<li>Shopping</li>
@@ -36,7 +37,7 @@
 					</div>
 			</nav>
 </header>
-		
+</div>		
 		<?php
 
 if(!isset($_GET['page'])){
@@ -66,3 +67,4 @@ switch($_GET['page']){
 	</div>
 </body>
 </html>
+
