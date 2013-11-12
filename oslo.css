@@ -20,15 +20,38 @@ body{
 }
 
 .container section{
-	padding-top:2%;
+	padding-top:20%;
 	padding-bottom:2%;
 }
 
 header{
 	border-bottom: 1px solid black;
 	background-color:#666666;
+	width:69%;
 	margin-top:-32px;
 	
+}
+
+.header-cont{
+	width:100%;
+	position: fixed;
+	top:0px;
+	margin:0 auto;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	
+	header {
+		width: 100%;
+	}
+	.header-cont {
+		position: relative;
+	}
+	.mainmenu ul li {
+		
+	}
+
 }
 
 header h1{
@@ -186,7 +209,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:45%;
+	top:30%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -205,7 +228,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:70%;
+	top:50%;
 	z-index:100;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -224,7 +247,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:100%;
+	top:90%;
 	z-index:100;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -243,7 +266,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:130%;
+	top:110%;
 	z-index:100;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -262,7 +285,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:160%;
+	top:140%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -281,7 +304,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:190%;
+	top:170%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -300,7 +323,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:220%;
+	top:200%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -319,7 +342,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:250%;
+	top:230%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -339,7 +362,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:280%;
+	top:260%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -360,7 +383,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:310%;
+	top:290%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -375,15 +398,62 @@ right:-0.2%;
 cursor:pointer;
 width:20px;
 line-height:20px;
-background:#000;
+background:#666666;
 color:#fff;
 text-align: center;
 font-size: 14px;
 font-weight: bold;
 position: absolute;
 top:-1px;
-border:solid 1px;
+border:1px solid black;
 }
+
+
+/* STYLESHEET TIL RESTURANTER */
+
+.restaurants ul{
+	width:50%;
+	float:left;
+	list-style: none;
+	text-align: center;
+	padding-right:20%;
+	padding-left: 22%; 
+	padding-top:5%; 
+}
+
+.restaurants ul li{
+	display:inline-block;
+	padding-bottom:1%;
+	font-weight: bold;
+	padding-left: 5%;
+	padding-right:12%;
+	color:#1669E6;
+	background-color: #D0D0D0;
+
+}
+
+.restaurants div{
+	margin-top:15%; 
+	padding-left:10%;
+}
+
+
+
+.restaurant_valg{
+	width:100%;
+	height:20%;
+	padding-left:8%; 
+
+
+}
+
+.restaurant_valg select{
+	width:12%;
+}
+
+
+
+
 
 /*
 .tableLeft{

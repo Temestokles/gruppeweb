@@ -1,8 +1,6 @@
 
 <section class="uteliv main">
 
-	<h2> Populaere Utesteder i Oslo</h2>
-
 
 <table>
 
@@ -40,7 +38,7 @@
 				<li id="commentsHorgans"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Horgans">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp1" Value="Send"/>
 						</form>
@@ -83,7 +81,7 @@
 				<li id="commentsVulkan"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Vulkan">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp2" Value="Send"/>
 						</form>
@@ -127,7 +125,7 @@
 				<li id="commentsNivou"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Nivou">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp3" Value="Send"/>
 						</form>
@@ -172,7 +170,7 @@
 				<li id="commentsJaeger"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Jaeger">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp4" Value="Send"/>
 						</form>
@@ -217,7 +215,7 @@
 				<li id="commentsBlaa"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Blaa">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp5" Value="Send"/>
 						</form>
@@ -264,7 +262,7 @@
 				<li id="commentsVu"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Vu">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp6" Value="Send"/>
 						</form>
@@ -305,7 +303,7 @@
 				<li id="commentsNox"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Nox">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp7" Value="Send"/>
 						</form>
@@ -348,7 +346,7 @@
 				<li id="commentsSo"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_So">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp8" Value="Send"/>
 						</form>
@@ -391,7 +389,7 @@
 				<li id="commentsVilla"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Villa">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp9" Value="Send"/>
 						</form>
@@ -433,7 +431,7 @@
 				<li id="commentsRaa"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Raa">
-						<form action="?page=1" method="post">
+						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp10" Value="Send"/>
 						</form>
