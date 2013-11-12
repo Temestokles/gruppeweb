@@ -35,7 +35,7 @@
 	<td>
 		<ul>
 				<li id="lesmerHorgans"> Les mer..</li>
-				<li id="likeHorgans"> Gilla </li>
+				<li id="likeHorgans"> Lik </li>
 				<li id="commentsHorgans"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Horgans">
@@ -78,7 +78,7 @@
 	<td>
 		<ul>
 				<li id="lesmerVulkan"> Les mer..</li>
-				<li id="likeVulkan"> Gilla </li>
+				<li id="likeVulkan"> Lik </li>
 				<li id="commentsVulkan"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Vulkan">
@@ -122,7 +122,7 @@
 	<td>
 		<ul>
 				<li id="lesmerNivou"> Les mer..</li>
-				<li id="likeNivou"> Gilla </li>
+				<li id="likeNivou"> Lik </li>
 				<li id="commentsNivou"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Nivou">
@@ -167,7 +167,7 @@
 	<td>
 		<ul>
 				<li id="lesmerJaeger"> Les mer..</li>
-				<li id="likeJaeger"> Gilla </li>
+				<li id="likeJaeger"> Lik </li>
 				<li id="commentsJaeger"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Jaeger">
@@ -185,27 +185,6 @@
 	</td>
 </tr>
 
-<tr>
-	<td>
-		<ul>
-				<li id="lesmerJaeger"> Les mer..</li>
-				<li id="likeJaeger"> Gilla </li>
-				<li id="commentsJaeger"> Kommentere</li>
-			</ul>
-					<div id="comment_boks_Jaeger">
-						<form action="?page=1" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp4" Value="Send"/>
-						</form>
-					</div>
-					<?php
-					if(isset($_REQUEST['knapp4'])){
-						echo'Kommentar sendt';
-					}
-
-					?>
-	</td>
-</tr>
 
 <tr>
 	<td><img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="100">
@@ -234,7 +213,7 @@
 	<td>
 		<ul>
 				<li id="lesmerBlaa"> Les mer..</li>
-				<li id="likeBlaa"> Gilla </li>
+				<li id="likeBlaa"> Lik </li>
 				<li id="commentsBlaa"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Blaa">
@@ -281,7 +260,7 @@
 	<td>
 		<ul>
 				<li id="lesmerVu"> Les mer..</li>
-				<li id="likeVu"> Gilla </li>
+				<li id="likeVu"> Lik </li>
 				<li id="commentsVu"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Vu">
@@ -322,7 +301,7 @@
 	<td>
 		<ul>
 				<li id="lesmerNox"> Les mer..</li>
-				<li id="likeNox"> Gilla </li>
+				<li id="likeNox"> Lik </li>
 				<li id="commentsNox"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Nox">
@@ -365,7 +344,7 @@
 	<td>
 		<ul>
 				<li id="lesmerSo"> Les mer..</li>
-				<li id="likeSo"> Gilla </li>
+				<li id="likeSo"> Lik </li>
 				<li id="commentsSo"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_So">
@@ -399,7 +378,7 @@
 	<td>
 		<ul>
 				<li id="lesmerVu"> Les mer..</li>
-				<li id="likeVu"> Gilla </li>
+				<li id="likeVu"> Lik </li>
 				<li id="commentsVu"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Vu">
@@ -440,7 +419,7 @@
 	<td>
 		<ul>
 				<li id="lesmerNox"> Les mer..</li>
-				<li id="likeNox"> Gilla </li>
+				<li id="likeNox"> Lik </li>
 				<li id="commentsNox"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Nox">
@@ -483,7 +462,7 @@
 	<td>
 		<ul>
 				<li id="lesmerSo"> Les mer..</li>
-				<li id="likeSo"> Gilla </li>
+				<li id="likeSo"> Lik </li>
 				<li id="commentsSo"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_So">
@@ -525,7 +504,7 @@
 	<td>
 		<ul>
 				<li id="lesmerVilla"> Les mer..</li>
-				<li id="likeVilla"> Gilla </li>
+				<li id="likeVilla"> Lik </li>
 				<li id="commentsVilla"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Villa">
@@ -567,7 +546,7 @@
 	<td>
 		<ul>
 				<li id="lesmerRaa"> Les mer..</li>
-				<li id="likeRaa"> Gilla </li>
+				<li id="likeRaa"> Lik </li>
 				<li id="commentsRaa"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Raa">
