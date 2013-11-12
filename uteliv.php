@@ -1,5 +1,6 @@
-
 <section class="uteliv main">
+
+	<h2> Populaere Utesteder i Oslo</h2>
 
 
 <table>
@@ -171,6 +172,28 @@
 			</ul>
 					<div id="comment_boks_Jaeger">
 						<form action="?page=2" method="post">
+							<textarea wrap="Soft" name="comment_text"></textarea>
+							<input type="submit" name="knapp4" Value="Send"/>
+						</form>
+					</div>
+					<?php
+					if(isset($_REQUEST['knapp4'])){
+						echo'Kommentar sendt';
+					}
+
+					?>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<ul>
+				<li id="lesmerJaeger"> Les mer..</li>
+				<li id="likeJaeger"> Gilla </li>
+				<li id="commentsJaeger"> Kommentere</li>
+			</ul>
+					<div id="comment_boks_Jaeger">
+						<form action="?page=1" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp4" Value="Send"/>
 						</form>
@@ -372,6 +395,123 @@
 		 	<div id="merinfoVilla">
 		 		<div class="close_button"> X </div>
 
+<tr>
+	<td>
+		<ul>
+				<li id="lesmerVu"> Les mer..</li>
+				<li id="likeVu"> Gilla </li>
+				<li id="commentsVu"> Kommentere</li>
+			</ul>
+					<div id="comment_boks_Vu">
+						<form action="?page=1" method="post">
+							<textarea wrap="Soft" name="comment_text"></textarea>
+							<input type="submit" name="knapp6" Value="Send"/>
+						</form>
+					</div>
+					<?php
+					 if(isset($_REQUEST['knapp6'])){
+						echo'Kommentar sendt';
+					}
+
+					?>
+	</td>
+</tr>
+
+<tr>
+	<td><img src="BilderWebb/nox2.jpg" Alt="Bilde fra utestedet Nox" width="160" height="90">
+
+	</td>
+
+	<td>	<p><strong>NOX</strong><br>
+			Her er stedet for de som liker når champagnen fløder. Nox er et ekslusivt stede med flott interiör og har sin beligenhet
+			på Solli Plass. På et stede som Nox er det dresscode som gjelder og det kan vare vanskelig å komme in.<br></p>
+		
+			<div id="merinfoNox">
+				<div class="close_button"> X </div>
+
+				<img src="BilderWebb/nox2.jpg" Alt="Bilde fra utestedet Nox" width="260" height="150">
+			<p>Vil du tilbringe en kveld på Nox så ta med mye penger da drykk koster.<br>
+			Source:<a href="http://www.clubnox.no" target="blank">http://www.clubnox.no/</a></p>
+			</div>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<ul>
+				<li id="lesmerNox"> Les mer..</li>
+				<li id="likeNox"> Gilla </li>
+				<li id="commentsNox"> Kommentere</li>
+			</ul>
+					<div id="comment_boks_Nox">
+						<form action="?page=1" method="post">
+							<textarea wrap="Soft" name="comment_text"></textarea>
+							<input type="submit" name="knapp7" Value="Send"/>
+						</form>
+					</div>
+					<?php
+					if(isset($_REQUEST['knapp7'])){
+						echo'Kommentar sendt';
+					}
+
+					?>
+	</td>
+</tr>
+
+<tr>
+	<td><img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="130">
+
+	</td>
+
+	<td>	<p><strong>SO</strong><br>
+			So er Norges eneste utested for jenter som liker jenter.
+			Ett til synes litet stede som ligger i Grensen men som har god service, bra musikk og en deilig stemning.
+			Bra musikk for de som liker variert, allt fra dagens hit-låtar til gamle sanger fra førr.<br></p>
+			
+			<div id="merinfoSo">
+				<div class="close_button"> X </div>
+
+				<img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="200">
+			<p>Finnes også en poledance stang som man kan svinge seg runt mitt på dansegulvet.<br> 
+			Her kommer garantert en låt der du kan synge med.<br>
+			Source: <a href="http://www.so-oslo.no" target="blank">www.so-oslo.no </a></p>
+			</div>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<ul>
+				<li id="lesmerSo"> Les mer..</li>
+				<li id="likeSo"> Gilla </li>
+				<li id="commentsSo"> Kommentere</li>
+			</ul>
+					<div id="comment_boks_So">
+						<form action="?page=1" method="post">
+							<textarea wrap="Soft" name="comment_text"></textarea>
+							<input type="submit" name="knapp8" Value="Send"/>
+						</form>
+					</div>
+					<?php
+					if(isset($_REQUEST['knapp8'])){
+						echo'Kommentar sendt';
+					}
+
+					?>
+	</td>
+</tr>
+
+<tr>
+	<td><img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="100">
+
+	</td>
+
+	<td> 	<p><strong>THE VILLA</strong><br>
+			En underground klubb med Norges beste sounds system. Her kommer nationelle og internationelle dj's fra hele verden.<br>
+		 	Ett stede som for deg til og danse hele natten. <br></p>
+		 	
+		 	<div id="merinfoVilla">
+		 		<div class="close_button"> X </div>
 		 		<img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="150">
 		 	<p>Tips, ta med øronpropper. For den som fremst liker club house, elektro og dubstep. Aldersgrense 21+.<br/>
 			Annet stede å ha i baktanke hvis man liker dubstep og elektro beats er Kulturhuset Hausmania 

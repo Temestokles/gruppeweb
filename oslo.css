@@ -39,6 +39,7 @@ header{
 	margin:0 auto;
 }
 
+
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
 	
@@ -54,6 +55,8 @@ header{
 
 }
 
+=======
+>>>>>>> 7d57171e185eb8471af1fea17d817a2c401d6fec
 header h1{
 	float:left;
 	font-size: 3.5em;
@@ -147,6 +150,7 @@ footer{
 	padding-right:4px;
 }
 
+
 .main h2{
 	text-align: center;
 	padding-bottom:4%; 
@@ -174,9 +178,35 @@ footer{
 	height:20%;
 	width:170%;
 	margin:0 0 0 -45px;
-
+}
+.main h2{
+	text-align: center;
+	padding-bottom:4%; 
 }
 
+.main ul li{
+	display: inline-block;
+	list-style: none;
+	float:left;
+	margin-top:-25px;
+	padding-right:6%;
+	padding-left: 3%;
+	padding-bottom:2%;
+	font-weight: bold;
+	color:#1669E6;
+	background-color: #D0D0D0;
+	cursor:pointer;
+	
+	
+}
+
+.main ul{
+	float:left;
+	height:20%;
+	width:170%;
+	margin:0 0 0 -45px;
+
+}
 
 .main table{
 	width:100%;
@@ -398,7 +428,7 @@ right:-0.2%;
 cursor:pointer;
 width:20px;
 line-height:20px;
-background:#666666;
+background:#000;
 color:#fff;
 text-align: center;
 font-size: 14px;
@@ -451,10 +481,6 @@ border:1px solid black;
 	width:12%;
 }
 
-
-
-
-
 /*
 .tableLeft{
 	float:left;
@@ -486,5 +512,3 @@ table td{
 }
 
 */
-
-
