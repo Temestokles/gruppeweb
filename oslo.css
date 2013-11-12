@@ -39,24 +39,6 @@ header{
 	margin:0 auto;
 }
 
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-	
-	header {
-		width: 100%;
-	}
-	.header-cont {
-		position: relative;
-	}
-	.mainmenu ul li {
-		
-	}
-
-}
-
-=======
->>>>>>> 7d57171e185eb8471af1fea17d817a2c401d6fec
 header h1{
 	float:left;
 	font-size: 3.5em;
@@ -150,7 +132,6 @@ footer{
 	padding-right:4px;
 }
 
-
 .main h2{
 	text-align: center;
 	padding-bottom:4%; 
@@ -178,35 +159,9 @@ footer{
 	height:20%;
 	width:170%;
 	margin:0 0 0 -45px;
-}
-.main h2{
-	text-align: center;
-	padding-bottom:4%; 
-}
-
-.main ul li{
-	display: inline-block;
-	list-style: none;
-	float:left;
-	margin-top:-25px;
-	padding-right:6%;
-	padding-left: 3%;
-	padding-bottom:2%;
-	font-weight: bold;
-	color:#1669E6;
-	background-color: #D0D0D0;
-	cursor:pointer;
-	
-	
-}
-
-.main ul{
-	float:left;
-	height:20%;
-	width:170%;
-	margin:0 0 0 -45px;
 
 }
+
 
 .main table{
 	width:100%;
@@ -435,50 +390,7 @@ font-size: 14px;
 font-weight: bold;
 position: absolute;
 top:-1px;
-border:1px solid black;
-}
-
-
-/* STYLESHEET TIL RESTURANTER */
-
-.restaurants ul{
-	width:50%;
-	float:left;
-	list-style: none;
-	text-align: center;
-	padding-right:20%;
-	padding-left: 22%; 
-	padding-top:5%; 
-}
-
-.restaurants ul li{
-	display:inline-block;
-	padding-bottom:1%;
-	font-weight: bold;
-	padding-left: 5%;
-	padding-right:12%;
-	color:#1669E6;
-	background-color: #D0D0D0;
-
-}
-
-.restaurants div{
-	margin-top:15%; 
-	padding-left:10%;
-}
-
-
-
-.restaurant_valg{
-	width:100%;
-	height:20%;
-	padding-left:8%; 
-
-
-}
-
-.restaurant_valg select{
-	width:12%;
+border:solid 1px;
 }
 
 /*
@@ -512,3 +424,38 @@ table td{
 }
 
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
