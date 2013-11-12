@@ -21,8 +21,6 @@
 					<li>Startside</li>
 					<li><a href="?page=1">Resturanter</li>
 					<li><a href="?page=2">Uteliv</a></li>
-					<li>Resturanter</li>
-					<li><a href="?page=1">Uteliv</a></li>
 					<li>Shopping</li>
 					<li>Severdigheter</li>
 					<li>Kultur</li>
