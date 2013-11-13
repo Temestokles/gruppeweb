@@ -123,6 +123,16 @@ footer{
 }
 
 
+/*STYLESHEET TIL INDEX_INNHOLD */
+
+.indexInnhold aside{
+	margin-right: 2%;
+width:35%;
+float:right;
+	 
+}
+
+
 /* STYLESHEET TIL UTELIV */
 
 
