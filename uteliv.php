@@ -18,7 +18,7 @@
 			<br></p>
 	
 	
-			<div id="merinfoHorgans">
+			<div class="merinfo" id="merinfoHorgans">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/horgans.jpg" Alt="Bild fra utestedet Horgan's" width="250">
@@ -40,16 +40,34 @@
 			</ul>
 					<div id="comment_boks_Horgans">
 						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
+							Navn:<input type="text" name="Navn"/>
+							<textarea wrap="Soft" name="comment_text"></textarea><br>
 							<input type="submit" name="knapp1" Value="Send"/>
+							<input type="submit" name="read_commentsHorgans" Value="Les kommentarer"/>
 						</form>
 					</div>
 					<?php
-					if(isset($_REQUEST['knapp1'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsHorgans.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp1'])){
+
+        	 					$filref= fopen("commentsHorgans.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
+				
 	</td>
 </tr>
 
@@ -63,7 +81,7 @@
 			BAR Vulkan kan tilby en helaften med deilig mat og vin, spennende cocktails og behagelig musikk utover kvelden.</p>
 	
 
-			<div id="merinfoVulkan">
+			<div class="merinfo" id="merinfoVulkan">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bild fra utestedet bar Vulkan" width="250" height="190">
@@ -83,13 +101,30 @@
 			</ul>
 					<div id="comment_boks_Vulkan">
 						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
+							Navn:<input type="text" name="Navn"/>
+							<textarea wrap="Soft" name="comment_text"></textarea><br>
 							<input type="submit" name="knapp2" Value="Send"/>
+							<input type="submit" name="read_commentsVulkan" Value="Les kommentarer"/>
 						</form>
 					</div>
 					<?php
-					 if(isset($_REQUEST['knapp2'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsVulkan.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp2'])){
+
+        	 					$filref= fopen("commentsVulkan.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -106,7 +141,7 @@
 			Nivou har en stor og variert champagnemeny og et godt utvalg av drinker.<br>
 			I underetasjen er det minimalt med møbler, og musikken er noe tyngre enn i første etasje.<br></p>
 	
-			<div id="merinfoNivou">
+			<div class="merinfo" id="merinfoNivou">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/nivou_logo.jpg" Alt="Bilde fra utestedet Nivou" width="250">
@@ -132,8 +167,23 @@
 						</form>
 					</div>
 					<?php
-					if(isset($_REQUEST['knapp3'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsNivou.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp3'])){
+
+        	 					$filref= fopen("commentsNivou.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -150,7 +200,7 @@
 			en av de mest populære og innflytelsesrike utestedene i Oslo.
 			<br></p>
 			
-			<div id="merinfoJaeger"> 
+			<div class="merinfo" id="merinfoJaeger"> 
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/jaeger-oslo.jpg" Alt="Loggo fra utestedet Jæger" width="200">
@@ -177,8 +227,23 @@
 						</form>
 					</div>
 					<?php
-					if(isset($_REQUEST['knapp4'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsJaeger.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp4'])){
+
+        	 					$filref= fopen("commentsJaeger.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -195,7 +260,7 @@
 			BLÅ booking vil overraske, utfordre, engasjere og fokusere på nerve innen de fleste sjangre og kulturelle uttrykk.
 			Det finnes noe bra innen alle sjangre.<br></p>
 			
-			<div id="merinfoBlaa">
+			<div class="merinfo" id="merinfoBlaa">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="150">
@@ -223,8 +288,23 @@
 						</form>
 					</div>
 					<?php
-					if(isset($_REQUEST['knapp5'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsBlaa.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp5'])){
+
+        	 					$filref= fopen("commentsBlaa.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -242,7 +322,7 @@
 			Etter å ha sett og erfart mye ville de skape et sted i tråd med deres smak.
 			Resultatet VU ble som består av en jovial bakgård, hovedrommet og en separè.<br></p> 
 
-			<div id="merinfoVu">
+			<div class="merinfo" id="merinfoVu">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/vu-club-oslo.jpg" Alt="Bild fra utestedet VU" width="250">
@@ -270,8 +350,23 @@
 						</form>
 					</div>
 					<?php
-					 if(isset($_REQUEST['knapp6'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsVu.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp6'])){
+
+        	 					$filref= fopen("commentsVu.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -287,7 +382,7 @@
 			Her er stedet for de som liker når champagnen fløder. Nox er et ekslusivt stede med flott interiör og har sin beligenhet
 			på Solli Plass. På et stede som Nox er det dresscode som gjelder og det kan vare vanskelig å komme in.<br></p>
 		
-			<div id="merinfoNox">
+			<div class="merinfo" id="merinfoNox">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/nox2.jpg" Alt="Bilde fra utestedet Nox" width="260" height="150">
@@ -311,8 +406,23 @@
 						</form>
 					</div>
 					<?php
-					if(isset($_REQUEST['knapp7'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsNox.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp7'])){
+
+        	 					$filref= fopen("commentsNox.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -330,7 +440,7 @@
 			Ett til synes litet stede som ligger i Grensen men som har god service, bra musikk og en deilig stemning.
 			Bra musikk for de som liker variert, allt fra dagens hit-låtar til gamle sanger fra førr.<br></p>
 			
-			<div id="merinfoSo">
+			<div class="merinfo" id="merinfoSo">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="200">
@@ -355,8 +465,23 @@
 						</form>
 					</div>
 					<?php
-					if(isset($_REQUEST['knapp8'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsSo.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp8'])){
+
+        	 					$filref= fopen("commentsSo.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -372,7 +497,7 @@
 			En underground klubb med Norges beste sounds system. Her kommer nationelle og internationelle dj's fra hele verden.<br>
 		 	Ett stede som for deg til og danse hele natten. <br></p>
 		 	
-		 	<div id="merinfoVilla">
+		 	<div class="merinfo" id="merinfoVilla">
 		 		<div class="close_button"> X </div>
 		 		<img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="150">
 		 	<p>Tips, ta med øronpropper. For den som fremst liker club house, elektro og dubstep. Aldersgrense 21+.<br/>
@@ -397,8 +522,23 @@
 						</form>
 					</div>
 					<?php
-					 if(isset($_REQUEST['knapp9'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsVilla.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp9'])){
+
+        	 					$filref= fopen("commentsVilla.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -415,7 +555,7 @@
 			Dj:er, dansegulv, og konserter. Utenlandske hiphop- og rnbstjerner som gjester Norge ender ihvertfall alltid opp på Rå utpå natta.
 			<br></p>
 			
-			<div id="merinfoRaa">
+			<div class="merinfo" id="merinfoRaa">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/raanattklubbLogo.gif" Alt="Loggo fra utestedet Rå" width="200" height="120">
@@ -439,8 +579,23 @@
 						</form>
 					</div>
 					<?php
-					if(isset($_REQUEST['knapp10'])){
-						echo'Kommentar sendt';
+								$filref = fopen("commentsRaa.txt","r"); 
+			 					$Horgans = fgets($filref); 
+			 					fclose($filref)
+ 					?>
+
+ 					<?php
+
+								if(isset($_POST['knapp10'])){
+
+        	 					$filref= fopen("commentsRaa.txt","a"); 
+        	 					$navn=$_POST['Navn'];
+        	 					$kommentar = $_POST['comment_text'];
+        	 					fwrite($filref,"\r\n".$navn);
+        	 					fwrite($filref,"\r\n".$kommentar); 
+        	 					fclose($filref);
+
+        	 				echo'Kommentar sendt';
 					}
 
 					?>
@@ -452,5 +607,3 @@
 
 
 </section>
-</body>
-</html>
