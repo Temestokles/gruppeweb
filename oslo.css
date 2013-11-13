@@ -427,9 +427,7 @@ table td{
 
 /* STYLESHEET TIL RESTURANTER */
 
-.restaurants{
-	margin:0 auto;
-}
+
 
 .restaurants li{
 	float:left;
@@ -452,17 +450,34 @@ table td{
 }
 
 .restaurant_valg{
-width:50%;
+width:55%;
 padding-left:27%;
 
 }
 
 .restaurant_valg select{
-width:25%;
-margin-right:6.5%;
-
+width:20%;
+margin-right:10%;
+margin-left:-1%;
 }
 
+.restaurants figure{
+	margin-left: 16%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border: groove 3px;
+	color:#666666;
+	box-shadow: 2px 2px 5px #666666;
+	width:605px;
+}
+
+
+
+figcaption p{
+	font-size: 0.8em;
+	margin-top: -4px;
+	color:#666666;
+}
 
 
 

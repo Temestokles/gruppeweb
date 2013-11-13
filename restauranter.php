@@ -38,8 +38,11 @@
 <div>
 	<figure>
 		<img src="BilderWebb/Dattra.JPG" Alt="Bild fra Dattra til Hagen" width="300">
-				<img src="BilderWebb/Tapas.JPG" Alt="Bild på Tapas Mat" width="300">
-			</figure>
+			<img src="BilderWebb/Tapas.JPG" Alt="Bild på Tapas Mat" width="300">
+			<figcaption><p> Bilder tagen fra Dattra til Hagen </p></figcaption>
+				
+
+	</figure>
 </div>
 
 </section>
