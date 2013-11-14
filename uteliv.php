@@ -1,13 +1,13 @@
 <section class="uteliv main">
 
-	<h2> Populaere Utesteder i Oslo</h2>
+	<h2> Populære Utesteder i Oslo</h2>
 
 
 <table>
 
 <tr>
 	<td> 
-			<img src="BilderWebb/horgans.jpg" Alt="Bild fra utestedet Horgan's" width="150">
+			<img src="BilderWebb/horgans.jpg" Alt="Bilde fra utestedet Horgan's" width="150">
 	</td>
 
 	<td>	<p><strong>HORGAN'S</strong><br>
@@ -21,7 +21,7 @@
 			<div class="merinfo" id="merinfoHorgans">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/horgans.jpg" Alt="Bild fra utestedet Horgan's" width="250">
+				<img src="BilderWebb/horgans.jpg" Alt="Bilde fra utestedet Horgan's" width="250">
 			<p>Aldersgrensen er 26 år og tilbyr tre ulike musikkprofiler med to dansegulv.<br> 
 			Det spilles variert musikk fra rock`n`roll, pop, R&amp;B, hip hop til elektronika som deephouse, <br>
 			NU disco og disco. Kan også spise, Horgan`s serverer amerikanskinspirert mat og er mest kjent for sine<br>
@@ -72,7 +72,7 @@
 </tr>
 
 <tr> 
-	<td> 	<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bild fra utestedet bar Vulkan" width="150" height="90">
+	<td> 	<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bilde fra utestedet bar Vulkan" width="150" height="90">
 
 	</td>
 
@@ -84,7 +84,7 @@
 			<div class="merinfo" id="merinfoVulkan">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bild fra utestedet bar Vulkan" width="250" height="190">
+				<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bilde fra utestedet bar Vulkan" width="250" height="190">
 			<p>Når varmen tillater det kan du benytte deg av deres uteservering tett inn mot Akerselven,
 			 eller beundre utsikten fra takterrassen.<br> Byns beste stede for de som er 30 og oppover.</p>
 			</div>
@@ -191,7 +191,7 @@
 </tr>
 
 <tr>
-	<td> <img src="BilderWebb/jaeger-oslo.jpg" Alt="Loggo fra utestedet Jæger" width="130">
+	<td> <img src="BilderWebb/jaeger-oslo.jpg" Alt="Logo fra utestedet Jæger" width="130">
 
 	</td>
 
@@ -203,7 +203,7 @@
 			<div class="merinfo" id="merinfoJaeger"> 
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/jaeger-oslo.jpg" Alt="Loggo fra utestedet Jæger" width="200">
+				<img src="BilderWebb/jaeger-oslo.jpg" Alt="Logo fra utestedet Jæger" width="200">
 			<p>Lokalisert på grensen 9 midt i hjertet av hovedstaden er klubben blitt ett knutepunkt
 			mellom øst og vest og trekker ett publikum<br> som strekker seg langt utover de faste klubbgåerene i byen. Gratis før midnatt, 100kr etter. Diskon åpner 23:00. ID 23 fra 23:00.<br>
 			På dagtid kan du drikke kaffe, ta en pils eller spise lunsj i caféen som holder åpent frem til 18.30 hver dag<br>
@@ -252,7 +252,7 @@
 
 
 <tr>
-	<td><img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="100">
+	<td><img src="BilderWebb/blaaLogo.png" Alt="Bilde fra utestedet Blå" width="100">
 
 	</td>
 
@@ -263,7 +263,7 @@
 			<div class="merinfo" id="merinfoBlaa">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="150">
+				<img src="BilderWebb/blaaLogo.png" Alt="Bilde fra utestedet Blå" width="150">
 			<p>Jazz, elektronisk, hip-hop, pop og rock samt krysningene mellom disse er noe som du kan oppleve på Blå.<br>
 			Visionen er og fylle det gamle diamantlageret til randen med kultur. <br>
 			Tilsammen arrangerer BLÅ ca.380 arrangementer per år.
@@ -313,7 +313,7 @@
 
 <tr>
 
-	<td><img src="BilderWebb/vu-club-oslo.jpg" Alt="Bild fra utestedet VU" width="160">
+	<td><img src="BilderWebb/vu-club-oslo.jpg" Alt="Bilde fra utestedet VU" width="160">
 
 	</td>
 
@@ -325,7 +325,7 @@
 			<div class="merinfo" id="merinfoVu">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/vu-club-oslo.jpg" Alt="Bild fra utestedet VU" width="250">
+				<img src="BilderWebb/vu-club-oslo.jpg" Alt="Bilde fra utestedet VU" width="250">
 			<p>Aldersgrensen er 26 år, da Oslo mangler et tilbud til denne aldersgruppen.<br> 
 			Det er godt med sitteplasser og bord på VU, og det er servering ved bordene.<br>
 			Baren har et rikholdig utvalg, og personalet er meget serviceinnstilt.
@@ -431,7 +431,7 @@
 
 
 <tr>
-	<td><img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="130">
+	<td><img src="BilderWebb/sologgo2.jpg" Alt="Logo fra utestedet SO" width="130">
 
 	</td>
 
@@ -443,7 +443,7 @@
 			<div class="merinfo" id="merinfoSo">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="200">
+				<img src="BilderWebb/sologgo2.jpg" Alt="Logo fra utestedet SO" width="200">
 			<p>Finnes også en poledance stang som man kan svinge seg runt mitt på dansegulvet.<br> 
 			Her kommer garantert en låt der du kan synge med.<br>
 			Source: <a href="http://www.so-oslo.no" target="blank">www.so-oslo.no </a></p>
@@ -489,7 +489,7 @@
 </tr>
 
 <tr>
-	<td><img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="100">
+	<td><img src="BilderWebb/villaloggo1.jpg" Alt="Logo fra utestedet The villa" width="100">
 
 	</td>
 
@@ -499,7 +499,7 @@
 		 	
 		 	<div class="merinfo" id="merinfoVilla">
 		 		<div class="close_button"> X </div>
-		 		<img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="150">
+		 		<img src="BilderWebb/villaloggo1.jpg" Alt="Logo fra utestedet The villa" width="150">
 		 	<p>Tips, ta med øronpropper. For den som fremst liker club house, elektro og dubstep. Aldersgrense 21+.<br/>
 			Annet stede å ha i baktanke hvis man liker dubstep og elektro beats er Kulturhuset Hausmania 
 			<a href="http://www.hausmania.org" target="blank"><br/>(www.hausmania.org)</a>
@@ -546,7 +546,7 @@
 </tr>
 
 <tr>
-	<td><img src="BilderWebb/raanattklubbLogo.gif" Alt="Loggo fra utestedet Rå" width="160" height="100">
+	<td><img src="BilderWebb/raanattklubbLogo.gif" Alt="Logo fra utestedet Rå" width="160" height="100">
 
 	</td>
 
@@ -558,7 +558,7 @@
 			<div class="merinfo" id="merinfoRaa">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/raanattklubbLogo.gif" Alt="Loggo fra utestedet Rå" width="200" height="120">
+				<img src="BilderWebb/raanattklubbLogo.gif" Alt="Logo fra utestedet Rå" width="200" height="120">
 			<p>Publikum her er 18+. Så et utestede som passer seg for en yngre målgruppe.<br>
 			Source:<a href="http://www.raaoslo.no" target="blank"> http://www.raaoslo.no</a></p>
 			</div>
