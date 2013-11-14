@@ -1,13 +1,13 @@
 <section class="uteliv main">
 
-	<h2> Populære Utesteder i Oslo</h2>
+	<h2> Populaere Utesteder i Oslo</h2>
 
 
 <table>
 
 <tr>
 	<td> 
-			<img src="BilderWebb/horgans.jpg" Alt="Bilde fra utestedet Horgan's" width="150">
+			<img src="BilderWebb/horgans.jpg" Alt="Bild fra utestedet Horgan's" width="150">
 	</td>
 
 	<td>	<p><strong>HORGAN'S</strong><br>
@@ -18,10 +18,10 @@
 			<br></p>
 	
 	
-			<div class="merinfo" id="merinfoHorgans">
+			<div id="merinfoHorgans">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/horgans.jpg" Alt="Bilde fra utestedet Horgan's" width="250">
+				<img src="BilderWebb/horgans.jpg" Alt="Bild fra utestedet Horgan's" width="250">
 			<p>Aldersgrensen er 26 år og tilbyr tre ulike musikkprofiler med to dansegulv.<br> 
 			Det spilles variert musikk fra rock`n`roll, pop, R&amp;B, hip hop til elektronika som deephouse, <br>
 			NU disco og disco. Kan også spise, Horgan`s serverer amerikanskinspirert mat og er mest kjent for sine<br>
@@ -34,9 +34,9 @@
 <tr> 
 	<td>
 		<ul>
-				<li id="lesmerHorgans"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoHorgans">Les mer..</a></li>
 				<li id="likeHorgans"> Lik </li>
-				<li id="commentsHorgans"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Horgans"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Horgans">
 						<form action="?page=2" method="post">
@@ -72,7 +72,7 @@
 </tr>
 
 <tr> 
-	<td> 	<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bilde fra utestedet bar Vulkan" width="150" height="90">
+	<td> 	<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bild fra utestedet bar Vulkan" width="150" height="90">
 
 	</td>
 
@@ -81,10 +81,10 @@
 			BAR Vulkan kan tilby en helaften med deilig mat og vin, spennende cocktails og behagelig musikk utover kvelden.</p>
 	
 
-			<div class="merinfo" id="merinfoVulkan">
+			<div id="merinfoVulkan">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bilde fra utestedet bar Vulkan" width="250" height="190">
+				<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bild fra utestedet bar Vulkan" width="250" height="190">
 			<p>Når varmen tillater det kan du benytte deg av deres uteservering tett inn mot Akerselven,
 			 eller beundre utsikten fra takterrassen.<br> Byns beste stede for de som er 30 og oppover.</p>
 			</div>
@@ -95,9 +95,9 @@
 <tr>
 	<td>
 		<ul>
-				<li id="lesmerVulkan"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoVulkan"> Les mer..</li>
 				<li id="likeVulkan"> Lik </li>
-				<li id="commentsVulkan"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Vulkan"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Vulkan">
 						<form action="?page=2" method="post">
@@ -141,7 +141,7 @@
 			Nivou har en stor og variert champagnemeny og et godt utvalg av drinker.<br>
 			I underetasjen er det minimalt med møbler, og musikken er noe tyngre enn i første etasje.<br></p>
 	
-			<div class="merinfo" id="merinfoNivou">
+			<div id="merinfoNivou">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/nivou_logo.jpg" Alt="Bilde fra utestedet Nivou" width="250">
@@ -156,9 +156,9 @@
 <tr>
 	<td>
 		<ul>
-				<li id="lesmerNivou"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoNivou"> Les mer..</li>
 				<li id="likeNivou"> Lik </li>
-				<li id="commentsNivou"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Nivou"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Nivou">
 						<form action="?page=2" method="post">
@@ -191,7 +191,7 @@
 </tr>
 
 <tr>
-	<td> <img src="BilderWebb/jaeger-oslo.jpg" Alt="Logo fra utestedet Jæger" width="130">
+	<td> <img src="BilderWebb/jaeger-oslo.jpg" Alt="Loggo fra utestedet Jæger" width="130">
 
 	</td>
 
@@ -200,10 +200,10 @@
 			en av de mest populære og innflytelsesrike utestedene i Oslo.
 			<br></p>
 			
-			<div class="merinfo" id="merinfoJaeger"> 
+			<div id="merinfoJaeger"> 
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/jaeger-oslo.jpg" Alt="Logo fra utestedet Jæger" width="200">
+				<img src="BilderWebb/jaeger-oslo.jpg" Alt="Loggo fra utestedet Jæger" width="200">
 			<p>Lokalisert på grensen 9 midt i hjertet av hovedstaden er klubben blitt ett knutepunkt
 			mellom øst og vest og trekker ett publikum<br> som strekker seg langt utover de faste klubbgåerene i byen. Gratis før midnatt, 100kr etter. Diskon åpner 23:00. ID 23 fra 23:00.<br>
 			På dagtid kan du drikke kaffe, ta en pils eller spise lunsj i caféen som holder åpent frem til 18.30 hver dag<br>
@@ -216,9 +216,9 @@
 <tr>
 	<td>
 		<ul>
-				<li id="lesmerJaeger"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoJaeger"> Les mer..</li>
 				<li id="likeJaeger"> Lik </li>
-				<li id="commentsJaeger"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Jaeger"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Jaeger">
 						<form action="?page=2" method="post">
@@ -252,7 +252,7 @@
 
 
 <tr>
-	<td><img src="BilderWebb/blaaLogo.png" Alt="Bilde fra utestedet Blå" width="100">
+	<td><img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="100">
 
 	</td>
 
@@ -260,10 +260,10 @@
 			BLÅ booking vil overraske, utfordre, engasjere og fokusere på nerve innen de fleste sjangre og kulturelle uttrykk.
 			Det finnes noe bra innen alle sjangre.<br></p>
 			
-			<div class="merinfo" id="merinfoBlaa">
+			<div id="merinfoBlaa">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/blaaLogo.png" Alt="Bilde fra utestedet Blå" width="150">
+				<img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="150">
 			<p>Jazz, elektronisk, hip-hop, pop og rock samt krysningene mellom disse er noe som du kan oppleve på Blå.<br>
 			Visionen er og fylle det gamle diamantlageret til randen med kultur. <br>
 			Tilsammen arrangerer BLÅ ca.380 arrangementer per år.
@@ -277,9 +277,9 @@
 <tr>
 	<td>
 		<ul>
-				<li id="lesmerBlaa"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoBlaa"> Les mer..</li>
 				<li id="likeBlaa"> Lik </li>
-				<li id="commentsBlaa"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Blaa"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Blaa">
 						<form action="?page=2" method="post">
@@ -313,7 +313,7 @@
 
 <tr>
 
-	<td><img src="BilderWebb/vu-club-oslo.jpg" Alt="Bilde fra utestedet VU" width="160">
+	<td><img src="BilderWebb/vu-club-oslo.jpg" Alt="Bild fra utestedet VU" width="160">
 
 	</td>
 
@@ -322,10 +322,10 @@
 			Etter å ha sett og erfart mye ville de skape et sted i tråd med deres smak.
 			Resultatet VU ble som består av en jovial bakgård, hovedrommet og en separè.<br></p> 
 
-			<div class="merinfo" id="merinfoVu">
+			<div id="merinfoVu">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/vu-club-oslo.jpg" Alt="Bilde fra utestedet VU" width="250">
+				<img src="BilderWebb/vu-club-oslo.jpg" Alt="Bild fra utestedet VU" width="250">
 			<p>Aldersgrensen er 26 år, da Oslo mangler et tilbud til denne aldersgruppen.<br> 
 			Det er godt med sitteplasser og bord på VU, og det er servering ved bordene.<br>
 			Baren har et rikholdig utvalg, og personalet er meget serviceinnstilt.
@@ -339,9 +339,9 @@
 <tr>
 	<td>
 		<ul>
-				<li id="lesmerVu"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoVu"> Les mer..</li>
 				<li id="likeVu"> Lik </li>
-				<li id="commentsVu"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Vu"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Vu">
 						<form action="?page=2" method="post">
@@ -382,7 +382,7 @@
 			Her er stedet for de som liker når champagnen fløder. Nox er et ekslusivt stede med flott interiör og har sin beligenhet
 			på Solli Plass. På et stede som Nox er det dresscode som gjelder og det kan vare vanskelig å komme in.<br></p>
 		
-			<div class="merinfo" id="merinfoNox">
+			<div id="merinfoNox">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/nox2.jpg" Alt="Bilde fra utestedet Nox" width="260" height="150">
@@ -395,9 +395,9 @@
 <tr>
 	<td>
 		<ul>
-				<li id="lesmerNox"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoNox"> Les mer..</li>
 				<li id="likeNox"> Lik </li>
-				<li id="commentsNox"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Nox"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Nox">
 						<form action="?page=2" method="post">
@@ -431,7 +431,7 @@
 
 
 <tr>
-	<td><img src="BilderWebb/sologgo2.jpg" Alt="Logo fra utestedet SO" width="130">
+	<td><img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="130">
 
 	</td>
 
@@ -440,10 +440,10 @@
 			Ett til synes litet stede som ligger i Grensen men som har god service, bra musikk og en deilig stemning.
 			Bra musikk for de som liker variert, allt fra dagens hit-låtar til gamle sanger fra førr.<br></p>
 			
-			<div class="merinfo" id="merinfoSo">
+			<div id="merinfoSo">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/sologgo2.jpg" Alt="Logo fra utestedet SO" width="200">
+				<img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="200">
 			<p>Finnes også en poledance stang som man kan svinge seg runt mitt på dansegulvet.<br> 
 			Her kommer garantert en låt der du kan synge med.<br>
 			Source: <a href="http://www.so-oslo.no" target="blank">www.so-oslo.no </a></p>
@@ -454,9 +454,9 @@
 <tr>
 	<td>
 		<ul>
-				<li id="lesmerSo"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoSo"> Les mer..</li>
 				<li id="likeSo"> Lik </li>
-				<li id="commentsSo"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_So"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_So">
 						<form action="?page=1" method="post">
@@ -489,7 +489,7 @@
 </tr>
 
 <tr>
-	<td><img src="BilderWebb/villaloggo1.jpg" Alt="Logo fra utestedet The villa" width="100">
+	<td><img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="100">
 
 	</td>
 
@@ -497,9 +497,9 @@
 			En underground klubb med Norges beste sounds system. Her kommer nationelle og internationelle dj's fra hele verden.<br>
 		 	Ett stede som for deg til og danse hele natten. <br></p>
 		 	
-		 	<div class="merinfo" id="merinfoVilla">
+		 	<div id="merinfoVilla">
 		 		<div class="close_button"> X </div>
-		 		<img src="BilderWebb/villaloggo1.jpg" Alt="Logo fra utestedet The villa" width="150">
+		 		<img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="150">
 		 	<p>Tips, ta med øronpropper. For den som fremst liker club house, elektro og dubstep. Aldersgrense 21+.<br/>
 			Annet stede å ha i baktanke hvis man liker dubstep og elektro beats er Kulturhuset Hausmania 
 			<a href="http://www.hausmania.org" target="blank"><br/>(www.hausmania.org)</a>
@@ -511,9 +511,9 @@
 <tr>	
 	<td>
 		<ul>
-				<li id="lesmerVilla"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoVilla"> Les mer..</li>
 				<li id="likeVilla"> Lik </li>
-				<li id="commentsVilla"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Villa"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Villa">
 						<form action="?page=2" method="post">
@@ -546,7 +546,7 @@
 </tr>
 
 <tr>
-	<td><img src="BilderWebb/raanattklubbLogo.gif" Alt="Logo fra utestedet Rå" width="160" height="100">
+	<td><img src="BilderWebb/raanattklubbLogo.gif" Alt="Loggo fra utestedet Rå" width="160" height="100">
 
 	</td>
 
@@ -555,10 +555,10 @@
 			Dj:er, dansegulv, og konserter. Utenlandske hiphop- og rnbstjerner som gjester Norge ender ihvertfall alltid opp på Rå utpå natta.
 			<br></p>
 			
-			<div class="merinfo" id="merinfoRaa">
+			<div id="merinfoRaa">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/raanattklubbLogo.gif" Alt="Logo fra utestedet Rå" width="200" height="120">
+				<img src="BilderWebb/raanattklubbLogo.gif" Alt="Loggo fra utestedet Rå" width="200" height="120">
 			<p>Publikum her er 18+. Så et utestede som passer seg for en yngre målgruppe.<br>
 			Source:<a href="http://www.raaoslo.no" target="blank"> http://www.raaoslo.no</a></p>
 			</div>
@@ -568,9 +568,9 @@
 <tr>	
 	<td>
 		<ul>
-				<li id="lesmerRaa"> Les mer..</li>
+				<li class="lesMer" data-target="merinfoRaa"> Les mer..</li>
 				<li id="likeRaa"> Lik </li>
-				<li id="commentsRaa"> Kommentere</li>
+				<li class="comments" data-target="comment_boks_Raa"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Raa">
 						<form action="?page=2" method="post">
