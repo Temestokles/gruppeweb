@@ -14,8 +14,8 @@
 		<div class="header-cont">
 		<header>
 				<h2>Velkommen til</h2>
-					<h1>OSLO</h1>
-						<h1>GUIDEN</h1>
+					<h1>OSLOGUIDEN</h1>
+						
 			<nav class="mainmenu">
 				<ul>
 					<li>Startside</li>
@@ -63,7 +63,7 @@ switch($_GET['page']){
 
 ?>
 		<footer>
-			<p>Gruppe 1</p>
+			<p>Gruppe 34</p>
 		</footer>
 	</div>
 </body>
