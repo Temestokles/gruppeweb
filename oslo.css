@@ -1,10 +1,10 @@
 body{
 
 	background-image:url('BilderWebb/vigeparken.jpg');
-	background-size:32em 10.4em; 
+	background-size:32em 12em;
 	background-position:center top;
 	background-repeat:repeat-x;
-	background-color:#1669E6;
+	background-color:#CBCED4;
 	/*background-image:linear-gradient(75deg,#1669E6,#5C96EE);*/
 	
 }
@@ -26,7 +26,7 @@ body{
 
 header{
 	border-bottom: 1px solid black;
-	background-color:#666666;
+	background-color:#1669E6;
 	width:69%;
 	margin-top:-32px;
 	
@@ -151,7 +151,6 @@ float:right;
 .main ul li{
 	display: inline-block;
 	list-style: none;
-	float:left;
 	margin-top:-25px;
 	padding-right:6%;
 	padding-left: 3%;
