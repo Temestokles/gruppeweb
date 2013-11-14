@@ -34,7 +34,7 @@
 <tr> 
 	<td>
 		<ul>
-				<li class="lesMer" data-target="merinfoHorgans">Les mer..</a></li>
+				<li class="lesMer" data-target="merinfoHorgans">Les mer..</li>
 				<li id="likeHorgans"> Lik </li>
 				<li class="comments" data-target="comment_boks_Horgans"> Kommentere</li>
 			</ul>
