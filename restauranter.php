@@ -62,7 +62,7 @@
 			<div id="merinfoPlah">
 				<div class="close_button"> X </div>
 
-				<img src="">
+				<img src="BilderWebb/plah.jpg" Alt="Bild fra restaurangen Plah" width="200"  height="130">
 			<p>Aldersgrensen er 26 år og tilbyr tre ulike musikkprofiler med to dansegulv.<br> 
 			Det spilles variert musikk fra rock`n`roll, pop, R&amp;B, hip hop til elektronika som deephouse, <br>
 			NU disco og disco. Kan også spise, Horgan`s serverer amerikanskinspirert mat og er mest kjent for sine<br>
@@ -160,7 +160,7 @@
 			<div id="merinfoDinner"> 
 				<div class="close_button"> X </div>
 
-				<img src="">
+				<img src="BilderWebb/dinner.jpg" Alt="Bild fra restauranten Dinner" width="200"  height="140">
 			<p>Lokalisert på grensen 9 midt i hjertet av hovedstaden er klubben blitt ett knutepunkt
 			mellom øst og vest og trekker ett publikum<br> som strekker seg langt utover de faste klubbgåerene i byen. Gratis før midnatt, 100kr etter. Diskon åpner 23:00. ID 23 fra 23:00.<br>
 			På dagtid kan du drikke kaffe, ta en pils eller spise lunsj i caféen som holder åpent frem til 18.30 hver dag<br>

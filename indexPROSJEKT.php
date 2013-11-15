@@ -18,7 +18,7 @@
 						
 			<nav class="mainmenu">
 				<ul>
-					<li>Startside</li>
+					<li><a href="?page=index">Startside</a></li>
 					<li><a href="?page=1">Resturanter</a></li>
 					<li><a href="?page=2">Uteliv</a></li>
 					<li>Shopping</li>

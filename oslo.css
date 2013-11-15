@@ -1,11 +1,11 @@
 body{
 
-	background-image:url('BilderWebb/vigeparken.jpg');
+	/*background-image:url('BilderWebb/vigeparken.jpg');
 	background-size:32em 12em;
 	background-position:center top;
-	background-repeat:repeat-x;
+	background-repeat:repeat-x;*/
 	background-color:#CBCED4;
-	/*background-image:linear-gradient(75deg,#1669E6,#5C96EE);*/
+	background-image:linear-gradient(2deg,#CBCED4,#A2A5AA);
 	
 }
 
@@ -47,7 +47,7 @@ header h1{
 	text-shadow:7px 4px 3px #333333;
 	padding-left:6.5%;
 	margin-top:-30px; 
-	margin-bottom:1%;
+	margin-bottom:-0.8%;
 
 }
 
@@ -204,7 +204,13 @@ input {
 
 }
 
+#comment_boks_Horgans, #comment_boks_Vulkan, #comment_boks_Nivou, #comment_boks_Jaeger, #comment_boks_Blaa, #comment_boks_Vu, 
+#comment_boks_Nox, #comment_boks_So, #comment_boks_Villa, #comment_boks_Raa {
+	display:none;
+}
+
 #merinfoHorgans{
+	width:50%;
 	left:17%;
 	display:none;
 	background-color: white;
@@ -217,14 +223,9 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-#comment_boks_Horgans, #comment_boks_Vulkan, #comment_boks_Nivou, #comment_boks_Jaeger, #comment_boks_Blaa, #comment_boks_Vu, 
-#comment_boks_Nox, #comment_boks_So, #comment_boks_Villa, #comment_boks_Raa {
-	display:none;
-}
-
-
 
 #merinfoVulkan{
+	width:50%;
 	left:17%;
 	display:none;
 	background-color: white;
@@ -239,6 +240,7 @@ input {
 
 
 #merinfoNivou{
+	width:50%;
 	display:none;
 	left:17%;
 	display:none;
@@ -254,6 +256,7 @@ input {
 
 
 #merinfoJaeger{
+	width:50%;
 	display:none;
 	left:17%;
 	display:none;
@@ -262,12 +265,13 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:110%;
+	top:130%;
 	z-index:100;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoBlaa{
+	width:50%;
 	display:none;
 	left:17%;
 	display:none;
@@ -276,26 +280,13 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:140%;
+	top:160%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoVu{
-	display: none;
-	left:17%;
-	display:none;
-	background-color: white;
-	position:absolute;
-	padding-left:1%;
-	padding-right:1%;
-	padding-top:1%; 
-	top:170%;
-	z-index:200;
-	box-shadow: 8px 8px 20px 5px #000;
-}
-
-#merinfoNox{
+	width:50%;
 	display: none;
 	left:17%;
 	display:none;
@@ -309,7 +300,8 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-#merinfoSo{
+#merinfoNox{
+	width:50%;
 	display: none;
 	left:17%;
 	display:none;
@@ -318,12 +310,28 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:230%;
+	top:220%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoSo{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:250%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoVilla{
+	width:50%;
 	display: none;
 	left:17%;
 	display:none;
@@ -332,13 +340,13 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:260%;
+	top:280%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoRaa{
-	display: none;
+	width:50%;
 	display: none;
 	left:17%;
 	display:none;
@@ -347,7 +355,7 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:290%;
+	top:300%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -370,55 +378,198 @@ border:solid 1px;
 /* STYLESHEET TIL RESTURANTER */
 
 #merinfoYayas{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoPlah{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:60%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoDattra{
-	display: none;
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:110%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoDelikatessen{
-	display: none;
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:150%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoDinner{
-	display: none;
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:195%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoBambus{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:210%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoSushiBislett{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:260%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoMemphis{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:310%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoPunjab{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:350%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoRice{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:380%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoKlostret{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:410%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoNodee{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:450%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;;
 }
 
 #merinfoAlex{
+	width:50%;
 	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:470%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 
