@@ -11,7 +11,27 @@
 					Kilde: Wikipedia</p>	
 				</article>
 			</aside>
-			<figure>
-			<img src="BilderWebb/Tiger1.jpg" alt="bilde av Tiger på Oslo S" width="60%">
-			</figure>
+
+						<figure id="Tiger">
+								<img src="BilderWebb/Tiger1.jpg" alt="bilde av Tiger på Oslo S" width="60%">
+						</figure>
+
+			<div>
+
+								<aside>
+					<article>
+						<h2> Oslo citys bydeler </h2>
+						<p> Sentrum, Grünerlökka, St.Hanshaugen, Frogner, Majorstuen, Sagene, Torshov og Gamle Oslo</p>
+					</article>
+				</aside>
+
+						<figure id="OsloKart">
+								<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="55%">
+						</figure>
+
+
+		
+
+			</div>
+		
 </section>
