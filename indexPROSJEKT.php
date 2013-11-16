@@ -21,7 +21,7 @@
 					<li><a href="?page=index">Startside</a></li>
 					<li><a href="?page=1">Resturanter</a></li>
 					<li><a href="?page=2">Uteliv</a></li>
-					<li>Shopping</li>
+					<li><a href="?page=3">Shopping</a></li>
 					<li>Severdigheter</li>
 					<li>Kultur</li>
 					<li>Aktiviteter</li>
@@ -52,6 +52,10 @@ switch($_GET['page']){
 
 	case 2:
 		include("uteliv.php");
+	break;
+
+	case 3:
+		include("shopping.php");
 	break;
 
 	default:
