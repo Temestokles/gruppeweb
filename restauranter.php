@@ -15,10 +15,8 @@
 	</td>
 
 	<td>	<p><strong>YAYAS</strong><br>
-			Horgan`s åpnet i 1991 og er Oslos første amerikanske Bar og Restaurant.
-			Fra torsdag til lørdag igjennom fylles ”storstua” opp med et mangfold av gjester,
-			som studenter, forretningsfolk, artister og bohemer. <br>
-			Det er godt med sitteplasser og det er servering ved bordene.
+			På restaurangen Yayas kan du oppleve Thailand i Oslo. En atmosphere som må oppleves.<br> 
+			Bra variert mat, som ikke er alltfor kryddet. Hvis man ønsker mer kryddet mat så er det mulig og be om det. 
 			<br></p>
 	
 	
@@ -26,10 +24,10 @@
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/Yayas.JPG" Alt="Bild fra Yayas" width="200">
-			<p>Aldersgrensen er 26 år og tilbyr tre ulike musikkprofiler med to dansegulv.<br> 
-			Det spilles variert musikk fra rock`n`roll, pop, R&amp;B, hip hop til elektronika som deephouse, <br>
-			NU disco og disco. Kan også spise, Horgan`s serverer amerikanskinspirert mat og er mest kjent for sine<br>
-			legendariske hamburgere.<br/> Source:<a href="http://www.horgans.no" target="blank"> www.horgans.no</a></p>
+			<p>Matrettene er satt sammen av både thailandske og svenske kokker. <br>
+			Restaurangen finnes på tre ulike steder i Oslo, Majorstuen,Vika og på Øvre Vollgata 13 i sentrum. <br>
+			Her trenger man å booke bord før da det er et veldigt populært stede.<br>
+			Source:<a href="http://www.yayas.no" target="blank"> www.yayas.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -52,10 +50,8 @@
 	</td>
 
 	<td>	<p><strong>PLAH</strong><br>
-			Horgan`s åpnet i 1991 og er Oslos første amerikanske Bar og Restaurant.
-			Fra torsdag til lørdag igjennom fylles ”storstua” opp med et mangfold av gjester,
-			som studenter, forretningsfolk, artister og bohemer. <br>
-			Det er godt med sitteplasser og det er servering ved bordene.
+			Plah Restaurant åpnet dørene 7. januar 2004, som første moderne thai i Skandinavia,<br>
+			og er fremdeles den eneste i Norge. Man kan spise en stor meny i restauranten, eller street food i baren.
 			<br></p>
 	
 	
@@ -63,10 +59,13 @@
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/plah.jpg" Alt="Bild fra restaurangen Plah" width="200"  height="130">
-			<p>Aldersgrensen er 26 år og tilbyr tre ulike musikkprofiler med to dansegulv.<br> 
-			Det spilles variert musikk fra rock`n`roll, pop, R&amp;B, hip hop til elektronika som deephouse, <br>
-			NU disco og disco. Kan også spise, Horgan`s serverer amerikanskinspirert mat og er mest kjent for sine<br>
-			legendariske hamburgere.<br/> Source:<a href="http://www.horgans.no" target="blank"> www.horgans.no</a></p>
+			<p>Denne variasjonen har ført til at Plah bar og restaurant har blitt et mekka for matinteresserte,<br>
+			 og har gjennom årene fått mye god media omtale.<br>
+			24. juni 2013 utvidet Plah med egen Street Food Bar, vegg i vegg med Plah Restaurant<br/> 
+			Plah Bar er en moderne gastrobar med cocktails og Street Food fra Thailand og Sørøst Asia.<br>
+			Stilen er uformell og avslappet. Her bestiller man flere retter som man deler seg imellom eller <br>
+			velger en av to ferdigkomponerte menyer for hele bordet. I Plah Bar, skjenker man vinen selv, drikkr øl eller spennende cocktails.<br>
+			Source:<a href="http://www.plah.no" target="blank"> www.plah.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -90,16 +89,16 @@
 	</td>
 
 	<td>	<p><strong>DATTRA TIL HAGEN</strong><br>
-			BAR er både restaurant og bar i samme lokaler, med like stor vekt på begge deler.
-			BAR Vulkan kan tilby en helaften med deilig mat og vin, spennende cocktails og behagelig musikk utover kvelden.</p>
+			Dattra til hagen er en fargerik bar, cafè og klubb fordelt over to etasjer og Oslos fineste og koseligeste bakgård.<br>
+			Dattra byr på et godt utvalg av både varm og kald drikke og maten varier mellom lunsjretter og nydelige tapasretter, til a la cartè</p>
 	
 
 			<div id="merinfoDattra">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/Tapas.jpg" Alt="Bild på tapas fra Dattra" width="200">
-			<p>Når varmen tillater det kan du benytte deg av deres uteservering tett inn mot Akerselven,
-			 eller beundre utsikten fra takterrassen.<br> Byns beste stede for de som er 30 og oppover.</p>
+				<p>Her er det humane priser på både drykk og mat.<br>
+				Adresse: Grønland 10, 0188 Oslo </p>
 			</div>
 
 	 </td>
@@ -118,18 +117,17 @@
 	</td>
 
 	<td>	<p><strong>DELIKATESSEN</strong><br>
-			Nivou er Oslos største nattklubb, med to etasjer, VIP-lounger, og helårsåpen bakgård med sydlig stemning. 
-			Nivou har en stor og variert champagnemeny og et godt utvalg av drinker.<br>
-			I underetasjen er det minimalt med møbler, og musikken er noe tyngre enn i første etasje.<br></p>
+			Delikatessen er kjent for sin gode tapas og det finns idag tre restauranter i Oslo, Aker Brygge, Majorstuen og Grünerløkka.<br>
+			Prismessigt ligger de på litt over middels men søker du etter kvalitè og ekte spansk tapas så har du kommit till rett stede.</p>
 	
 			<div id="merinfoDelikatessen">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/delikatessen.jpg" Alt="Bild på inngang til delikatessen" width="200">
-			<p>I underetasjen er det minimalt med møbler, og musikken er noe tyngre enn i første etasje.
-			Flere av Norges beste Djs gjester Nivou hver helg,<br> 
-			og med jevne mellomrom kommer også kjente, internasjonale Djs til stedets to scener.<br>
-			Source:<a href="http://www.nivou.no" target="blank"> www.nivou.no</a></p>
+			<p>Adresse:Aker Brygge, Holmens gate 2<br>
+			Majorstuen,Vibes gate 8<br>
+			Grünerløkka, Søndregate 8<br>
+			For mer info, gå på <a href="http://www.delicatessen.no" target="blank"> www.delicatessen.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -153,19 +151,17 @@
 	</td>
 
 	<td>	<p><strong>DINNER</strong><br>
-			Med internasjonale bookings i helgene og faste konsepter i ukedagene har Jaeger på kort tid blitt
-			en av de mest populære og innflytelsesrike utestedene i Oslo.
-			<br></p>
+			Dinner Restaurant har servert mat fra det Szechuanske- og Kantonesiske kjøkken i hjertet av Oslo siden 1989 <br>
+			og er stolte av å fremdeles tilby våre gjester en spennende reise i Kinesisk matkultur.
+			</p>
 			
 			<div id="merinfoDinner"> 
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/dinner.jpg" Alt="Bild fra restauranten Dinner" width="200"  height="140">
-			<p>Lokalisert på grensen 9 midt i hjertet av hovedstaden er klubben blitt ett knutepunkt
-			mellom øst og vest og trekker ett publikum<br> som strekker seg langt utover de faste klubbgåerene i byen. Gratis før midnatt, 100kr etter. Diskon åpner 23:00. ID 23 fra 23:00.<br>
-			På dagtid kan du drikke kaffe, ta en pils eller spise lunsj i caféen som holder åpent frem til 18.30 hver dag<br>
-			og på kveldstid har vi ett spekket klubbprogram fra mandag til og med søndag.<br>
-			Source: <a href="http://www.jægeroslo.no" target="blank">www.jægeroslo.no</a></p>
+			<p>Tradisjonelt inneholder et kinesisk måltid mange retter som man deler mellom gjestene ved bordet for å danne en sosial ramme rundt måltidet.<br>
+			 Vår meny er lagt opp på en slik måte at dette er mulig også hos oss.<br>
+			Source: <a href="http://www.dinner.no" target="blank">www.dinner.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -187,18 +183,16 @@
 	</td>
 
 	<td>	<p><strong>BAMBUS RESTAURANT</strong><br>
-			BLÅ booking vil overraske, utfordre, engasjere og fokusere på nerve innen de fleste sjangre og kulturelle uttrykk.
-			Det finnes noe bra innen alle sjangre.<br></p>
+			Bambus Restaurent i Oslo tilbyr mat fra vietnamesisk, thailandsk, japansk og kinesisk kjökken.<br>
+			Hos Bambus kan du velge mellom et utvalg kinesiske retter. Vi gir deg den ekte smaken av kina <br>
+			med hjemmelagde sauser og krydderblandinger.</p>
 			
 			<div id="merinfoBambus">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/bambus.jpg" Alt="Bild fra Bambus loggo" width="180"  height="110">
-			<p>Jazz, elektronisk, hip-hop, pop og rock samt krysningene mellom disse er noe som du kan oppleve på Blå.<br>
-			Visionen er og fylle det gamle diamantlageret til randen med kultur. <br>
-			Tilsammen arrangerer BLÅ ca.380 arrangementer per år.
-			Fin uteservering med utsikt over akerselva.<br>
-			Source:<a href="http://www.blaaoslo.no" target="blank"> www.blaaoslo.no</a></p>
+			<p>Adresse: Kirkeveien 57, 0368 Oslo<br>
+			For mer info, gå in på <a href="http://www.bambussushi.no/" target="blank"> www.bambussushi.no</a></p>
 			</div>
 
 	</td>
@@ -223,20 +217,16 @@
 	</td>
 
 	<td>	<p><strong>SUSHI GODBIT BISLETT</strong><br/>
-			VU betyr "å ha sett" på fransk.Bak VU finner man tre dedikerte eiere med lang erfaring i bransjen.
-			Etter å ha sett og erfart mye ville de skape et sted i tråd med deres smak.
-			Resultatet VU ble som består av en jovial bakgård, hovedrommet og en separè.<br></p> 
+			Sushi godbit Bislett har sin beligenhet på Pilestredet 55<br>
+			Her kan du bestille sushi for takeaway eller catering.</p> 
 
 			<div id="merinfoSushiBislett">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/sushi-godbit.jpg" Alt="Sushi Godbit loggo" width="180" height="110">
-			<p>Aldersgrensen er 26 år, da Oslo mangler et tilbud til denne aldersgruppen.<br> 
-			Det er godt med sitteplasser og bord på VU, og det er servering ved bordene.<br>
-			Baren har et rikholdig utvalg, og personalet er meget serviceinnstilt.
-			Musikken består av klassisk soul,<br> funk og disko blandet med nyere house
-			og popmusikk. <br>
-			Funktion-One anlegget sørger for knallbra lyd. Source:<a href="http://www.vu-oslo.no" target="blank"> www.vu-oslo.no</a></p>
+			<p>Her serveres det god og billig sushi. Faste tilbud på eksempel dagens sushi.<br>
+			Her har de åpent alle dager frem til kl.21.00. <br>
+			For mer info, gå in på <a href="http://www.sushigodbit.no" target="blank"> www.sushigodbit.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -261,17 +251,18 @@
 	</td>
 
 	<td>	<p><strong>MEMPHIS</strong><br>
-			So er Norges eneste utested for jenter som liker jenter.
-			Ett til synes litet stede som ligger i Grensen men som har god service, bra musikk og en deilig stemning.
-			Bra musikk for de som liker variert, allt fra dagens hit-låtar til gamle sanger fra førr.<br></p>
+			Memphis ble etablert i mars 2000. Vår konsept er trendy og ungdommelig - et typisk studentsted. <br>
+			Memphis har ca. 60 sitteplasser. Innredning er enkel, men fresh og trendy. <br>
+			Memphis har også uteservering i bakgård og på gateplan.</p>
 			
 			<div id="merinfoMemphis">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/logomemphis.jpg" Alt="Loggo fra Memphis" width="180" height="110">
-			<p>Finnes også en poledance stang som man kan svinge seg runt mitt på dansegulvet.<br> 
-			Her kommer garantert en låt der du kan synge med.<br>
-			Source: <a href="http://www.so-oslo.no" target="blank">www.so-oslo.no </a></p>
+			<p>Det er uteservering utenfor med god sol på formiddagen, med lunsj eller kopp kaffe. <br>
+			De har dagens aviser, spill til utlån og trådløs internett. <br>
+			Adresse: Thorvald Meyers gate 63 på Grünerlökka<br>
+			Source: <a href="http://www.memphis.no" target="blank">www.memphis.no </a></p>
 			</div>
 	</td>
 </tr>
@@ -291,16 +282,20 @@
 	</td>
 
 	<td> 	<p><strong>PUNJAB TANDOORI</strong><br>
-			En underground klubb med Norges beste sounds system. Her kommer nationelle og internationelle dj's fra hele verden.<br>
-		 	Ett stede som for deg til og danse hele natten. <br></p>
+			Restauranten var en av de første Indiske restaurantene, med hjemmelaget Indisk mat i Oslo.<br>
+			Harinder Singh som kom fra India i 1983 startet restauranten med sin kone Kiren Jot. <br>
+			På denne tiden var det bare paret og en ansatt som jobbet i restauranten.<br>
+			</p>
 		 	
 		 	<div id="merinfoPunjab">
 		 		<div class="close_button"> X </div>
 		 		<img src="BilderWebb/punjab.jpg" Alt="Bild fra punjab Tandoori" width="180" height="110">
-		 	<p>Tips, ta med øronpropper. For den som fremst liker club house, elektro og dubstep. Aldersgrense 21+.<br/>
-			Annet stede å ha i baktanke hvis man liker dubstep og elektro beats er Kulturhuset Hausmania 
-			<a href="http://www.hausmania.org" target="blank"><br/>(www.hausmania.org)</a>
-			som oftest ordner konserter inom den genren.</p><br/>
+		 	<p>Nå har restauranten blitt større og enda romsligere med Indiske dekorasjoner hentet inn spesielt fra India<br>
+	 		Kokken har alltid vært kona til Mr. Singh, Kiren Jot som har vært kokk siden oppstarten i 1990 til dags dato. <br>
+	 		Derfor har maten hatt den samme smaken i så mange år.<br>
+	 		Her får du servert tradisjonell Indisk mat til en billig penge på rekord tid.<br>
+			Source:<a href="http://www.punjabtandoori.no" target="blank">www.punjabtandoori.no</a>
+			</p>
 			</div>
 	</td>
 </tr>
@@ -319,16 +314,18 @@
 	</td>
 
 	<td> 	<p><strong>RICE BOWL</strong><br>
-			Rå er storstua for hip hopere i Oslo, over to etasjer og med et oppvarmet uteområde.
-			Dj:er, dansegulv, og konserter. Utenlandske hiphop- og rnbstjerner som gjester Norge ender ihvertfall alltid opp på Rå utpå natta.
+			Ricebowl er et samlingssted hvor familier kan spise en god middag til en rimelig pris <br>
+			og et sted hvor du som har lyst på eksotisk mat med smak kan komme til.
 			<br></p>
 			
 			<div id="merinfoRice">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/ricebowl.png" Alt="Bild fra Rice bowl" width="180" height"150">
-			<p>Publikum her er 18+. Så et utestede som passer seg for en yngre målgruppe.<br>
-			Source:<a href="http://www.raaoslo.no" target="blank"> http://www.raaoslo.no</a></p>
+			<p>Ricebowl har 54 sitteplasser til sammen så da gjelder det å komme først for å slippe køen.<br>
+			Ricebowl ligger også veldig sentralt og det gjør at du slipper å lete,<br>
+			og enklere finner man ikke så god mat.<br>
+			Source:<a href="http://www.ricebowl.no" target="blank"> http://www.ricebowl.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -351,16 +348,17 @@
 	</td>
 
 	<td> 	<p><strong>KLOSTERET</strong><br>
-			Rå er storstua for hip hopere i Oslo, over to etasjer og med et oppvarmet uteområde.
-			Dj:er, dansegulv, og konserter. Utenlandske hiphop- og rnbstjerner som gjester Norge ender ihvertfall alltid opp på Rå utpå natta.
+			Kjøkkenet på Klosteret er internasjonalt/fransk. Menyen er klassisk og råvarene er eksklusive.<br>
+			Restauranten tilbyr dagens 3-5 og 7 retters menyer i tillegg til en a la carte meny som består av både kjøtt og fisk.<br>
+			Klosterets vinkjeller har mer enn 800 forskjellige viner i alle prisklasser.<br>
 			<br></p>
 			
 			<div id="merinfoKlostret">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/klosteret-logo.png" Alt"Loggo fra klosteret" width="100" height="110">
-			<p>Publikum her er 18+. Så et utestede som passer seg for en yngre målgruppe.<br>
-			Source:<a href="http://www.raaoslo.no" target="blank"> http://www.raaoslo.no</a></p>
+			<p>Klosteret er et perfekt sted til å ta med din partner på. Romantisk atmosfär.<br>
+				Adresse: Fredensborgveien 13. For mer info, gå in på <a href="http://www.klosteret.no" target="blank"> http://www.klosteret.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -379,16 +377,17 @@
 	</td>
 
 	<td> 	<p><strong>NODEE ASIAN COOKING</strong><br>
-			Rå er storstua for hip hopere i Oslo, over to etasjer og med et oppvarmet uteområde.
-			Dj:er, dansegulv, og konserter. Utenlandske hiphop- og rnbstjerner som gjester Norge ender ihvertfall alltid opp på Rå utpå natta.
+			Vi på Nodee ønsker deg velkommen til å prøve noe av det mest spennende innenfor Asian fusion i Oslo.<br>
+			På menyen finner våre gjester alt fra fersk og innovativ sushi laget av lokale og <br>
+			internationale råvarer samt unike og spennede retter som er laget med inspirasjon fra Øst- Asia.
 			<br></p>
 			
 			<div id="merinfoNodee">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/nodee.jpg" Alt="Bild fra Nodee Asian cooking" width="180" height="110">
-			<p>Publikum her er 18+. Så et utestede som passer seg for en yngre målgruppe.<br>
-			Source:<a href="http://www.raaoslo.no" target="blank"> http://www.raaoslo.no</a></p>
+			<p>Nodee er populärt bland kjendiser så her finnes det stor risk at du möter på en og annen<br>
+			For mer info, gå in på <a href="http://www.nodee.no" target="blank"> http://www.nodee.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -408,20 +407,15 @@
 	</td>
 
 	<td>	<p><strong>ALEX SUSHI</strong><br/>
-			VU betyr "å ha sett" på fransk.Bak VU finner man tre dedikerte eiere med lang erfaring i bransjen.
-			Etter å ha sett og erfart mye ville de skape et sted i tråd med deres smak.
-			Resultatet VU ble som består av en jovial bakgård, hovedrommet og en separè.<br></p> 
+			Alex suhi er Oslos populäreste Sushi stede. Her håller de höy klasse og kvalitet.<br>
+			Her sitter man og ser når din sushi blir forberedt. Dyrt og ekslusivt men som mange syns er verdt det</p> 
 
 			<div id="merinfoAlex">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/alexsushi.png" Alt="Loggo Alex sushi" width="180" height="110">
-			<p>Aldersgrensen er 26 år, da Oslo mangler et tilbud til denne aldersgruppen.<br> 
-			Det er godt med sitteplasser og bord på VU, og det er servering ved bordene.<br>
-			Baren har et rikholdig utvalg, og personalet er meget serviceinnstilt.
-			Musikken består av klassisk soul,<br> funk og disko blandet med nyere house
-			og popmusikk. <br>
-			Funktion-One anlegget sørger for knallbra lyd. Source:<a href="http://www.vu-oslo.no" target="blank"> www.vu-oslo.no</a></p>
+			<p> Alex sushi håller till på to steder i Oslo. En på tjuvholmen og en på Solli plass.<br>
+				For mer info, gå in på <a href="http://www.alexsushi.no" target="blank"> www.alexsushi.no</a></p>
 			</div>
 	</td>
 </tr>
