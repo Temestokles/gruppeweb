@@ -22,7 +22,7 @@
 					<li><a href="?page=1">Resturanter</a></li>
 					<li><a href="?page=2">Uteliv</a></li>
 					<li><a href="?page=3">Shopping</a></li>
-					<li>Severdigheter</li>
+					<li><a href="?page=4">Severdigheter</a></li>
 					<li>Kultur</li>
 					<li>Aktiviteter</li>
 				</ul>
@@ -56,6 +56,10 @@ switch($_GET['page']){
 
 	case 3:
 		include("shopping.php");
+	break;
+
+	case 4:
+		include ("severdigheter.php");
 	break;
 
 	default:

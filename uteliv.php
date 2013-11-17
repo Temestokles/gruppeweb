@@ -1,6 +1,6 @@
 <section class="uteliv main">
 
-	<h2> Populaere Utesteder i Oslo</h2>
+	<h2> POPULÆRE UTESTEDER I OSLO</h2>
 
 
 <table>

@@ -1,0 +1,70 @@
+<section class="severdigheter main">
+<h2>SEVERDIGHETER</h2>
+
+<table>
+	<tr>
+		<td>
+			<img src="BilderWebb/frognerparken.jpg" Alt="Bilde av monolitten i Vigerlandsparken" width="150">
+		</td>
+		<td>
+			<p><strong>FROGNERPARKEN og VIGELANDSPARKEN</strong><br>
+				Den største parken i Oslos sentrale byområder er et populært rekreasjonsområde for byens befolkning. 
+				På fine sommerdager er det et yrende liv i Frognerparken; her kan man ta en joggetur, lufte hunden, ha piknik, grille, spille badminton eller bare sole seg. 
+				Frognerparken har Norges største rosesamling - totalt 14 000 planter fordelt på 150 ulike arter.<br> 
+			</p>
+			<div id="merinfoFrognerp">
+				<div class="close_button"> X </div>
+				<img src="BilderWebb/frognerparken.jpg" alt="Bilde av monolitten i Vigelandsparken" width="250">
+				
+				<p>I det ene hjørnet av parken, mot Majorstua, ligger Frogner stadion og friluftsbadet Frognerbadet. 
+					I hjørnet mot Frogner ligger Frogner Hovedgård og Oslo Bymuseum. 
+					Parken inneholder både kafé og restaurant, og hver sommer spilles det barneteater i et telt like ved skulpturen Monolitten. 
+					De minste kan også glede seg over at parken har Norges største lekeplass; Frognerborgen (mellom hovedporten og Frogner Hovedgård).
+					Som en del av Frognerparken finner du Vigelandsparken, den berømte skulpturparken med over 200 av Gustav Vigelands skulpturer. 
+					En av de mest kjente av disse er Monolitten. 
+					Denne søylen er over 14 meter høy og er hugget ut av én eneste granittblokk. 
+					Monolitten består tilsammen av 121 figurer! 
+					Monolittens originale gipsmodell står utstilt i Vigeland-museet, som ligger fem minutter sør for parken.<br>
+					Hentet fra: <a href="http://www.visitnorway.com/no/Reisemal/Ostlandet/Oslo/Aktiviteter-i-Oslo/Attraksjoner-i-Oslo/Vigelandsparken/" target="blank">www.visitnorway.no</a> 
+					og <a href="http://www.visitoslo.com/no/produkt/?TLp=229519" target="blank">www.visitoslo.com</a>
+				</p>			
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoFrognerp">Les mer..</li>
+			</ul>
+		</td>	
+	</tr>
+
+	<tr>
+		<td>
+			<img src="BilderWebb/holmenkollen.jpg" alt="Bilde av Holmenkollbakken" width="150">
+		</td>
+		<td>
+			<p><strong>HOLMENKOLLBAKKEN</strong><br>
+				Holmenkollbakken er en skihoppbakke som ligger i Holmenkollen nasjonalanlegg. 
+				Bakken er et landemerke i Oslo og er en av Norges mest besøkte turistattraksjoner. <br>
+			</p>
+			<div id="merinfoHolmenkollen">
+				<div class="close_button"> X </div>
+
+				<img src="BilderWebb/holmenkollen.jpg" alt="Bilde av Holmenkollbakken" width="250">
+				<p>Holmenkollbakken er blitt ombygd til sammen 19 ganger, siste gang foran ski-VM i 2011.
+					Bakkerekorden holdes i dag av østeriske Andreas Kofler og er på 141 meter.<br>
+					Hentet fra: <a href="http://www.aktivioslo.no/guide/severdigheter/" target="blank">www.aktivioslo.no</a>
+				</p>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoHolmenkollen">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
+</table>
