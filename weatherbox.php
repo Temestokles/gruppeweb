@@ -73,3 +73,17 @@ if ($val == 23)
 </table>
 </body>
 </html>
+
+/* css som burde bli lagt inn
+
+img		{border: 2px solid black;
+}
+
+p		{position: relative;
+		 text-align: center;
+		 color: blue;
+		 bottom: 107px;
+		 font-size: small;
+}
+
+*/
