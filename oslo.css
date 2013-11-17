@@ -779,8 +779,8 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-/*
-#merinfoGrunerlokka{
+
+#merinfoDomkirken{
 	width:50%;
 	display:none;
 	left:17%;
@@ -795,7 +795,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-#merinfoSteenStrom{
+#merinfoFrognerseteren{
 	width:50%;
 	display:none;
 	left:17%;
@@ -810,50 +810,6 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-#merinfoEger{
-	width:50%;
-	display: none;
-	left:17%;
-	display:none;
-	background-color: white;
-	position:absolute;
-	padding-left:1%;
-	padding-right:1%;
-	padding-top:1%; 
-	top:200%;
-	z-index:200;
-	box-shadow: 8px 8px 20px 5px #000;
-}
-
-#merinfoPaleet{
-	width:50%;
-	display: none;
-	left:17%;
-	display:none;
-	background-color: white;
-	position:absolute;
-	padding-left:1%;
-	padding-right:1%;
-	padding-top:1%; 
-	top:220%;
-	z-index:200;
-	box-shadow: 8px 8px 20px 5px #000;
-}
-
-#merinfoOsloCity{
-	width:50%;
-	display: none;
-	left:17%;
-	display:none;
-	background-color: white;
-	position:absolute;
-	padding-left:1%;
-	padding-right:1%;
-	padding-top:1%; 
-	top:250%;
-	z-index:200;
-	box-shadow: 8px 8px 20px 5px #000;
-}
 
 .close_button{
 right:-0.2%;
@@ -870,7 +826,6 @@ top:-1px;
 border:solid 1px;
 }
 
-*/
 
 
 

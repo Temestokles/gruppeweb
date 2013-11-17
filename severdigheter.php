@@ -4,7 +4,7 @@
 <table>
 	<tr>
 		<td>
-			<img src="BilderWebb/frognerparken.jpg" Alt="Bilde av monolitten i Vigerlandsparken" width="150">
+			<img src="BilderWebb/frognerparken.jpg" Alt="Bilde av monolitten i Vigerlandsparken" width="200">
 		</td>
 		<td>
 			<p><strong>FROGNERPARKEN OG VIGELANDSPARKEN</strong><br>
@@ -70,7 +70,7 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="200">
+			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="225">
 		</td>
 		<td>
 			<p><strong>DET KONGELIGE SLOTT OG SLOTTSPARKEN</strong><br>
@@ -101,6 +101,67 @@
 		<td>
 			<ul>
 				<li class="lesMer" data-target="merinfoSlottet">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<img src="BilderWebb/domkirken.jpg" alt="Bilde av domkirken" width="150">
+		</td>
+		<td>
+			<p><strong>OSLO DOMKIRKE</strong><br>
+				Oslo domkirke (tidligere Vår Frelsers kirke) ble innviet i 1697 som byens tredje domkirke. 
+				Opprinnelig bygget i barokk stil fikk kirken i 1850 nygotisk interiør. 
+				I 1950 ble kirken restaurert på ny, og ført tilbake til sitt opprinnelige barokke interiør.<br>
+			</p>
+			<div id="merinfoDomkirken">
+				<div class="close_button"> X </div>
+
+				<img src="BilderWebb/domkirken.jpg" alt="Bilde av domkirken" width="250">
+				<p>Oslo domkirke (tidligere Vår Frelsers kirke) ble innviet i 1697 som byens tredje domkirke. 
+					Opprinnelig bygget i barokk stil fikk kirken i 1850 nygotisk interiør. 
+					I 1950 ble kirken restaurert på ny, og ført tilbake til sitt opprinnelige barokke interiør.<br>
+					Hentet fra: <a href="http://www.oslodomkirke.no/artikler/1111/om-oslo-domkirke/" target="blank">www.oslodomkirke.no</a>
+				</p>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoDomkirken">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<img src="BilderWebb/frognerseteren.jpg" alt="Bilde av frognerseteren" width="200">
+		</td>
+		<td>
+			<p><strong>FROGNERSETEREN</strong><br>
+				Frognerseteren, eller Frognersætra, er et populært turområde i Nordmarka et stykke utenfor Oslo. 
+				Frognerseteren stasjon er endeholdeplass forHolmenkollbanen og ligger i sørskråningen av Tryvannshøgda ved Holmenkollen. 
+				Stedet var opprinnelig en seter som til 1848 lå under Frogner Hovedgård i daværendeAker.<br>
+			</p>
+			<div id="merinfoFrognerseteren">
+				<div class="close_button"> X </div>
+
+				<img src="BilderWebb/frognerseteren.jpg" alt="Bilde av frognerseteren" width="250">
+				<p>Til seteren hørte en del av skogen i Nordmarka, tidligere kjent som Trevollskogen og nå som Frognerseterskogen. 
+					Siden 1891 har det vært drevet restaurant på eiendommen som serverer tradisjonell norsk mat. Frognerseteren og Frognerseterskogen ble solgt til Christiania kommune i 1889 og ble den første kommunalt eide skogen.<br>
+					Hentet fra: <a href="http://no.wikipedia.org/wiki/Frognerseteren" target="blank">wikipedia</a>
+				</p>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoFrognerseteren">Les mer..</li>
 			</ul>
 		</td>
 	</tr>
