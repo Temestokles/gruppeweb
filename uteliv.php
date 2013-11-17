@@ -67,6 +67,29 @@
 					}
 
 					?>
+
+					<?php
+					$filref = fopen("likerHorgans.txt","r"); 
+			 		$likes = fgets($filref); 
+			 		fclose($filref)
+			 		?>
+
+		 			<?php
+
+            		if(isset($_REQUEST['likeHorgans']))
+            		{
+
+        			$likes++; 
+        	 		$filref= fopen("likerHorgans.txt","w"); 
+        	 		fwrite($filref, $likes); 
+        	 		fclose($filref);
+
+					 echo "Det er ".$likes. "som liker Horgans";
+        			}
+
+
+
+					?>
 				
 	</td>
 </tr>

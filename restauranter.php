@@ -98,7 +98,8 @@
 
 				<img src="BilderWebb/Tapas.jpg" Alt="Bild på tapas fra Dattra" width="200">
 				<p>Her er det humane priser på både drykk og mat.<br>
-				Adresse: Grønland 10, 0188 Oslo </p>
+				Adresse: Grønland 10, 0188 Oslo<br>
+				Source: <a href="http://www.dattra.no" target="blank">www.dattra.no</a></p>
 			</div>
 
 	 </td>
