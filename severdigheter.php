@@ -7,7 +7,7 @@
 			<img src="BilderWebb/frognerparken.jpg" Alt="Bilde av monolitten i Vigerlandsparken" width="150">
 		</td>
 		<td>
-			<p><strong>FROGNERPARKEN og VIGELANDSPARKEN</strong><br>
+			<p><strong>FROGNERPARKEN OG VIGELANDSPARKEN</strong><br>
 				Den største parken i Oslos sentrale byområder er et populært rekreasjonsområde for byens befolkning. 
 				På fine sommerdager er det et yrende liv i Frognerparken; her kan man ta en joggetur, lufte hunden, ha piknik, grille, spille badminton eller bare sole seg. 
 				Frognerparken har Norges største rosesamling - totalt 14 000 planter fordelt på 150 ulike arter.<br> 
@@ -64,6 +64,43 @@
 		<td>
 			<ul>
 				<li class="lesMer" data-target="merinfoHolmenkollen">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="200">
+		</td>
+		<td>
+			<p><strong>DET KONGELIGE SLOTT OG SLOTTSPARKEN</strong><br>
+				Det kongelige slott ligger på Bellevue-høyden, ved enden av Karl Johan - Oslos hovedgate. 
+				Slottet er et av landets viktigste enkeltbygg, og et viktig symbol for norsk historie etter 1814. 
+				Byggearbeidene startet i 1824, og det var Kong Carl Johan som la ned grunnstenen 1. oktober 1825. 
+				Slottet ble innviet av Kong Oscar I, 26. juli 1849.<br>
+			</p>
+			<div id="merinfoSlottet">
+				<div class="close_button"> X </div>
+
+				<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="250">
+				<p>Det kongelige slott eies av staten og stilles til disposisjon for landets statsoverhode. 
+					Det er bolig og arbeidsplass for Kongefamilien. Her holder Hans Majestet Kongen statsråd, mottar audienssøkende og holder offisielle middager. 
+					Utenlandske statsoverhoder som kommer til Oslo på statsbesøk, bor på Slottet. 
+					De fleste av de ansatte ved Det kongelige hoff har sin daglige arbeidsplass her.
+					Om sommeren er slottet er åpent for omvisninger.<br>
+					<br>Slottsparken er en av hovedstadens første, store parker. 
+					Den omgir Slottet på alle kanter og preges av grønne gressbakker og velvoksne trær. 
+					Parken ble anlagt parallelt med byggingen av Slottet, og er basert på naturidealene som var rådende for hagekunsten i Europa midt på 1800-tallet.
+					Hentet fra: <a href="http://www.kongehuset.no/seksjon.html?tid=27160&sek=26983" target="blank">www.kongehuset.no</a>
+				</p>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoSlottet">Les mer..</li>
 			</ul>
 		</td>
 	</tr>
