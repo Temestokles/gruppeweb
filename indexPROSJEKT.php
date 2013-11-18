@@ -12,10 +12,8 @@
 <body>
 	<div class="container">
 		<div class="header-cont">
-		<header>
-				<h2>Velkommen til</h2>
-					<h1>OSLOGUIDEN</h1>
-						
+
+<header>						
 			<nav class="mainmenu">
 				<ul>
 					<li><a href="?page=index">Startside</a></li>
@@ -26,7 +24,7 @@
 					<li><a href"?page=5">Kultur</a></li>
 					<li><a href="?page=6">Aktiviteter</a></li>
 				</ul>
-
+				
 					<div class="date">
 						<?php
 						$dato=date("d-m-Y H:i"); 
@@ -37,6 +35,7 @@
 						?>
 					</div>
 			</nav>
+				
 </header>
 </div>		
 		<?php
