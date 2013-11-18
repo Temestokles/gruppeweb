@@ -1,6 +1,8 @@
 <section class="indexInnhold">
-				
-					
+			<div id="overskrift">
+			<h2>Velkommen til</h2>
+ 				<h1>OSLOGUIDEN</h1>	
+			</div>
 				<aside>
 					<article>
 						<h2> Oslo "Tigerstaden" </h2>
