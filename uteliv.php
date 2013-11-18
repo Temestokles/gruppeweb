@@ -38,58 +38,62 @@
 				<li id="likeHorgans"> Lik </li>
 				<li class="comments" data-target="comment_boks_Horgans"> Kommentere</li>
 			</ul>
+			
 					<div id="comment_boks_Horgans">
+							<div class="close_button"> X </div>
 						<h2> Skriv inn her</h2>
-							<div class="form">
+							
+				<div class="form">
 						<form action="?page=2" method="post">
-							Navn:<input type="text" name="Navn"/><br>
-							Kommentar:<br><textarea wrap="Soft" name="comment_text"></textarea><br>
-							<input type="submit" name="knapp1" Value="Send"/>
+							<table>
+									<tr>
+										<td> <h3> Ditt navn</h3></td>
+											<td><input type="text" name="navn"/><br></td>
+									</tr>
+
+									<tr>
+										<td> <h3> Din kommentar</td>
+										<td> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/>
+										</td>
+									</tr>
+							</table>
 						</form>
-							</div>
 					</div>
+
+
+							<?php
+							if(isset($_POST['knapp1']))
+							{
+								$filref=fopen("commentsHorgans.txt","r");
+								$pattern='/^(\w+)\s(.+)/';
+								while (!feof($filref)) {
+									if(preg_match($pattern, fgets($filref), $matches)){
+										$navn = $matches[1];
+										$kommentar = $matches[2];
+										echo "Navn: ".$navn . "<br/>";
+										echo "Kommentar: " . $kommentar . "<br/><br/>";
+									}
+								}
+								fclose($filref);
+							}
+							?>
+					</div>
+
+
 					<?php
-								$filref = fopen("commentsHorgans.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
 
- 					<?php
-
-								if(isset($_POST['knapp1'])){
-
-        	 					$filref= fopen("commentsHorgans.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
+					if(isset($_POST['knapp1']))
+					{
+					$commentHorgans=fopen("commentsHorgans.txt","a+");
+					$linje=$_POST['navn'] ;
+					$linje .= " ".$_POST['comment_text'];
+					$linje = str_replace("\r\n", "<br/>", $linje);
+					fwrite($commentHorgans, $linje); // skriver strengen til fil
+					fwrite($commentHorgans, "\n"); // starter på ny linje var gang
+					fclose($commentHorgans);
+				
 					}
-
-					?>
-
-					<?php
-					$filref = fopen("likerHorgans.txt","r"); 
-			 		$likes = fgets($filref); 
-			 		fclose($filref)
-			 		?>
-
-		 			<?php
-
-            		if(isset($_REQUEST['likeHorgans']))
-            		{
-
-        			$likes++; 
-        	 		$filref= fopen("likerHorgans.txt","w"); 
-        	 		fwrite($filref, $likes); 
-        	 		fclose($filref);
-
-					 echo "Det er ".$likes. "som liker Horgans";
-        			}
-
-
 
 					?>
 				
