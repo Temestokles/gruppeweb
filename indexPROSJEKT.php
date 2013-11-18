@@ -35,9 +35,12 @@
 						?>
 					</div>
 			</nav>
+			</div>
+			<h2>Velkommen til</h2>
+			<h1>Oslo Guiden</h1>
 				
 </header>
-</div>		
+		
 		<?php
 
 if(!isset($_GET['page'])){
