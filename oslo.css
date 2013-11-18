@@ -5,17 +5,7 @@ html{
   	-o-background-size: cover;*/
   	background-size: cover;
 }
-}
-body{
 
-	/*background-image:url('BilderWebb/skyer.jpg');
-	background-size:150%;
-	background-position:center top;
-	background-repeat:repeat-x;
-	background-color:#CBCED4;
-	background-image:linear-gradient(2deg,#CBCED4,#A2A5AA);*/
-	
-}
 
 .container{
 	background-color: white;
@@ -207,12 +197,14 @@ float:right;
 /* MER INFO OVERLAYS UTELIV */
 
 
-form {
-	border-bottom: 1px solid #666666;
-	margin:0 auto;
+ .form {
+	margin-left:35%;
+	margin-right:15%;
+	
 }
 input {
 	color: #1669E6;
+
 
 }
 

@@ -40,12 +40,13 @@
 			</ul>
 					<div id="comment_boks_Horgans">
 						<h2> Skriv inn her</h2>
+							<div class="form">
 						<form action="?page=2" method="post">
 							Navn:<input type="text" name="Navn"/><br>
 							Kommentar:<br><textarea wrap="Soft" name="comment_text"></textarea><br>
 							<input type="submit" name="knapp1" Value="Send"/>
-							
 						</form>
+							</div>
 					</div>
 					<?php
 								$filref = fopen("commentsHorgans.txt","r"); 
