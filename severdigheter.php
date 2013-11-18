@@ -91,7 +91,7 @@
 					<br>Slottsparken er en av hovedstadens første, store parker. 
 					Den omgir Slottet på alle kanter og preges av grønne gressbakker og velvoksne trær. 
 					Parken ble anlagt parallelt med byggingen av Slottet, og er basert på naturidealene som var rådende for hagekunsten i Europa midt på 1800-tallet.
-					Hentet fra: <a href="http://www.kongehuset.no/seksjon.html?tid=27160&sek=26983" target="blank">www.kongehuset.no</a>
+					Hentet fra: <a href="http://www.kongehuset.no/seksjon.html?tid=27160&amp;sek=26983" target="blank">www.kongehuset.no</a>
 				</p>
 			</div>
 		</td>
