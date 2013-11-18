@@ -35,53 +35,77 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoHorgans">Les mer..</li>
-				<li id="likeHorgans"> Lik </li>
+				<li id="likeHorgans"> Lik </li>				
 				<li class="comments" data-target="comment_boks_Horgans"> Kommentere</li>
-			</ul>
+
+
+			<?php
+			//php kode for å lese hvor mange likes
+				$filref = fopen("likerHorgans.txt","r"); 
+			 	$likes = fgets($filref); 
+			 	fclose($filref)
+			 ?>
+
+		 			<?php
+		 			// php kode for å trykke på liker-knapp
+            		if(isset($_REQUEST['likeHorgans']))
+            		{
+
+        			$likes++; 
+        	 		$filref= fopen("likerHorgans.txt","w"); 
+        	 		fwrite($filref, $likes); 
+        	 		fclose($filref);
+
+					 echo "Det er ".$likes. "som liker Horgans";
+        			}
+
+
+
+					?>
+		</ul>
 			
-					<div id="comment_boks_Horgans">
-							<div class="close_button"> X </div>
-						<h2> Skriv inn her</h2>
+<div id="comment_boks_Horgans">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
 							
-				<div class="form">
-						<form action="?page=2" method="post">
-							<table>
-									<tr>
-										<td> <h3> Ditt navn</h3></td>
-											<td><input type="text" name="navn"/><br></td>
-									</tr>
-
-									<tr>
-										<td> <h3> Din kommentar</td>
-										<td> <textarea wrap="Soft" name="comment_text"></textarea><br>
-												<input type="submit" name="knapp1" Value="Send"/>
-										</td>
-									</tr>
-							</table>
-						</form>
-					</div>
-
-
-							<?php
+		<div class="form">
+			<form action="?page=2" method="post">
 							
-								$filref=fopen("commentsHorgans.txt","r");
-								$pattern='/^(\w+)\s(.+)/';
-								while (!feof($filref)) {
-									if(preg_match($pattern, fgets($filref), $matches)){
-										$navn = $matches[1];
-										$kommentar = $matches[2];
-										echo "Navn: ".$navn . "<br/>";
-										echo "Kommentar: " . $kommentar . "<br/><br/>";
-									}
-								}
-								fclose($filref);
+			<table>
+				<tr>
+					<td> <h3> Ditt navn</h3></td>
+					<td> <input type="text" name="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h3> Din kommentar</td>
+					<td> <textarea wrap="Soft" name="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			</form>
+
+				<?php
+				// php kode for å lese alle registrerte kommentarer
+					$filref=fopen("commentsHorgans.txt","r");
+					$pattern='/^(\w+)\s(.+)/';
+
+					while (!feof($filref)) {
+						if(preg_match($pattern, fgets($filref), $matches)){
+							$navn = $matches[1];
+							$kommentar = $matches[2];
+							echo "Navn: ".$navn . "<br/>";
+							echo "Kommentar: " . $kommentar . "<br/><br/>";
+						}
+					}
+					fclose($filref);
 							
-							?>
-					
+				?>
+		</div>
 
-
-					<?php
-
+				<?php
+				// php kode som lagrer kommentarer in i fil
 					if(isset($_POST['knapp1']))
 					{
 					$commentHorgans=fopen("commentsHorgans.txt","a+");
@@ -94,10 +118,11 @@
 				
 					}
 
-					?>
-			</div>
+				?>
+</div>
 	</td>
-</tr>
+		</tr>
+
 
 <tr> 
 	<td> 	<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bild fra utestedet bar Vulkan" width="150" height="90">
