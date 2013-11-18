@@ -583,12 +583,6 @@ border:solid 1px;
 /* STYLESHEET TIL SHOPPING */
 input {
 	color: #1669E6;
-
-}
-
-#comment_boks_AkerBrygge, #comment_boks_Bogstadveien, #comment_boks_KarlJ, #comment_boks_Grunerlokka, #comment_boks_SteenStrom, #comment_boks_Eger, 
-#comment_boks_Paleet, #comment_boks_OsloCity {
-	display:none;
 }
 
 #merinfoAkerBrygge{
@@ -796,6 +790,150 @@ input {
 }
 
 #merinfoFrognerseteren{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+.close_button{
+right:-0.2%;
+cursor:pointer;
+width:20px;
+line-height:20px;
+background:#000;
+color:#fff;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+position: absolute;
+top:-1px;
+border:solid 1px;
+}
+
+/*STYLESHEET KULTUR*/
+
+input {
+	color: #1669E6;
+
+}
+
+#merinfoKultureiendommer{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoKulturkort{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:50%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoKunst{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:90%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoDeichmanske{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:130%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoKulturnatt{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoPopsenteret{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoVigeland{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoOpera{
 	width:50%;
 	display:none;
 	left:17%;
