@@ -39,11 +39,12 @@
 				<li class="comments" data-target="comment_boks_Horgans"> Kommentere</li>
 			</ul>
 					<div id="comment_boks_Horgans">
+						<h2> Skriv inn her</h2>
 						<form action="?page=2" method="post">
-							Navn:<input type="text" name="Navn"/>
-							<textarea wrap="Soft" name="comment_text"></textarea><br>
+							Navn:<input type="text" name="Navn"/><br>
+							Kommentar:<br><textarea wrap="Soft" name="comment_text"></textarea><br>
 							<input type="submit" name="knapp1" Value="Send"/>
-							<input type="submit" name="read_commentsHorgans" Value="Les kommentarer"/>
+							
 						</form>
 					</div>
 					<?php
