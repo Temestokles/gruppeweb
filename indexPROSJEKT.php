@@ -23,8 +23,8 @@
 					<li><a href="?page=2">Uteliv</a></li>
 					<li><a href="?page=3">Shopping</a></li>
 					<li><a href="?page=4">Severdigheter</a></li>
-					<li><a href"?page=5">Kultur</li>
-					<li><a href="?page=6">Aktiviteter</li>
+					<li><a href"?page=5">Kultur</a></li>
+					<li><a href="?page=6">Aktiviteter</a></li>
 				</ul>
 
 					<div class="date">
