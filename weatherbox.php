@@ -13,44 +13,40 @@ $typ = $loaddag->symbol['name'];
 $val = $loaddag->symbol['number'];
 
 
-if ($val == 1)
+
+switch ($val) {
+
+	case 1:
 	$pic = 'weathersun.png';
-if ($val == 2)
+	break;
+	case 2:
+	case 3:
 	$pic = 'weathersuncloud.png';
-if ($val == 3)
-	$pic = 'weathersuncloud.png';
-if ($val == 4)
+	break;
+	case 4:
+	case 15:
 	$pic = 'weatherclouds.png';
-if ($val == 5)
-	$pic = 'weatherrain.png';
-if ($val == 6)
+	break;
+    case 5:
+    case 7:
+    case 9:
+    case 13:
+    $pic = 'weatherrain.png';
+    break;
+    case 6:
+    case 11:
+    case 20:
+    case 22:
+    case 23:
 	$pic = 'weatherbad.png';
-if ($val == 7)
-	$pic = 'weatherrain.png';
-if ($val == 8)
+	break;
+	case 8:
+	case 9:
+	case 14:
+	case 22:
 	$pic = 'weathersnow.png';
-if ($val == 9)
-	$pic = 'weatherrain.png';
-if ($val == 10)
-	$pic = 'weatherrain.png';
-if ($val == 11)
-	$pic = 'weatherbad.png';
-if ($val == 12)
-	$pic = 'weatherrain.png';
-if ($val == 13)
-	$pic = 'weathersnow.png';
-if ($val == 14)
-	$pic = 'weathersnow.png';
-if ($val == 15)
-	$pic = 'weatherclouds.png';
-if ($val == 20)
-	$pic = 'weatherbad.png';
-if ($val == 21)
-	$pic = 'weathersnow.png';
-if ($val == 22)
-	$pic = 'weatherbad.png';
-if ($val == 23)
-	$pic = 'weatherbad.png';
+	break;
+}
 
 
 ?>
