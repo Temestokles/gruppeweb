@@ -23,8 +23,8 @@
 					<li><a href="?page=2">Uteliv</a></li>
 					<li><a href="?page=3">Shopping</a></li>
 					<li><a href="?page=4">Severdigheter</a></li>
-					<li>Kultur</li>
-					<li>Aktiviteter</li>
+					<li><a href"?page=5">Kultur</li>
+					<li><a href="?page=6">Aktiviteter</li>
 				</ul>
 
 					<div class="date">
@@ -60,6 +60,10 @@ switch($_GET['page']){
 
 	case 4:
 		include ("severdigheter.php");
+	break;
+
+	case 5:
+		include ("kulturaktiviteter.php");
 	break;
 
 	default:
