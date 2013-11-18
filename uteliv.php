@@ -63,8 +63,7 @@
 
 
 							<?php
-							if(isset($_POST['knapp1']))
-							{
+							
 								$filref=fopen("commentsHorgans.txt","r");
 								$pattern='/^(\w+)\s(.+)/';
 								while (!feof($filref)) {
@@ -76,9 +75,9 @@
 									}
 								}
 								fclose($filref);
-							}
+							
 							?>
-					</div>
+					
 
 
 					<?php
@@ -96,7 +95,7 @@
 					}
 
 					?>
-				
+			</div>
 	</td>
 </tr>
 
