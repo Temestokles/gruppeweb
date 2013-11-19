@@ -247,14 +247,10 @@ form textarea{
 }
 input {
 	color: #1669E6;
-
-
 }
 
-#comment_boks_Horgans, #comment_boks_Vulkan, #comment_boks_Nivou, #comment_boks_Jaeger, #comment_boks_Blaa, #comment_boks_Vu, 
-#comment_boks_Nox, #comment_boks_So, #comment_boks_Villa, #comment_boks_Raa {
-	display:none;
-}
+
+
 
 #merinfoHorgans{
 	width:50%;
@@ -270,17 +266,6 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-#comment_boks_Horgans{
-	left:25%;
-	width:50%;
-	background-color: white;
-	position:absolute;
-	padding-top:5%;
-	padding-bottom:5%;
-	top:30%;
-	z-index:150;
-	box-shadow: 8px 8px 20px 5px #000;
-}
 
 #merinfoVulkan{
 	width:50%;

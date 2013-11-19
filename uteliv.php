@@ -64,31 +64,37 @@
 					?>
 		</ul>
 			
-<div id="comment_boks_Horgans">
+<div class="comment_boks_Horgans">
 	<div class="close_button"> X </div>
 						
 		<h2> Skriv inn her</h2>
 							
 		<div class="form">
+			<?php
+				if(isset($_POST["horgansForm"])){
+					skrivKommentar("commentsHorgans.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
 			<form action="?page=2" method="post">
 							
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn"/><br></td>
+						<input type="text" name="navn" id="navn"/><br></td>
 				</tr>
 
 				<tr>
-					
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
+			<input type="hidden" name="horgansForm">
 			</form>
-
-		
 		</div>
-
+		<?php
+			echo hentKommentarer("commentsHorgans.txt");
+		?>
 		
 </div>
 	</td>
@@ -123,7 +129,7 @@
 				<li id="likeVulkan"> Lik </li>
 				<li class="comments" data-target="comment_boks_Vulkan"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_Vulkan">
+					<div class="comment_boks_Vulkan">
 						<form action="?page=2" method="post">
 							Navn:<input type="text" name="Navn"/>
 							<textarea wrap="Soft" name="comment_text"></textarea><br>
@@ -131,27 +137,7 @@
 							<input type="submit" name="read_commentsVulkan" Value="Les kommentarer"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsVulkan.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
 
- 					<?php
-
-								if(isset($_POST['knapp2'])){
-
-        	 					$filref= fopen("commentsVulkan.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
@@ -184,33 +170,13 @@
 				<li id="likeNivou"> Lik </li>
 				<li class="comments" data-target="comment_boks_Nivou"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_Nivou">
+					<div class="comment_boks_Nivou">
 						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp3" Value="Send"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsNivou.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
 
- 					<?php
-
-								if(isset($_POST['knapp3'])){
-
-        	 					$filref= fopen("commentsNivou.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
@@ -244,33 +210,13 @@
 				<li id="likeJaeger"> Lik </li>
 				<li class="comments" data-target="comment_boks_Jaeger"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_Jaeger">
+					<div class="comment_boks_Jaeger">
 						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp4" Value="Send"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsJaeger.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
 
- 					<?php
-
-								if(isset($_POST['knapp4'])){
-
-        	 					$filref= fopen("commentsJaeger.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
@@ -305,33 +251,13 @@
 				<li id="likeBlaa"> Lik </li>
 				<li class="comments" data-target="comment_boks_Blaa"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_Blaa">
+					<div class="comment_boks_Blaa">
 						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp5" Value="Send"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsBlaa.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
 
- 					<?php
-
-								if(isset($_POST['knapp5'])){
-
-        	 					$filref= fopen("commentsBlaa.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
@@ -367,33 +293,13 @@
 				<li id="likeVu"> Lik </li>
 				<li class="comments" data-target="comment_boks_Vu"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_Vu">
+					<div class="comment_boks_Vu">
 						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp6" Value="Send"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsVu.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
 
- 					<?php
-
-								if(isset($_POST['knapp6'])){
-
-        	 					$filref= fopen("commentsVu.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
@@ -423,33 +329,13 @@
 				<li id="likeNox"> Lik </li>
 				<li class="comments" data-target="comment_boks_Nox"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_Nox">
+					<div class="comment_boks_Nox">
 						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp7" Value="Send"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsNox.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
 
- 					<?php
-
-								if(isset($_POST['knapp7'])){
-
-        	 					$filref= fopen("commentsNox.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
@@ -482,33 +368,12 @@
 				<li id="likeSo"> Lik </li>
 				<li class="comments" data-target="comment_boks_So"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_So">
+					<div class="comment_boks_So">
 						<form action="?page=1" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp8" Value="Send"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsSo.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
-
- 					<?php
-
-								if(isset($_POST['knapp8'])){
-
-        	 					$filref= fopen("commentsSo.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
@@ -539,33 +404,12 @@
 				<li id="likeVilla"> Lik </li>
 				<li class="comments" data-target="comment_boks_Villa"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_Villa">
+					<div class="comment_boks_Villa">
 						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp9" Value="Send"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsVilla.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
-
- 					<?php
-
-								if(isset($_POST['knapp9'])){
-
-        	 					$filref= fopen("commentsVilla.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
@@ -596,33 +440,13 @@
 				<li id="likeRaa"> Lik </li>
 				<li class="comments" data-target="comment_boks_Raa"> Kommentere</li>
 			</ul>
-					<div id="comment_boks_Raa">
+					<div class="comment_boks_Raa">
 						<form action="?page=2" method="post">
 							<textarea wrap="Soft" name="comment_text"></textarea>
 							<input type="submit" name="knapp10" Value="Send"/>
 						</form>
 					</div>
-					<?php
-								$filref = fopen("commentsRaa.txt","r"); 
-			 					$Horgans = fgets($filref); 
-			 					fclose($filref)
- 					?>
 
- 					<?php
-
-								if(isset($_POST['knapp10'])){
-
-        	 					$filref= fopen("commentsRaa.txt","a"); 
-        	 					$navn=$_POST['Navn'];
-        	 					$kommentar = $_POST['comment_text'];
-        	 					fwrite($filref,"\r\n".$navn);
-        	 					fwrite($filref,"\r\n".$kommentar); 
-        	 					fclose($filref);
-
-        	 				echo'Kommentar sendt';
-					}
-
-					?>
 	</td>
 </tr>
 
