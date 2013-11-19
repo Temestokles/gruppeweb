@@ -129,8 +129,10 @@
 					<br />Source: <a href="https://bitraf.no/">https://bitraf.no</a>
 				</p>			
 			</div>
+
+			Flere aktiviteter? fotball, fridrett, bading, kino
 		</td>
 	</tr>
-Flere aktiviteter? fotball, fridrett, bading, kino
+
 </table>
 </section>
