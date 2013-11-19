@@ -39,11 +39,14 @@ include('funksjoner.php');
 					</div>
 			</nav>
 			</div>
-			<h2>Velkommen til</h2>
-			<h1>Oslo Guiden</h1>
-				
-</header>
 		
+</header>
+
+<div id="overskrift">
+			<h2>Velkommen til</h2>
+			<h1>OSLOGUIDEN</h1>
+</div>
+
 		<?php
 
 if(!isset($_GET['page'])){
