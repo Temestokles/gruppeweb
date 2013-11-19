@@ -199,8 +199,15 @@ float:right;
 
 
  .form {
-	margin-left:15%;
+	margin-left:25%;
 	margin-right:25%;
+
+}
+
+form textarea{
+	height:150px;
+	width:350px;
+}
 	
 }
 input {
