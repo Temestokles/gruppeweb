@@ -41,7 +41,7 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/holmenkollen.jpg" alt="Bilde av Holmenkollbakken" width="150">
+			<img src="BilderWebb/holmenkollen.jpg" alt="Bilde av Holmenkollbakken" width="150" height="110">
 		</td>
 		<td>
 			<p><strong>HOLMENKOLLBAKKEN</strong><br>
@@ -70,7 +70,7 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150">
+			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150" height="110">
 		</td>
 		<td>
 			<p><strong>DET KONGELIGE SLOTT OG SLOTTSPARKEN</strong><br>
@@ -107,7 +107,7 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/domkirken.jpg" alt="Bilde av domkirken" width="150">
+			<img src="BilderWebb/domkirken.jpg" alt="Bilde av domkirken" width="140" height="140">
 		</td>
 		<td>
 			<p><strong>OSLO DOMKIRKE</strong><br>
