@@ -130,8 +130,9 @@
 				</p>			
 			</div>
 
-			Flere aktiviteter? fotball, fridrett, bading, kino
+
 		</td>
+		Flere aktiviteter? fotball, fridrett, bading, kino
 	</tr>
 
 </table>
