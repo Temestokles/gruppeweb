@@ -71,7 +71,7 @@ switch($_GET['page']){
 		include ("kulturaktiviteter.php");
 	break;
 
-	case 5:
+	case 6:
 		include ("aktiviteter.php");
 	break;
 
