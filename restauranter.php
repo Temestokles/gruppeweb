@@ -37,7 +37,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoYayas">Les mer..</li>
-				
+				<li class="comments" data-target="comment_boks_Yayas"> Kommentere</li>
 		<ul>
 				
 	</td>
@@ -75,6 +75,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoPlah">Les mer..</li>
+				<li class="comments" data-target="comment_boks_Plah"> Kommentere</li>
 		<ul>
 				
 	</td>
@@ -109,6 +110,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoDattra"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Dattra"> Kommentere</li>
 		</ul>
 					
 
@@ -137,6 +139,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoDelikatessen"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Delikatessen"> Kommentere</li>
 		</ul>
 </table>					
 
@@ -171,6 +174,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoDinner"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Dinner"> Kommentere</li>
 		</ul>
 					
 	</td>
@@ -203,6 +207,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoBambus"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Bambus"> Kommentere</li>
 		</ul>
 	</td>
 </tr>
@@ -236,6 +241,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoSushiBislett"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Bislett"> Kommentere</li>
 		</ul>
 
 	</td>
@@ -272,6 +278,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoMemphis"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Memphis"> Kommentere</li>
 		</ul>
  					
 	</td>
@@ -305,6 +312,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoPunjab"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Punjab"> Kommentere</li>
 		</ul>
 	</td>
 </tr>
@@ -335,6 +343,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoRice"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Rice"> Kommentere</li>
 		</ul>
 </tr>
 </table>
@@ -367,7 +376,8 @@
 <tr>	
 	<td>
 		<ul>
-				<li class="lesMer" data-target="merinfoKlostret"> Les mer..</li>	
+				<li class="lesMer" data-target="merinfoKlostret"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Klosteret"> Kommentere</li>
 		</ul>
 	</td>
 </tr>
@@ -397,6 +407,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoNodee"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Nodee"> Kommentere</li>
 		</ul>
 	</td>
 </tr>
@@ -425,6 +436,7 @@
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoAlex"> Les mer..</li>
+				<li class="comments" data-target="comment_boks_Alex"> Kommentere</li>
 		</ul>
 
 	</td>
