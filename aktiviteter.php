@@ -2,10 +2,6 @@
 <h2>AKTIVITETER</h2>
 
 <table>
-fotball
-fridrett
-bading
-kino
 
 	<tr>
 		<td>
@@ -135,6 +131,6 @@ kino
 			</div>
 		</td>
 	</tr>
-
+Flere aktiviteter? fotball, fridrett, bading, kino
 </table>
 </section>
