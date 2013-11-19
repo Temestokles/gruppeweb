@@ -1,0 +1,1024 @@
+html{
+	background: url('BilderWebb/skyer.jpg') no-repeat center center fixed; 
+  	/*-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;*/
+  	background-size: cover;
+}
+}
+body{
+
+	/*background-image:url('BilderWebb/skyer.jpg');
+	background-size:150%;
+	background-position:center top;
+	background-repeat:repeat-x;
+	background-color:#CBCED4;
+	background-image:linear-gradient(2deg,#CBCED4,#A2A5AA);*/
+	
+}
+
+.container{
+	background-color: white;
+	width: 70%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	padding-top: 2%;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 0.9em;
+	box-shadow:0px -3px 5px 5px #FFF;
+}
+
+.container section{
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+header{
+	position: relative;
+	border-bottom: 1px solid black;
+	background-color:#6499E8;
+	width:69.3%;	
+}
+
+.header-cont{
+	width:100%;
+	position: fixed;
+	top:0px;
+	margin:0 auto;
+}
+
+#overskrift	h1{
+	float:left;
+	font-size: 4.5em;
+	font-family:"Georgia", sans-serif;
+	color:white;
+	text-shadow:7px 4px 3px #333333;
+	padding-left:6.5%;
+	margin-top:-30px; 
+	margin-bottom:-0.8%;
+}
+
+#overskrift h2{
+	text-shadow:5px 4px 3px #333333;
+	padding-left:4%; 
+	font-size:2em;
+	font-family: "Segoe Script";
+	color:white; 
+	padding-top:2%;
+}
+
+#overskrift {
+	height: 170px;
+	padding-bot: 3%;
+	background-color:#6499E8;
+}
+
+
+#weather {
+	position: fixed;
+	right: 3%;
+	top: 6%;
+}
+
+#weather img {
+	border: 5px solid white;
+	margin: 2px solid black;
+}
+	
+#weather p {
+	position: relative;
+	text-align: center;
+
+	color: black;
+	bottom: 142px;
+	font-size: small;
+}
+	
+
+
+.mainmenu{
+	width: 100%;
+	list-style-type: none;
+	display: inline-block;
+	
+}
+
+.mainmenu ul{
+	list-style-type: none;
+}
+
+.mainmenu ul li{
+	float: left;
+	padding-left: 1%;
+	padding-right: 2.5%;
+	padding-bottom:1%; 
+	border-right: 1px solid black;
+	color:white;
+	text-shadow: 2px 1px 2px #CCFFFF;
+	font-size: 1.2em;
+	cursor:pointer;
+}
+
+.mainmenu ul li:last-child{
+	border-right: none;
+}
+
+.mainmenu ul li:hover{
+	text-decoration: underline;
+	/*color: #606060;*/
+	text-shadow: 0.5px 0.5px 1px #FFF;
+}
+
+.mainmenu a{
+	text-decoration: none;
+	color:white;
+}
+
+.mainmenu a:hover{
+	color:#1669E6;
+	text-shadow: 0.5px 0.5px 1px #FFF;
+}
+
+.date{
+	float:right;
+	display:inline-block;
+	padding-top:1%;
+	padding-right:1%; 
+	position:relative;
+	font-size:0.8em; 
+}
+
+
+footer{
+	border-top: 2px solid #666666;
+	margin-top: 4%;
+	padding-bottom:1%; 
+}
+
+
+/*STYLESHEET TIL INDEX_INNHOLD */
+
+.indexInnhold aside{
+margin-right:1%;
+width:35%;
+float:right;
+	 
+}
+
+.indexInnhold div {
+	padding-top:4%;
+	border-top: 1px solid #666666;
+}
+
+
+
+
+/* STYLESHEET TIL UTELIV */
+
+
+
+.main {
+	padding-left:4%;
+	padding-right:4px;
+}
+
+.main h2{
+	text-align: center;
+	padding-bottom:4%; 
+}
+
+
+.main ul li{
+	display: inline-block;
+	list-style: none;
+	padding-right:6%;
+	padding-left: 3%;
+	padding-bottom:2%;
+	font-weight: bold;
+	color:#1669E6;
+	background-color: #D0D0D0;
+	cursor:pointer;
+	
+	
+}
+
+.main ul{
+	float:left;
+	height:20%;
+	width:170%;
+	margin:0 0 0 -45px;
+	margin-top:-35px;
+	margin-bottom:10%;
+
+}
+
+
+.main table{
+	width:100%;
+	border:0px;
+
+}
+
+.main tr td{
+	padding-bottom:4%; 
+	border:0px;
+}
+
+.main table p{
+	padding-left:2%; 
+}
+
+
+/* MER INFO OVERLAYS UTELIV */
+
+
+
+ .form {
+	margin-left:25%;
+	margin-right:25%;
+
+}
+
+form textarea{
+	height:150px;
+	width:350px;
+}
+	
+}
+input {
+	color: #1669E6;
+}
+
+
+
+
+#merinfoHorgans{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoVulkan{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:50%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoNivou{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:90%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoJaeger{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:130%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoBlaa{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoVu{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:200%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoNox{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:220%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoSo{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:250%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoVilla{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:280%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoRaa{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:300%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+.close_button{
+right:-0.2%;
+cursor:pointer;
+width:20px;
+line-height:20px;
+background:#000;
+color:#fff;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+position: absolute;
+top:-1px;
+border:solid 1px;
+}
+
+/* STYLESHEET TIL RESTURANTER */
+
+#merinfoYayas{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoPlah{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:60%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoDattra{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:110%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoDelikatessen{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:150%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoDinner{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:195%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoBambus{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:210%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoSushiBislett{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:260%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoMemphis{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:310%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoPunjab{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:350%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoRice{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:380%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoKlostret{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:410%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoNodee{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:450%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;;
+}
+
+#merinfoAlex{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:470%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* STYLESHEET TIL SHOPPING */
+input {
+	color: #1669E6;
+
+}
+
+#comment_boks_AkerBrygge, #comment_boks_Bogstadveien, #comment_boks_KarlJ, #comment_boks_Grunerlokka, #comment_boks_SteenStrom, #comment_boks_Eger, 
+#comment_boks_Paleet, #comment_boks_OsloCity {
+	display:none;
+}
+
+#merinfoAkerBrygge{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoBogstadveien{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:50%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoKarlJ{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:90%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoGrunerlokka{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:130%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoSteenStrom{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoEger{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:200%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoPaleet{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:220%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoOsloCity{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:250%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+.close_button{
+right:-0.2%;
+cursor:pointer;
+width:20px;
+line-height:20px;
+background:#000;
+color:#fff;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+position: absolute;
+top:-1px;
+border:solid 1px;
+}
+
+/*STYLESHEET SEVERDIGHETER*/
+
+input {
+	color: #1669E6;
+
+}
+
+#merinfoFrognerp{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoHolmenkollen{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:50%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoSlottet{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:90%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoDomkirken{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:130%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoFrognerseteren{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+.close_button{
+right:-0.2%;
+cursor:pointer;
+width:20px;
+line-height:20px;
+background:#000;
+color:#fff;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+position: absolute;
+top:-1px;
+border:solid 1px;
+}
+
+/*STYLESHEET KULTUR*/
+
+input {
+	color: #1669E6;
+
+}
+
+#merinfoKultureiendommer{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoKulturkort{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:50%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoKunst{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:90%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+#merinfoDeichmanske{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:130%;
+	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoKulturnatt{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoPopsenteret{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoVigeland{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoOpera{
+	width:50%;
+	display:none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:160%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+.close_button{
+right:-0.2%;
+cursor:pointer;
+width:20px;
+line-height:20px;
+background:#000;
+color:#fff;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+position: absolute;
+top:-1px;
+border:solid 1px;
+}
+
+
+/* Aktiviteter */
+
+
+#merinfoAktiviteter{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
