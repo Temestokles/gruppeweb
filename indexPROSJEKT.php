@@ -48,6 +48,8 @@ include('funksjoner.php');
 </div>
 
 		<?php
+		
+include 'weather.php';
 
 if(!isset($_GET['page'])){
 	$_GET['page'] = "index";
