@@ -68,6 +68,10 @@ switch($_GET['page']){
 		include ("kulturaktiviteter.php");
 	break;
 
+	case 5:
+		include ("aktiviteter.php");
+	break;
+
 	default:
 		include("index_innhold.php");
 	break;
