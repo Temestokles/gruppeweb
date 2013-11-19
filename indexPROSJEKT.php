@@ -16,21 +16,21 @@ include('funksjoner.php');
 	<div class="container">
 		<div class="header-cont">
 
-<header>						
+<header>
 			<nav class="mainmenu">
 				<ul>
 					<li><a href="?page=index">Startside</a></li>
-					<li><a href="?page=1">Resturanter</a></li>
+					<li><a href="?page=1">Restauranter</a></li>
 					<li><a href="?page=2">Uteliv</a></li>
 					<li><a href="?page=3">Shopping</a></li>
 					<li><a href="?page=4">Severdigheter</a></li>
 					<li><a href="?page=5">Kultur</a></li>
 					<li><a href="?page=6">Aktiviteter</a></li>
 				</ul>
-				
+
 					<div class="date">
 						<?php
-						$dato=date("d-m-Y H:i"); 
+						$dato=date("d-m-Y H:i");
 						setlocale(LC_TIME, "no_NO");
 
 						echo"$dato";
@@ -39,7 +39,7 @@ include('funksjoner.php');
 					</div>
 			</nav>
 			</div>
-		
+
 </header>
 
 <div id="overskrift">
@@ -48,7 +48,7 @@ include('funksjoner.php');
 </div>
 
 		<?php
-		
+
 include 'weather.php';
 
 if(!isset($_GET['page'])){
