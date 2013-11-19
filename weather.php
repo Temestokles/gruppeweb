@@ -27,17 +27,17 @@ switch ($val) {
 	case 15:
 	$pic = 'weatherclouds.png';
 	break;
-    case 5:
-    case 7:
-    case 9:
-    case 13:
-    $pic = 'weatherrain.png';
-    break;
-    case 6:
-    case 11:
-    case 20:
-    case 22:
-    case 23:
+    	case 5:
+	case 7:
+    	case 9:
+	case 13:
+	$pic = 'weatherrain.png';
+	break;
+	case 6:
+	case 11:
+    	case 20:
+    	case 22:
+    	case 23:
 	$pic = 'weatherbad.png';
 	break;
 	case 8:
@@ -62,24 +62,10 @@ switch ($val) {
 <body>
 <table>
 	<tr>
-		<td><img src ="<?php echo $pic; ?>" alt="weatherpic" height="120" width="80">
+		<td><img src ="<?php echo $pic; ?>" alt="weatherpic" height="180" width="120">
 		<p>Temp = <?php echo $temp . "<br>" . "<br>" . $typ;?></p>
 		</td>
 	</tr>
 </table>
 </body>
 </html>
-
-/* css som burde bli lagt inn
-
-img		{border: 2px solid black;
-}
-
-p		{position: relative;
-		 text-align: center;
-		 color: blue;
-		 bottom: 107px;
-		 font-size: small;
-}
-
-*/
