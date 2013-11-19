@@ -82,11 +82,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -148,11 +148,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -214,11 +214,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -281,11 +281,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -349,11 +349,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -420,11 +420,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -483,11 +483,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -548,11 +548,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -612,11 +612,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -676,11 +676,11 @@
 			<table>
 				<tr>
 					<td> <strong> Ditt navn</strong> <br>
-						<input type="text" name="navn" id="navn"/><br></td>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
