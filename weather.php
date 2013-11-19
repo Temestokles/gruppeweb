@@ -51,21 +51,11 @@ switch ($val) {
 
 ?>
 
-<<<<<<< HEAD
 
 <table id="weather">
         <tr>
                 <td><img src ="<?php echo $pic; ?>" alt="weatherpic" height="180" width="120">
-                <p>Temp = 3<br><br>Lettskyet</p>
+                <p>Temp = <?php echo $temp . "<br>" . "<br>" . $typ;?></p>
                 </td>
         </tr>
 </table>
-=======
-<table id="weather">
-	<tr>
-		<td><img src ="weathersuncloud.png" alt="weatherpic" height="180" width="120">
-		<p>Temp = 3<br><br>Lettskyet</p>
-		</td>
-	</tr>
-</table>
->>>>>>> 95aa8dfbc82fda6bc63bb9a9242c8b7aa8982332
