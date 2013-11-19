@@ -1155,6 +1155,10 @@ border:solid 1px;
 
 /* Aktiviteter */
 
+input {
+	color: #1669E6;
+
+}
 
 #merinfoAktiviteter{
 	width:50%;

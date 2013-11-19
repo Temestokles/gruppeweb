@@ -2,6 +2,7 @@
 <h2>AKTIVITETER</h2>
 
 <table>
+<<<<<<< HEAD
 
 bading
 
@@ -31,6 +32,8 @@ bading
 	</td>
 </tr>
 
+=======
+>>>>>>> 73abb3231ab3ad974b57d469d30d34cc1d7f42e6
 
 	<tr>
 		<td>
@@ -158,7 +161,10 @@ bading
 					<br />Source: <a href="https://bitraf.no/">https://bitraf.no</a>
 				</p>
 			</div>
+
+
 		</td>
+		Flere aktiviteter? fotball, fridrett, bading, kino
 	</tr>
 
 </table>
