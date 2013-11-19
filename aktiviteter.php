@@ -1,5 +1,5 @@
 <section class="aktiviteter main">
-<h2>SEVERDIGHETER</h2>
+<h2>AKTIVITETER</h2>
 
 <table>
 fotball
