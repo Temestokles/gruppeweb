@@ -63,7 +63,7 @@
 
 
 					?>
-		</ul>
+		
 			
 <div class="comment_boks_Horgans">
 	<div class="close_button"> X </div>
@@ -86,7 +86,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -152,7 +152,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -218,7 +218,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -285,7 +285,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -353,7 +353,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -424,7 +424,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -487,7 +487,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -552,7 +552,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -616,7 +616,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
@@ -680,7 +680,7 @@
 				</tr>
 
 				<tr>
-					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comments_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>

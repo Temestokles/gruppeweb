@@ -38,9 +38,8 @@ include('funksjoner.php');
 						?>
 					</div>
 			</nav>
-			</div>
-
 </header>
+		</div>
 
 <div id="overskrift">
 			<h2>Velkommen til</h2>
