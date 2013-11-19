@@ -42,7 +42,7 @@
 
 			<?php
 			//php kode for å lese hvor mange likes
-				$filref = fopen("likerHorgans.txt","r"); 
+				$filref = fopen("likesUteliv/likerHorgans.txt","r"); 
 			 	$likes = fgets($filref); 
 			 	fclose($filref)
 			 ?>
@@ -53,7 +53,7 @@
             		{
 
         			$likes++; 
-        	 		$filref= fopen("likerHorgans.txt","w"); 
+        	 		$filref= fopen("likesUteliv/likerHorgans.txt","w"); 
         	 		fwrite($filref, $likes); 
         	 		fclose($filref);
 
