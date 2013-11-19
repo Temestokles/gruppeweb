@@ -2,7 +2,7 @@
 <h2>AKTIVITETER</h2>
 
 <table>
-<<<<<<< HEAD
+
 
 bading
 
@@ -32,8 +32,6 @@ bading
 	</td>
 </tr>
 
-=======
->>>>>>> 73abb3231ab3ad974b57d469d30d34cc1d7f42e6
 
 	<tr>
 		<td>
