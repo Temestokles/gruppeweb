@@ -4,7 +4,7 @@
 <table>
 	<tr>
 		<td>
-			<img src="BilderWebb/frognerparken.jpg" Alt="Bilde av monolitten i Vigerlandsparken" width="200">
+			<img src="BilderWebb/frognerparken.JPG" Alt="Bilde av monolitten i Vigerlandsparken" width="200">
 		</td>
 		<td>
 			<p><strong>FROGNERPARKEN OG VIGELANDSPARKEN</strong><br>
@@ -14,7 +14,7 @@
 			</p>
 			<div id="merinfoFrognerp">
 				<div class="close_button"> X </div>
-				<img src="BilderWebb/frognerparken.jpg" alt="Bilde av monolitten i Vigelandsparken" width="250">
+				<img src="BilderWebb/frognerparken.JPG" alt="Bilde av monolitten i Vigelandsparken" width="250">
 				
 				<p>I det ene hjørnet av parken, mot Majorstua, ligger Frogner stadion og friluftsbadet Frognerbadet. 
 					I hjørnet mot Frogner ligger Frogner Hovedgård og Oslo Bymuseum. 
