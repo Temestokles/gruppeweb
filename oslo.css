@@ -197,15 +197,23 @@ footer{
 	font-weight: bold;
 	color:#1669E6;
 	background-color: #D0D0D0;
-	cursor:pointer;
-	
-	
+	cursor:pointer;	
+}
+
+ul input{
+background-color: #D0D0D0;
+border-style: none;
+cursor:pointer;
+font-weight: bold;
+font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+font-size: 0.9em;
+
 }
 
 .main ul{
 	float:left;
 	height:20%;
-	width:170%;
+	width:200%;
 	margin:0 0 0 -45px;
 	margin-top:-35px;
 	margin-bottom:10%;
@@ -226,6 +234,12 @@ footer{
 
 .main table p{
 	padding-left:1%; 
+}
+
+.tekst_like{
+	color:#1669E6;
+	width:170%;
+	font-size:0.9em;  
 }
 
 

@@ -1,47 +1,42 @@
 
 <section class="restaurants main">
 
-
-
-	
-
-
-<table>
-<h2>THAILANSKT</h2>
-<tr>
+	<table>
+		<h2>THAILANSKT</h2>
+		<tr>
 			
-	<td> 	
-			<img src="BilderWebb/Yayas.JPG" Alt="Bild fra Yayas" width="150"  height="90">
-	</td>
+			<td> 	
+				<img src="BilderWebb/Yayas.JPG" Alt="Bild fra Yayas" width="150"  height="90">
+			</td>
 
-	<td>	<p><strong>YAYAS</strong><br>
-			På restaurangen Yayas kan du oppleve Thailand i Oslo. En atmosphere som må oppleves.<br> 
-			Bra variert mat, som ikke er alltfor kryddet. Hvis man ønsker mer kryddet mat så er det mulig og be om det. 
-			<br></p>
-	
-	
-			<div id="merinfoYayas">
-				<div class="close_button"> X </div>
-
-				<img src="BilderWebb/Yayas.JPG" Alt="Bild fra Yayas" width="200">
-			<p>Matrettene er satt sammen av både thailandske og svenske kokker. <br>
-			Restaurangen finnes på tre ulike steder i Oslo, Majorstuen,Vika og på Øvre Vollgata 13 i sentrum. <br>
-			Her trenger man å booke bord før da det er et veldigt populært stede.<br>
-			Source:<a href="http://www.yayas.no" target="blank"> www.yayas.no</a></p>
-			</div>
-	</td>
-</tr>
+			<td>	<p><strong>YAYAS</strong><br>
+				På restaurangen Yayas kan du oppleve Thailand i Oslo. En atmosphere som må oppleves.<br> 
+				Bra variert mat, som ikke er alltfor kryddet. Hvis man ønsker mer kryddet mat så er det mulig og be om det. 
+				<br></p>
 
 
-<tr> 
-	<td>
-		<ul>
-				<li class="lesMer" data-target="merinfoYayas">Les mer..</li>
-				<li class="comments" data-target="comment_boks_Yayas"> Kommentere</li>
-		<ul>
-				
-	</td>
-</tr>
+				<div id="merinfoYayas">
+					<div class="close_button"> X </div>
+
+					<img src="BilderWebb/Yayas.JPG" Alt="Bild fra Yayas" width="200">
+					<p>Matrettene er satt sammen av både thailandske og svenske kokker. <br>
+						Restaurangen finnes på tre ulike steder i Oslo, Majorstuen,Vika og på Øvre Vollgata 13 i sentrum. <br>
+						Her trenger man å booke bord før da det er et veldigt populært stede.<br>
+						Source:<a href="http://www.yayas.no" target="blank"> www.yayas.no</a></p>
+					</div>
+				</td>
+			</tr>
+
+
+			<tr> 
+				<td>
+					<ul>
+						<li class="lesMer" data-target="merinfoYayas">Les mer..</li>
+						<li class="comments" data-target="comment_boks_Yayas"> Kommentere</li>
+						<ul>
+
+						</td>
+					</tr>
 
 <tr>
 
@@ -83,68 +78,65 @@
 </table>
 
 <table>
-<h2> SPANSKT</h2>
-<tr>
-			 
-	<td> 	<img src="BilderWebb/Tapas.JPG" Alt="Bild på tapas fra Dattra" width="150"  height="90">
-	</td>
+	<h2> SPANSKT</h2>
+	<tr>
 
-	<td>	<p><strong>DATTRA TIL HAGEN</strong><br>
+		<td> 	<img src="BilderWebb/Tapas.JPG" Alt="Bild på tapas fra Dattra" width="150"  height="90">
+		</td>
+
+		<td>	<p><strong>DATTRA TIL HAGEN</strong><br>
 			Dattra til hagen er en fargerik bar, cafè og klubb fordelt over to etasjer og Oslos fineste og koseligeste bakgård.<br>
 			Dattra byr på et godt utvalg av både varm og kald drikke og maten varier mellom lunsjretter og nydelige tapasretter, til a la cartè</p>
-	
+
 
 			<div id="merinfoDattra">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/Tapas.JPG" Alt="Bild på tapas fra Dattra" width="200">
 				<p>Her er det humane priser på både drykk og mat.<br>
-				Adresse: Grønland 10, 0188 Oslo<br>
-				Source: <a href="http://www.dattra.no" target="blank">www.dattra.no</a></p>
-			</div>
+					Adresse: Grønland 10, 0188 Oslo<br>
+					Source: <a href="http://www.dattra.no" target="blank">www.dattra.no</a></p>
+				</div>
 
-	 </td>
- </tr>
- 
-<tr>
-	<td>
-		<ul>
-				<li class="lesMer" data-target="merinfoDattra"> Les mer..</li>
-				<li class="comments" data-target="comment_boks_Dattra"> Kommentere</li>
-		</ul>
-					
+			</td>
+		</tr>
 
-<tr>
-	<td>	<img src="BilderWebb/delikatessen.jpg" Alt="Bild på inngang til delikatessen" width="150"  height="90"> 
-
-	</td>
-
-	<td>	<p><strong>DELIKATESSEN</strong><br>
-			Delikatessen er kjent for sin gode tapas og det finns idag tre restauranter i Oslo, Aker Brygge, Majorstuen og Grünerløkka.<br>
-			Prismessigt ligger de på litt over middels men søker du etter kvalitè og ekte spansk tapas så har du kommit till rett stede.</p>
-	
-			<div id="merinfoDelikatessen">
-				<div class="close_button"> X </div>
-
-				<img src="BilderWebb/delikatessen.jpg" Alt="Bild på inngang til delikatessen" width="200">
-			<p>Adresse:Aker Brygge, Holmens gate 2<br>
-			Majorstuen,Vibes gate 8<br>
-			Grünerløkka, Søndregate 8<br>
-			For mer info, gå på <a href="http://www.delicatessen.no" target="blank"> www.delicatessen.no</a></p>
-			</div>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<ul>
-				<li class="lesMer" data-target="merinfoDelikatessen"> Les mer..</li>
-				<li class="comments" data-target="comment_boks_Delikatessen"> Kommentere</li>
-		</ul>
-</table>					
+		<tr>
+			<td>
+				<ul>
+					<li class="lesMer" data-target="merinfoDattra"> Les mer..</li>
+					<li class="comments" data-target="comment_boks_Dattra"> Kommentere</li>
+				</ul>
 
 
+				<tr>
+					<td>	<img src="BilderWebb/delikatessen.jpg" Alt="Bild på inngang til delikatessen" width="150"  height="90"> 
 
+					</td>
+
+					<td>	<p><strong>DELIKATESSEN</strong><br>
+						Delikatessen er kjent for sin gode tapas og det finns idag tre restauranter i Oslo, Aker Brygge, Majorstuen og Grünerløkka.<br>
+						Prismessigt ligger de på litt over middels men søker du etter kvalitè og ekte spansk tapas så har du kommit till rett stede.</p>
+
+						<div id="merinfoDelikatessen">
+							<div class="close_button"> X </div>
+
+							<img src="BilderWebb/delikatessen.jpg" Alt="Bild på inngang til delikatessen" width="200">
+							<p>Adresse:Aker Brygge, Holmens gate 2<br>
+								Majorstuen,Vibes gate 8<br>
+								Grünerløkka, Søndregate 8<br>
+								For mer info, gå på <a href="http://www.delicatessen.no" target="blank"> www.delicatessen.no</a></p>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<ul>
+								<li class="lesMer" data-target="merinfoDelikatessen"> Les mer..</li>
+								<li class="comments" data-target="comment_boks_Delikatessen"> Kommentere</li>
+							</ul>
+						</table>					
 
 <table>
 	<h2> KINESISKT</h2>
@@ -216,13 +208,13 @@
 
 <table>
 	<h2> JAPANSKT</h2>
-<tr>
+	<tr>
 
-	<td><img src="BilderWebb/sushi-godbit.jpg" Alt="Sushi Godbit loggo" width="150"  height="90">
+		<td><img src="BilderWebb/sushi-godbit.jpg" Alt="Sushi Godbit loggo" width="150"  height="90">
 
-	</td>
+		</td>
 
-	<td>	<p><strong>SUSHI GODBIT BISLETT</strong><br/>
+		<td>	<p><strong>SUSHI GODBIT BISLETT</strong><br/>
 			Sushi godbit Bislett har sin beligenhet på Pilestredet 55<br>
 			Her kan du bestille sushi for takeaway eller catering.</p> 
 
@@ -230,23 +222,23 @@
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/sushi-godbit.jpg" Alt="Sushi Godbit loggo" width="180" height="110">
-			<p>Her serveres det god og billig sushi. Faste tilbud på eksempel dagens sushi.<br>
-			Her har de åpent alle dager frem til kl.21.00. <br>
-			For mer info, gå in på <a href="http://www.sushigodbit.no" target="blank"> www.sushigodbit.no</a></p>
-			</div>
-	</td>
-</tr>
+				<p>Her serveres det god og billig sushi. Faste tilbud på eksempel dagens sushi.<br>
+					Her har de åpent alle dager frem til kl.21.00. <br>
+					For mer info, gå in på <a href="http://www.sushigodbit.no" target="blank"> www.sushigodbit.no</a></p>
+				</div>
+			</td>
+		</tr>
 
-<tr>
-	<td>
-		<ul>
-				<li class="lesMer" data-target="merinfoSushiBislett"> Les mer..</li>
-				<li class="comments" data-target="comment_boks_Bislett"> Kommentere</li>
-		</ul>
+		<tr>
+			<td>
+				<ul>
+					<li class="lesMer" data-target="merinfoSushiBislett"> Les mer..</li>
+					<li class="comments" data-target="comment_boks_Bislett"> Kommentere</li>
+				</ul>
 
-	</td>
-</tr>
-</table>
+			</td>
+		</tr>
+	</table>
 
 
 <table>
@@ -351,13 +343,13 @@
 
 <table>
 	<h2> EKSLUSIVT</h2>
-<tr>
+	<tr>
 
-	<td><img src="BilderWebb/klosteret-logo.png" Alt"Loggo fra klosteret" width="120"  height="90">
+		<td><img src="BilderWebb/klosteret-logo.png" Alt"Loggo fra klosteret" width="120"  height="90">
 
-	</td>
+		</td>
 
-	<td> 	<p><strong>KLOSTERET</strong><br>
+		<td> 	<p><strong>KLOSTERET</strong><br>
 			Kjøkkenet på Klosteret er internasjonalt/fransk. Menyen er klassisk og råvarene er eksklusive.<br>
 			Restauranten tilbyr dagens 3-5 og 7 retters menyer i tillegg til en a la carte meny som består av både kjøtt og fisk.<br>
 			Klosterets vinkjeller har mer enn 800 forskjellige viner i alle prisklasser.<br>
@@ -367,80 +359,80 @@
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/klosteret-logo.png" Alt"Loggo fra klosteret" width="100" height="110">
-			<p>Klosteret er et perfekt sted til å ta med din partner på. Romantisk atmosfär.<br>
-				Adresse: Fredensborgveien 13. For mer info, gå in på <a href="http://www.klosteret.no" target="blank"> http://www.klosteret.no</a></p>
-			</div>
-	</td>
-</tr>
+				<p>Klosteret er et perfekt sted til å ta med din partner på. Romantisk atmosfär.<br>
+					Adresse: Fredensborgveien 13. For mer info, gå in på <a href="http://www.klosteret.no" target="blank"> http://www.klosteret.no</a></p>
+				</div>
+			</td>
+		</tr>
 
-<tr>	
-	<td>
-		<ul>
-				<li class="lesMer" data-target="merinfoKlostret"> Les mer..</li>
-				<li class="comments" data-target="comment_boks_Klosteret"> Kommentere</li>
-		</ul>
-	</td>
-</tr>
+		<tr>	
+			<td>
+				<ul>
+					<li class="lesMer" data-target="merinfoKlostret"> Les mer..</li>
+					<li class="comments" data-target="comment_boks_Klosteret"> Kommentere</li>
+				</ul>
+			</td>
+		</tr>
 
-<tr>
-	<td><img src="BilderWebb/nodee.jpg" Alt="Bild fra Nodee Asian cooking" width="150"  height="90">
+		<tr>
+			<td><img src="BilderWebb/nodee.jpg" Alt="Bild fra Nodee Asian cooking" width="150"  height="90">
 
-	</td>
+			</td>
 
-	<td> 	<p><strong>NODEE ASIAN COOKING</strong><br>
-			Vi på Nodee ønsker deg velkommen til å prøve noe av det mest spennende innenfor Asian fusion i Oslo.<br>
-			På menyen finner våre gjester alt fra fersk og innovativ sushi laget av lokale og <br>
-			internationale råvarer samt unike og spennede retter som er laget med inspirasjon fra Øst- Asia.
-			<br></p>
-			
-			<div id="merinfoNodee">
-				<div class="close_button"> X </div>
+			<td> 	<p><strong>NODEE ASIAN COOKING</strong><br>
+				Vi på Nodee ønsker deg velkommen til å prøve noe av det mest spennende innenfor Asian fusion i Oslo.<br>
+				På menyen finner våre gjester alt fra fersk og innovativ sushi laget av lokale og <br>
+				internationale råvarer samt unike og spennede retter som er laget med inspirasjon fra Øst- Asia.
+				<br></p>
 
-				<img src="BilderWebb/nodee.jpg" Alt="Bild fra Nodee Asian cooking" width="180" height="110">
-			<p>Nodee er populärt bland kjendiser så her finnes det stor risk at du möter på en og annen<br>
-			For mer info, gå in på <a href="http://www.nodee.no" target="blank"> http://www.nodee.no</a></p>
-			</div>
-	</td>
-</tr>
+				<div id="merinfoNodee">
+					<div class="close_button"> X </div>
 
-<tr>	
-	<td>
-		<ul>
-				<li class="lesMer" data-target="merinfoNodee"> Les mer..</li>
-				<li class="comments" data-target="comment_boks_Nodee"> Kommentere</li>
-		</ul>
-	</td>
-</tr>
+					<img src="BilderWebb/nodee.jpg" Alt="Bild fra Nodee Asian cooking" width="180" height="110">
+					<p>Nodee er populärt bland kjendiser så her finnes det stor risk at du möter på en og annen<br>
+						For mer info, gå in på <a href="http://www.nodee.no" target="blank"> http://www.nodee.no</a></p>
+					</div>
+				</td>
+			</tr>
 
-<tr>
+			<tr>	
+				<td>
+					<ul>
+						<li class="lesMer" data-target="merinfoNodee"> Les mer..</li>
+						<li class="comments" data-target="comment_boks_Nodee"> Kommentere</li>
+					</ul>
+				</td>
+			</tr>
 
-	<td><img src="BilderWebb/alexsushi.png" Alt="Loggo Alex sushi" width="150"  height="90">
+			<tr>
 
-	</td>
+				<td><img src="BilderWebb/alexsushi.png" Alt="Loggo Alex sushi" width="150"  height="90">
 
-	<td>	<p><strong>ALEX SUSHI</strong><br/>
-			Alex suhi er Oslos populäreste Sushi stede. Her håller de höy klasse og kvalitet.<br>
-			Her sitter man og ser når din sushi blir forberedt. Dyrt og ekslusivt men som mange syns er verdt det</p> 
+				</td>
 
-			<div id="merinfoAlex">
-				<div class="close_button"> X </div>
+				<td>	<p><strong>ALEX SUSHI</strong><br/>
+					Alex suhi er Oslos populäreste Sushi stede. Her håller de höy klasse og kvalitet.<br>
+					Her sitter man og ser når din sushi blir forberedt. Dyrt og ekslusivt men som mange syns er verdt det</p> 
 
-				<img src="BilderWebb/alexsushi.png" Alt="Loggo Alex sushi" width="180" height="110">
-			<p> Alex sushi håller till på to steder i Oslo. En på tjuvholmen og en på Solli plass.<br>
-				For mer info, gå in på <a href="http://www.alexsushi.no" target="blank"> www.alexsushi.no</a></p>
-			</div>
-	</td>
-</tr>
+					<div id="merinfoAlex">
+						<div class="close_button"> X </div>
 
-<tr>
-	<td>
-		<ul>
-				<li class="lesMer" data-target="merinfoAlex"> Les mer..</li>
-				<li class="comments" data-target="comment_boks_Alex"> Kommentere</li>
-		</ul>
+						<img src="BilderWebb/alexsushi.png" Alt="Loggo Alex sushi" width="180" height="110">
+						<p> Alex sushi håller till på to steder i Oslo. En på tjuvholmen og en på Solli plass.<br>
+							For mer info, gå in på <a href="http://www.alexsushi.no" target="blank"> www.alexsushi.no</a></p>
+						</div>
+					</td>
+				</tr>
 
-	</td>
-</tr>
+				<tr>
+					<td>
+						<ul>
+							<li class="lesMer" data-target="merinfoAlex"> Les mer..</li>
+							<li class="comments" data-target="comment_boks_Alex"> Kommentere</li>
+						</ul>
+
+					</td>
+				</tr>
 
 
 </table>
