@@ -37,6 +37,7 @@
 				<li class="lesMer" data-target="merinfoHorgans">Les mer..</li>
 				<li id="likeHorgans"> Lik </li>				
 				<li class="comments" data-target="comment_boks_Horgans"> Kommentere</li>
+		</ul>
 
 
 			<?php
@@ -129,17 +130,42 @@
 				<li id="likeVulkan"> Lik </li>
 				<li class="comments" data-target="comment_boks_Vulkan"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_Vulkan">
-						<form action="?page=2" method="post">
-							Navn:<input type="text" name="Navn"/>
-							<textarea wrap="Soft" name="comment_text"></textarea><br>
-							<input type="submit" name="knapp2" Value="Send"/>
-							<input type="submit" name="read_commentsVulkan" Value="Les kommentarer"/>
-						</form>
-					</div>
+					
+<div class="comment_boks_Vulkan">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["vulkanForm"])){
+					skrivKommentar("commentsVulkan.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
 
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="vulkanForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsVulkan.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
+		</tr>
 
 <tr>
 	<td><img src="BilderWebb/nivou_logo.jpg" Alt="Bilde fra utestedet Nivou" width="150"> 
@@ -170,15 +196,42 @@
 				<li id="likeNivou"> Lik </li>
 				<li class="comments" data-target="comment_boks_Nivou"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_Nivou">
-						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp3" Value="Send"/>
-						</form>
-					</div>
 
+<div class="comment_boks_Nivou">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["nivouForm"])){
+					skrivKommentar("commentsNivou.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="nivouForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsNivou.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
+		</tr>
 
 <tr>
 	<td> <img src="BilderWebb/jaeger-oslo.jpg" Alt="Loggo fra utestedet Jæger" width="130">
@@ -210,15 +263,42 @@
 				<li id="likeJaeger"> Lik </li>
 				<li class="comments" data-target="comment_boks_Jaeger"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_Jaeger">
-						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp4" Value="Send"/>
-						</form>
-					</div>
 
+<div class="comment_boks_Jaeger">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["jaegerForm"])){
+					skrivKommentar("commentsJaeger.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="jaegerForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsJaeger.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
+		</tr>
 
 
 <tr>
@@ -251,15 +331,44 @@
 				<li id="likeBlaa"> Lik </li>
 				<li class="comments" data-target="comment_boks_Blaa"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_Blaa">
-						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp5" Value="Send"/>
-						</form>
-					</div>
 
+<div class="comment_boks_Blaa">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["blaaForm"])){
+					skrivKommentar("commentsBlaa.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="blaaForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsBlaa.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
+		</tr>	
+
+
 
 <tr>
 
@@ -293,15 +402,42 @@
 				<li id="likeVu"> Lik </li>
 				<li class="comments" data-target="comment_boks_Vu"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_Vu">
-						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp6" Value="Send"/>
-						</form>
-					</div>
 
+<div class="comment_boks_Vu">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["vuForm"])){
+					skrivKommentar("commentsVu.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="vuForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsVu.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
+		</tr>
 
 <tr>
 	<td><img src="BilderWebb/nox2.jpg" Alt="Bilde fra utestedet Nox" width="160" height="90">
@@ -329,16 +465,42 @@
 				<li id="likeNox"> Lik </li>
 				<li class="comments" data-target="comment_boks_Nox"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_Nox">
-						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp7" Value="Send"/>
-						</form>
-					</div>
 
+<div class="comment_boks_Nox">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["noxForm"])){
+					skrivKommentar("commentsNox.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="noxForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsNox.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
-
+		</tr>
 
 <tr>
 	<td><img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="130">
@@ -368,14 +530,42 @@
 				<li id="likeSo"> Lik </li>
 				<li class="comments" data-target="comment_boks_So"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_So">
-						<form action="?page=1" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp8" Value="Send"/>
-						</form>
-					</div>
+
+<div class="comment_boks_So">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["soForm"])){
+					skrivKommentar("commentsSo.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="soForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsSo.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
+		</tr>
 
 <tr>
 	<td><img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="100">
@@ -404,14 +594,42 @@
 				<li id="likeVilla"> Lik </li>
 				<li class="comments" data-target="comment_boks_Villa"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_Villa">
-						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp9" Value="Send"/>
-						</form>
-					</div>
+
+<div class="comment_boks_Villa">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["villaForm"])){
+					skrivKommentar("commentsVilla.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="villaForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsVilla.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
+		</tr>
 
 <tr>
 	<td><img src="BilderWebb/raanattklubbLogo.gif" Alt="Loggo fra utestedet Rå" width="160" height="100">
@@ -440,15 +658,42 @@
 				<li id="likeRaa"> Lik </li>
 				<li class="comments" data-target="comment_boks_Raa"> Kommentere</li>
 			</ul>
-					<div class="comment_boks_Raa">
-						<form action="?page=2" method="post">
-							<textarea wrap="Soft" name="comment_text"></textarea>
-							<input type="submit" name="knapp10" Value="Send"/>
-						</form>
-					</div>
 
+<div class="comment_boks_Raa">
+	<div class="close_button"> X </div>
+						
+		<h2> Skriv inn her</h2>
+							
+		<div class="form">
+			<?php
+				if(isset($_POST["raaForm"])){
+					skrivKommentar("commentsRaa.txt", $_POST["navn"], $_POST["comment_text"]);
+				}
+			?>
+
+			<form action="?page=2" method="post">
+							
+			<table>
+				<tr>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn" id="navn"/><br></td>
+				</tr>
+
+				<tr>
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" id="comment_text"></textarea><br>
+						<input type="submit" name="knapp1" Value="Send"/></td>
+				</tr>
+			</table>
+			<input type="hidden" name="raaForm">
+			</form>
+		</div>
+		<?php
+			echo hentKommentarer("commentsRaa.txt");
+		?>
+		
+</div>
 	</td>
-</tr>
+		</tr>
 
 
 </table>

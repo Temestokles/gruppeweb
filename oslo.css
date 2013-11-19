@@ -193,7 +193,7 @@ float:right;
 	list-style: none;
 	padding-right:6%;
 	padding-left: 3%;
-	padding-bottom:2%;
+	padding-bottom:1%;
 	font-weight: bold;
 	color:#1669E6;
 	background-color: #D0D0D0;
@@ -225,7 +225,7 @@ float:right;
 }
 
 .main table p{
-	padding-left:2%; 
+	padding-left:1%; 
 }
 
 
@@ -249,8 +249,7 @@ input {
 	color: #1669E6;
 }
 
-
-
+/* HORGANS */
 
 #merinfoHorgans{
 	width:50%;
@@ -261,11 +260,25 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:30%;
+	top:50%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+.comment_boks_Horgans{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:50%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* VULKAN */
 
 #merinfoVulkan{
 	width:50%;
@@ -276,10 +289,25 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:50%;
+	top:70%;
 	z-index:100;
 	box-shadow: 8px 8px 20px 5px #000;
 }
+
+.comment_boks_Vulkan{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:50%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* NIVOU */
 
 
 #merinfoNivou{
@@ -292,10 +320,25 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:90%;
+	top:110%;
 	z-index:100;
 	box-shadow: 8px 8px 20px 5px #000;
 }
+
+.comment_boks_Nivou{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:70%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* JÆGER */
 
 
 #merinfoJaeger{
@@ -308,10 +351,25 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:130%;
+	top:140%;
 	z-index:100;
 	box-shadow: 8px 8px 20px 5px #000;
 }
+
+.comment_boks_Jaeger{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:100%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* BLÅ */
 
 #merinfoBlaa{
 	width:50%;
@@ -328,6 +386,21 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+.comment_boks_Blaa{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:120%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* CLUB VU */
+
 #merinfoVu{
 	width:50%;
 	display: none;
@@ -343,6 +416,21 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+.comment_boks_Vu{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:150%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* NOX */
+
 #merinfoNox{
 	width:50%;
 	display: none;
@@ -353,10 +441,25 @@ input {
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:220%;
+	top:240%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
+
+.comment_boks_Nox{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:200%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* SO */
 
 #merinfoSo{
 	width:50%;
@@ -373,22 +476,22 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-#merinfoVilla{
-	width:50%;
-	display: none;
-	left:17%;
+.comment_boks_So{
 	display:none;
+	left:25%;
+	width:50%;
 	background-color: white;
 	position:absolute;
-	padding-left:1%;
-	padding-right:1%;
-	padding-top:1%; 
-	top:280%;
-	z-index:200;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:210%;
+	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-#merinfoRaa{
+/* VILLA */
+
+#merinfoVilla{
 	width:50%;
 	display: none;
 	left:17%;
@@ -400,6 +503,49 @@ input {
 	padding-top:1%; 
 	top:300%;
 	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+.comment_boks_Villa{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:230%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+/* RÅ */
+
+#merinfoRaa{
+	width:50%;
+	display: none;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%; 
+	top:310%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+.comment_boks_Raa{
+	display:none;
+	left:25%;
+	width:50%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:270%;
+	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
@@ -418,6 +564,7 @@ top:-1px;
 border:solid 1px;
 }
 
+
 /* STYLESHEET TIL RESTURANTER */
 
 #merinfoYayas{
@@ -430,7 +577,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:30%;
+	top:50%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -460,7 +607,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top: 1%; 
-	top:110%;
+	top:130%;
 	z-index:100;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -490,7 +637,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:195%;
+	top:210%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -505,7 +652,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:210%;
+	top:230%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -520,7 +667,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:260%;
+	top:280%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -535,7 +682,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:310%;
+	top:350%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -550,7 +697,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:350%;
+	top:360%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -580,7 +727,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:410%;
+	top:430%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -595,7 +742,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:450%;
+	top:470%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;;
 }
@@ -610,7 +757,7 @@ border:solid 1px;
 	padding-left:1%;
 	padding-right:1%;
 	padding-top:1%; 
-	top:470%;
+	top:490%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
