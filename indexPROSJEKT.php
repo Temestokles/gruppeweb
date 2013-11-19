@@ -1,3 +1,6 @@
+<?php
+include('funksjoner.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>

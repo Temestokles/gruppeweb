@@ -74,51 +74,22 @@
 							
 			<table>
 				<tr>
-					<td> <h3> Ditt navn</h3></td>
-					<td> <input type="text" name="navn"/><br></td>
+					<td> <strong> Ditt navn</strong> <br>
+						<input type="text" name="navn"/><br></td>
 				</tr>
 
 				<tr>
-					<td> <h3> Din kommentar</td>
-					<td> <textarea wrap="Soft" name="comment_text"></textarea><br>
+					
+					<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
 						<input type="submit" name="knapp1" Value="Send"/></td>
 				</tr>
 			</table>
 			</form>
 
-				<?php
-				// php kode for å lese alle registrerte kommentarer
-					$filref=fopen("commentsHorgans.txt","r");
-					$pattern='/^(\w+)\s(.+)/';
-
-					while (!feof($filref)) {
-						if(preg_match($pattern, fgets($filref), $matches)){
-							$navn = $matches[1];
-							$kommentar = $matches[2];
-							echo "Navn: ".$navn . "<br/>";
-							echo "Kommentar: " . $kommentar . "<br/><br/>";
-						}
-					}
-					fclose($filref);
-							
-				?>
+		
 		</div>
 
-				<?php
-				// php kode som lagrer kommentarer in i fil
-					if(isset($_POST['knapp1']))
-					{
-					$commentHorgans=fopen("commentsHorgans.txt","a+");
-					$linje=$_POST['navn'] ;
-					$linje .= " ".$_POST['comment_text'];
-					$linje = str_replace("\r\n", "<br/>", $linje);
-					fwrite($commentHorgans, $linje); // skriver strengen til fil
-					fwrite($commentHorgans, "\n"); // starter på ny linje var gang
-					fclose($commentHorgans);
-				
-					}
-
-				?>
+		
 </div>
 	</td>
 		</tr>
