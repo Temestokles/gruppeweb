@@ -12,7 +12,7 @@
 			</aside>
 
 						<figure id="Tiger">
-								<img src="BilderWebb/Tiger1.jpg" alt="bilde av Tiger på Oslo S" width="60%">
+								<img src="BilderWebb/Tiger1.JPG" alt="bilde av Tiger på Oslo S" width="60%">
 						</figure>
 
 			<div>
