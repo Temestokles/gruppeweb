@@ -16,17 +16,17 @@ include('funksjoner.php');
 	<div class="container">
 		<div class="header-cont">
 
-<header>
+			<header>
 			<nav class="mainmenu">
-				<ul>
-					<li><a href="?page=index">Startside</a></li>
-					<li><a href="?page=1">Restauranter</a></li>
-					<li><a href="?page=2">Uteliv</a></li>
-					<li><a href="?page=3">Shopping</a></li>
-					<li><a href="?page=4">Severdigheter</a></li>
-					<li><a href="?page=5">Kultur</a></li>
-					<li><a href="?page=6">Aktiviteter</a></li>
-				</ul>
+					<ul>
+						<li><a href="?page=index">Startside</a></li>
+						<li><a href="?page=1">Restauranter</a></li>
+						<li><a href="?page=2">Uteliv</a></li>
+						<li><a href="?page=3">Shopping</a></li>
+						<li><a href="?page=4">Severdigheter</a></li>
+						<li><a href="?page=5">Kultur</a></li>
+						<li><a href="?page=6">Aktiviteter</a></li>
+					</ul>
 
 					<div class="date">
 						<?php
@@ -37,56 +37,56 @@ include('funksjoner.php');
 
 						?>
 					</div>
-			</nav>
-</header>
+				</nav>
+			</header>
 		</div>
 
-<div id="overskrift">
+		<div id="overskrift">
 			<h2>Velkommen til</h2>
 			<h1>OSLOGUIDEN</h1>
-</div>
+		</div>
 
 		<?php
 
-include 'weather.php';
+		include 'weather.php';
 
-if(!isset($_GET['page'])){
-	$_GET['page'] = "index";
-}
+		if(!isset($_GET['page'])){
+			$_GET['page'] = "index";
+		}
 
-switch($_GET['page']){
-	case 1:
-		include("restauranter.php");
-	break;
+		switch($_GET['page']){
+			case 1:
+			include("restauranter.php");
+			break;
 
-	case 2:
-		include("uteliv.php");
-	break;
+			case 2:
+			include("uteliv.php");
+			break;
 
-	case 3:
-		include("shopping.php");
-	break;
+			case 3:
+			include("shopping.php");
+			break;
 
-	case 4:
-		include ("severdigheter.php");
-	break;
+			case 4:
+			include ("severdigheter.php");
+			break;
 
-	case 5:
-		include ("kulturaktiviteter.php");
-	break;
+			case 5:
+			include ("kulturaktiviteter.php");
+			break;
 
-	case 6:
-		include ("aktiviteter.php");
-	break;
+			case 6:
+			include ("aktiviteter.php");
+			break;
 
-	default:
-		include("index_innhold.php");
-	break;
-}
+			default:
+			include("index_innhold.php");
+			break;
+		}
 
 
 
-?>
+		?>
 		<footer>
 			<p>Gruppe 34</p>
 		</footer>

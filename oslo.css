@@ -4,9 +4,9 @@ html{
   	-moz-background-size: cover;
   	-o-background-size: cover;*/
   	background-size: cover;
-}
+  }
 
-body{
+  body{
 
 	/*background-image:url('BilderWebb/skyer.jpg');
 	background-size:150%;
@@ -84,7 +84,7 @@ header{
 	border: 5px solid white;
 	margin: 2px solid black;
 }
-	
+
 #weather p {
 	position: relative;
 	text-align: center;
@@ -93,7 +93,7 @@ header{
 	bottom: 142px;
 	font-size: small;
 }
-	
+
 
 
 .mainmenu{
@@ -159,10 +159,10 @@ footer{
 /*STYLESHEET TIL INDEX_INNHOLD */
 
 .indexInnhold aside{
-margin-right:1%;
-width:35%;
-float:right;
-	 
+	margin-right:1%;
+	width:35%;
+	float:right;
+
 }
 
 .indexInnhold div {
@@ -233,7 +233,7 @@ float:right;
 
 
 
- .form {
+.form {
 	margin-left:25%;
 	margin-right:25%;
 
@@ -243,7 +243,7 @@ form textarea{
 	height:150px;
 	width:350px;
 }
-	
+
 }
 input {
 	color: #1669E6;
@@ -550,18 +550,18 @@ input {
 }
 
 .close_button{
-right:-0.2%;
-cursor:pointer;
-width:20px;
-line-height:20px;
-background:#000;
-color:#fff;
-text-align: center;
-font-size: 14px;
-font-weight: bold;
-position: absolute;
-top:-1px;
-border:solid 1px;
+	right:-0.2%;
+	cursor:pointer;
+	width:20px;
+	line-height:20px;
+	background:#000;
+	color:#fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top:-1px;
+	border:solid 1px;
 }
 
 
@@ -895,18 +895,18 @@ input {
 }
 
 .close_button{
-right:-0.2%;
-cursor:pointer;
-width:20px;
-line-height:20px;
-background:#000;
-color:#fff;
-text-align: center;
-font-size: 14px;
-font-weight: bold;
-position: absolute;
-top:-1px;
-border:solid 1px;
+	right:-0.2%;
+	cursor:pointer;
+	width:20px;
+	line-height:20px;
+	background:#000;
+	color:#fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top:-1px;
+	border:solid 1px;
 }
 
 /*STYLESHEET SEVERDIGHETER*/
@@ -994,18 +994,18 @@ input {
 
 
 .close_button{
-right:-0.2%;
-cursor:pointer;
-width:20px;
-line-height:20px;
-background:#000;
-color:#fff;
-text-align: center;
-font-size: 14px;
-font-weight: bold;
-position: absolute;
-top:-1px;
-border:solid 1px;
+	right:-0.2%;
+	cursor:pointer;
+	width:20px;
+	line-height:20px;
+	background:#000;
+	color:#fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top:-1px;
+	border:solid 1px;
 }
 
 /*STYLESHEET KULTUR*/
@@ -1138,18 +1138,18 @@ input {
 
 
 .close_button{
-right:-0.2%;
-cursor:pointer;
-width:20px;
-line-height:20px;
-background:#000;
-color:#fff;
-text-align: center;
-font-size: 14px;
-font-weight: bold;
-position: absolute;
-top:-1px;
-border:solid 1px;
+	right:-0.2%;
+	cursor:pointer;
+	width:20px;
+	line-height:20px;
+	background:#000;
+	color:#fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top:-1px;
+	border:solid 1px;
 }
 
 
@@ -1183,26 +1183,81 @@ input {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles */
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 70%;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+
+
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-/* Styles */
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 70%;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+
+
+
+
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-/* Styles */
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 70%;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+
+
+
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-/* Styles */
+	/* Styles */
+
+
+	.container{
+		background-color: white;
+		width: 70%;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+
 }
 
 /* iPads (landscape) ----------- */
@@ -1210,7 +1265,20 @@ and (max-device-width : 1024px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-/* Styles */
+	/* Styles */
+
+
+	.container{
+		background-color: white;
+		width: 70%;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+
 }
 
 /* iPads (portrait) ----------- */
@@ -1218,24 +1286,111 @@ and (orientation : landscape) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
-/* Styles */
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 70%;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+
+
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
-/* Styles */
+	/* Styles */
+
+
+	.container{
+		background-color: white;
+		width: 70%;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+
+
+
 }
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-/* Styles */
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 70%;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+
+
 }
 
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 2%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	header{
+		position: absolute;
+		width:100%;	
+	}
+	.header-cont{
+		width:100%;
+		position: absolute;
+		top:200px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 0px;
+		list-style-type: none;
+	}
+
+	#overskrift h1{
+		float:center;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		margin-top:-20px; 
+	}
+
+	#weather {
+		position: absolute;
+		display:none;
+	}
+
+
 }
