@@ -984,3 +984,21 @@ position: absolute;
 top:-1px;
 border:solid 1px;
 }
+
+
+/* Aktiviteter */
+
+
+#merinfoAktiviteter{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
