@@ -51,21 +51,10 @@ switch ($val) {
 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" Content="text/html; charset=utf-8">
-<link rel="stylesheet" href="box.css" type="text/css" title="boxstil">
-<title>Weatherbox</title>
-</head>
-
-<body>
-<table>
+<table id="weather">
 	<tr>
-		<td><img src ="<?php echo $pic; ?>" alt="weatherpic" height="180" width="120">
-		<p>Temp = <?php echo $temp . "<br>" . "<br>" . $typ;?></p>
+		<td><img src ="weathersuncloud.png" alt="weatherpic" height="180" width="120">
+		<p>Temp = 3<br><br>Lettskyet</p>
 		</td>
 	</tr>
 </table>
-</body>
-</html>
