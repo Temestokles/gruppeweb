@@ -4,7 +4,7 @@
 
 <table>
 		<tr>
-			<td> 
+			<td>
 				<img src="BilderWebb/horgans.jpg" Alt="Bild fra utestedet Horgan's" width="150">
 			</td>
 
@@ -20,7 +20,7 @@
 					<div class="close_button"> X </div>
 
 					<img src="BilderWebb/horgans.jpg" Alt="Bild fra utestedet Horgan's" width="250">
-					<p>Aldersgrensen er 26 år og tilbyr tre ulike musikkprofiler med to dansegulv.<br> 
+					<p>Aldersgrensen er 26 år og tilbyr tre ulike musikkprofiler med to dansegulv.<br>
 						Det spilles variert musikk fra rock`n`roll, pop, R&amp;B, hip hop til elektronika som deephouse, <br>
 						NU disco og disco. Kan også spise, Horgan`s serverer amerikanskinspirert mat og er mest kjent for sine<br>
 						legendariske hamburgere.<br/> Source:<a href="http://www.horgans.no" target="blank"> www.horgans.no</a></p>
@@ -29,16 +29,18 @@
 			</tr>
 
 
-			<tr> 
+			<tr>
 				<td>
 					<ul>
 						<li class="lesMer" data-target="merinfoHorgans">Les mer..</li>
-						<li> <form action="?page=2" method="post"><input type="submit" name="knappHorgans" Value="Lik"/></form></li>				
+						<li> <form action="?page=2" method="post"><input type="submit" name="knappHorgans" Value="Lik"/></form></li>
 						<li class="comments" data-target="comment_boks_Horgans"> Kommentere</li>
+					</ul>
+
 						<?php
 						//php kode for å lese hvor mange likes
-						$filref = fopen("likesUteliv/likerHorgans.txt","r"); 
-						$likes = fgets($filref); 
+						$filref = fopen("likesUteliv/likerHorgans.txt","r");
+						$likes = fgets($filref);
 						fclose($filref)
 						?>
 
@@ -49,9 +51,9 @@
 						if(isset($_POST['knappHorgans']))
 						{
 
-							$likes++; 
-							$filref= fopen("likesUteliv/likerHorgans.txt","w"); 
-							fwrite($filref, $likes); 
+							$likes++;
+							$filref= fopen("likesUteliv/likerHorgans.txt","w");
+							fwrite($filref, $likes);
 							fclose($filref);
 
 							echo "<p class=tekst_like> Du og ".$likes. " andre liker Horgans</p>";
@@ -59,15 +61,16 @@
 
 						if(!isset($_POST['knappHorgans']))
 						{
-							echo"<p class=tekst_like> det er ".$likes. " som liker Horgans</p>";
+							echo"<p class=tekst_like> Det er ".$likes. " som liker Horgans</p>";
 
 						}
 						?>
-					</ul>
+
+
 
 					<div class="comment_boks_Horgans">
 						<div class="close_button"> X </div>
-						
+
 						<h2> Skriv inn her</h2>
 
 						<div class="form">
@@ -102,7 +105,7 @@
 					</tr>
 
 
-					<tr> 
+					<tr>
 						<td> 	<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bild fra utestedet bar Vulkan" width="150" height="90">
 
 						</td>
@@ -127,12 +130,13 @@
 							<td>
 								<ul>
 									<li class="lesMer" data-target="merinfoVulkan"> Les mer..</li>
-									<li> <form action="?page=2" method="post"><input type="submit" name="knappVulkan" Value="Lik"/></form></li>	
+									<li> <form action="?page=2" method="post"><input type="submit" name="knappVulkan" Value="Lik"/></form></li>
 									<li class="comments" data-target="comment_boks_Vulkan"> Kommentere</li>
+								</ul>
 									<?php
 									//php kode for å lese hvor mange likes
-									$filref = fopen("likesUteliv/likerVulkan.txt","r"); 
-									$likes = fgets($filref); 
+									$filref = fopen("likesUteliv/likerVulkan.txt","r");
+									$likes = fgets($filref);
 									fclose($filref)
 									?>
 
@@ -143,9 +147,9 @@
 									if(isset($_POST['knappVulkan']))
 									{
 
-										$likes++; 
-										$filref= fopen("likesUteliv/likerVulkan.txt","w"); 
-										fwrite($filref, $likes); 
+										$likes++;
+										$filref= fopen("likesUteliv/likerVulkan.txt","w");
+										fwrite($filref, $likes);
 										fclose($filref);
 
 										echo "<p class=tekst_like> Du og ".$likes. " andre liker Vulkan</p>";
@@ -153,11 +157,11 @@
 
 									if(!isset($_POST['knappVulkan']))
 									{
-										echo"<p class=tekst_like> det er ".$likes. " som liker Vulkan</p>";
+										echo"<p class=tekst_like> Det er ".$likes. " som liker Vulkan</p>";
 
 									}
 									?>
-								</ul>
+
 
 								<div class="comment_boks_Vulkan">
 									<div class="close_button"> X </div>
@@ -196,17 +200,17 @@
 								</tr>
 
 				<tr>
-					<td><img src="BilderWebb/nivou_logo.jpg" Alt="Bilde fra utestedet Nivou" width="150"> 
+					<td><img src="BilderWebb/nivou_logo.jpg" Alt="Bilde fra utestedet Nivou" width="150">
 				</td>
 				<td>	<p><strong>NIVOU</strong><br>
-						Nivou er Oslos største nattklubb, med to etasjer, VIP-lounger, og helårsåpen bakgård med sydlig stemning. 
+						Nivou er Oslos største nattklubb, med to etasjer, VIP-lounger, og helårsåpen bakgård med sydlig stemning.
 						Nivou har en stor og variert champagnemeny og et godt utvalg av drinker.<br>
 						I underetasjen er det minimalt med møbler, og musikken er noe tyngre enn i første etasje.<br></p>
 					<div id="merinfoNivou">
 							<div class="close_button"> X </div>
 						<img src="BilderWebb/nivou_logo.jpg" Alt="Bilde fra utestedet Nivou" width="250">
 							<p>I underetasjen er det minimalt med møbler, og musikken er noe tyngre enn i første etasje.
-								Flere av Norges beste Djs gjester Nivou hver helg,<br> 
+								Flere av Norges beste Djs gjester Nivou hver helg,<br>
 								og med jevne mellomrom kommer også kjente, internasjonale Djs til stedets to scener.<br>
 								Source:<a href="http://www.nivou.no" target="blank"> www.nivou.no</a></p>
 							</div>
@@ -218,10 +222,11 @@
 										<li class="lesMer" data-target="merinfoNivou"> Les mer..</li>
 										<li> <form action="?page=2" method="post"><input type="submit" name="knappNivou" Value="Lik"/></form></li>
 										<li class="comments" data-target="comment_boks_Nivou"> Kommentere</li>
+									</ul>
 												<?php
 											//php kode for å lese hvor mange likes
-												$filref = fopen("likesUteliv/likerNivou.txt","r"); 
-												$likes = fgets($filref); 
+												$filref = fopen("likesUteliv/likerNivou.txt","r");
+												$likes = fgets($filref);
 												fclose($filref)
 												?>
 
@@ -232,9 +237,9 @@
 												if(isset($_POST['knappNivou']))
 												{
 
-													$likes++; 
-													$filref= fopen("likesUteliv/likerNivou.txt","w"); 
-													fwrite($filref, $likes); 
+													$likes++;
+													$filref= fopen("likesUteliv/likerNivou.txt","w");
+													fwrite($filref, $likes);
 													fclose($filref);
 
 													echo "<p class=tekst_like> Du og ".$likes. " andre liker Nivou</p>";
@@ -246,7 +251,7 @@
 
 												}
 												?>
-										</ul>
+
 
 							<div class="comment_boks_Nivou">
 								<div class="close_button"> X </div>
@@ -291,7 +296,7 @@
 			Med internasjonale bookings i helgene og faste konsepter i ukedagene har Jaeger på kort tid blitt
 			en av de mest populære og innflytelsesrike utestedene i Oslo.<br></p>
 
-			<div id="merinfoJaeger"> 
+			<div id="merinfoJaeger">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/jaeger-oslo.jpg" Alt="Loggo fra utestedet Jæger" width="200">
@@ -310,23 +315,23 @@
 						<li class="lesMer" data-target="merinfoJaeger"> Les mer..</li>
 						<li> <form action="?page=2" method="post"><input type="submit" name="knappJaeger" Value="Lik"/></form></li>
 						<li class="comments" data-target="comment_boks_Jaeger"> Kommentere</li>
-							
+					</ul>
 							<?php
 							//php kode for å lese hvor mange likes
-							$filref = fopen("likesUteliv/likerJaeger.txt","r"); 
-							$likes = fgets($filref); 
+							$filref = fopen("likesUteliv/likerJaeger.txt","r");
+							$likes = fgets($filref);
 							fclose($filref)
 							?>
 
 
 							<?php
 							// php kode for å trykke på liker-knapp
-															
+
 								if(isset($_POST['knappJaeger']))
 								{
-									$likes++; 
-									$filref= fopen("likesUteliv/likerJaeger.txt","w"); 
-									fwrite($filref, $likes); 
+									$likes++;
+									$filref= fopen("likesUteliv/likerJaeger.txt","w");
+									fwrite($filref, $likes);
 									fclose($filref);
 
 										echo "<p class=tekst_like> Du og ".$likes. " andre liker Jaeger</p>";
@@ -338,7 +343,6 @@
 
 								}
 							?>
-					</ul>
 
 					<div class="comment_boks_Jaeger">
 						<div class="close_button"> X </div>
@@ -404,10 +408,11 @@
 									<li class="lesMer" data-target="merinfoBlaa"> Les mer..</li>
 									<li> <form action="?page=2" method="post"><input type="submit" name="knappBlaa" Value="Lik"/></form></li>
 									<li class="comments" data-target="comment_boks_Blaa"> Kommentere</li>
+								</ul>
 									<?php
 									//php kode for å lese hvor mange likes
-									$filref = fopen("likesUteliv/likerBlaa.txt","r"); 
-									$likes = fgets($filref); 
+									$filref = fopen("likesUteliv/likerBlaa.txt","r");
+									$likes = fgets($filref);
 									fclose($filref)
 									?>
 
@@ -418,9 +423,9 @@
 									if(isset($_POST['knappBlaa']))
 									{
 
-										$likes++; 
-										$filref= fopen("likesUteliv/likerBlaa.txt","w"); 
-										fwrite($filref, $likes); 
+										$likes++;
+										$filref= fopen("likesUteliv/likerBlaa.txt","w");
+										fwrite($filref, $likes);
 										fclose($filref);
 
 										echo "<p class=tekst_like> Du og ".$likes. " andre liker Blå</p>";
@@ -432,7 +437,7 @@
 
 									}
 									?>
-								</ul>
+
 
 								<div class="comment_boks_Blaa">
 									<div class="close_button"> X </div>
@@ -468,8 +473,8 @@
 
 										</div>
 									</td>
-								</tr>	
-			
+								</tr>
+
 			<tr>
 				<td><img src="BilderWebb/vu-club-oslo.jpg" Alt="Bild fra utestedet VU" width="160">
 				</td>
@@ -477,13 +482,13 @@
 						<td>	<p><strong>CLUB VU</strong><br/>
 								VU betyr "å ha sett" på fransk.Bak VU finner man tre dedikerte eiere med lang erfaring i bransjen.
 								Etter å ha sett og erfart mye ville de skape et sted i tråd med deres smak.
-								Resultatet VU ble som består av en jovial bakgård, hovedrommet og en separè.<br></p> 
+								Resultatet VU ble som består av en jovial bakgård, hovedrommet og en separè.<br></p>
 
 									<div id="merinfoVu">
 										<div class="close_button"> X </div>
 
 											<img src="BilderWebb/vu-club-oslo.jpg" Alt="Bild fra utestedet VU" width="250">
-											<p>Aldersgrensen er 26 år, da Oslo mangler et tilbud til denne aldersgruppen.<br> 
+											<p>Aldersgrensen er 26 år, da Oslo mangler et tilbud til denne aldersgruppen.<br>
 												Det er godt med sitteplasser og bord på VU, og det er servering ved bordene.<br>
 												Baren har et rikholdig utvalg, og personalet er meget serviceinnstilt.
 												Musikken består av klassisk soul,<br> funk og disko blandet med nyere house
@@ -499,10 +504,11 @@
 												<li class="lesMer" data-target="merinfoVu"> Les mer..</li>
 												<li> <form action="?page=2" method="post"><input type="submit" name="knappVu" Value="Lik"/></form></li>
 												<li class="comments" data-target="comment_boks_Vu"> Kommentere</li>
+											</ul>
 												<?php
 												//php kode for å lese hvor mange likes
-												$filref = fopen("likesUteliv/likerVu.txt","r"); 
-												$likes = fgets($filref); 
+												$filref = fopen("likesUteliv/likerVu.txt","r");
+												$likes = fgets($filref);
 												fclose($filref)
 												?>
 
@@ -512,9 +518,9 @@
 												if(isset($_POST['knappVu']))
 												{
 
-													$likes++; 
-													$filref= fopen("likesUteliv/likerVu.txt","w"); 
-													fwrite($filref, $likes); 
+													$likes++;
+													$filref= fopen("likesUteliv/likerVu.txt","w");
+													fwrite($filref, $likes);
 													fclose($filref);
 
 													echo "<p class=tekst_like> Du og ".$likes. " andre liker Vu</p>";
@@ -526,7 +532,7 @@
 
 												}
 												?>
-											</ul>
+
 
 											<div class="comment_boks_Vu">
 												<div class="close_button"> X </div>
@@ -587,10 +593,11 @@
 														<li class="lesMer" data-target="merinfoNox"> Les mer..</li>
 														<li> <form action="?page=2" method="post"><input type="submit" name="knappNox" Value="Lik"/></form></li>
 														<li class="comments" data-target="comment_boks_Nox"> Kommentere</li>
-															<?php
+													</ul>
+														<?php
 															//php kode for å lese hvor mange likes
-															$filref = fopen("likesUteliv/likerNox.txt","r"); 
-															$likes = fgets($filref); 
+															$filref = fopen("likesUteliv/likerNox.txt","r");
+															$likes = fgets($filref);
 															fclose($filref)
 															?>
 
@@ -601,9 +608,9 @@
 															if(isset($_POST['knappNox']))
 															{
 
-																$likes++; 
-																$filref= fopen("likesUteliv/likerNox.txt","w"); 
-																fwrite($filref, $likes); 
+																$likes++;
+																$filref= fopen("likesUteliv/likerNox.txt","w");
+																fwrite($filref, $likes);
 																fclose($filref);
 
 																echo "<p class=tekst_like> Du og ".$likes. " andre liker Nox</p>";
@@ -615,7 +622,6 @@
 
 															}
 															?>
-														</ul>
 
 											<div class="comment_boks_Nox">
 												<div class="close_button"> X </div>
@@ -667,7 +673,7 @@
 												<div class="close_button"> X </div>
 
 												<img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="200">
-												<p>Finnes også en poledance stang som man kan svinge seg runt mitt på dansegulvet.<br> 
+												<p>Finnes også en poledance stang som man kan svinge seg runt mitt på dansegulvet.<br>
 													Her kommer garantert en låt der du kan synge med.<br>
 													Source: <a href="http://www.so-oslo.no" target="blank">www.so-oslo.no </a></p>
 												</div>
@@ -680,10 +686,11 @@
 													<li class="lesMer" data-target="merinfoSo"> Les mer..</li>
 													<li> <form action="?page=2" method="post"><input type="submit" name="knappSo" Value="Lik"/></form></li>
 													<li class="comments" data-target="comment_boks_So"> Kommentere</li>
+												</ul>
 													<?php
 													//php kode for å lese hvor mange likes
-													$filref = fopen("likesUteliv/likerSo.txt","r"); 
-													$likes = fgets($filref); 
+													$filref = fopen("likesUteliv/likerSo.txt","r");
+													$likes = fgets($filref);
 													fclose($filref)
 													?>
 
@@ -694,9 +701,9 @@
 													if(isset($_POST['knappSo']))
 													{
 
-														$likes++; 
-														$filref= fopen("likesUteliv/likerSo.txt","w"); 
-														fwrite($filref, $likes); 
+														$likes++;
+														$filref= fopen("likesUteliv/likerSo.txt","w");
+														fwrite($filref, $likes);
 														fclose($filref);
 
 														echo "<p class=tekst_like> Du og ".$likes. " andre liker So</p>";
@@ -708,7 +715,6 @@
 
 													}
 													?>
-												</ul>
 
 												<div class="comment_boks_So">
 													<div class="close_button"> X </div>
@@ -759,23 +765,24 @@
 														<img src="BilderWebb/villaloggo1.jpg" Alt="Loggo fra utestedet The villa" width="150">
 
 														<p>Tips, ta med øronpropper. For den som fremst liker club house, elektro og dubstep. Aldersgrense 21+.<br/>
-														Annet stede å ha i baktanke hvis man liker dubstep og elektro beats er Kulturhuset Hausmania 
+														Annet stede å ha i baktanke hvis man liker dubstep og elektro beats er Kulturhuset Hausmania
 														<a href="http://www.hausmania.org" target="blank"><br/>(www.hausmania.org)</a>
 														som oftest ordner konserter inom den genren.</p><br/>
 													</div>
 										</td>
 								</tr>
 
-										<tr>	
+										<tr>
 											<td>
 												<ul>
 													<li class="lesMer" data-target="merinfoVilla"> Les mer..</li>
 													<li> <form action="?page=2" method="post"><input type="submit" name="knappVilla" Value="Lik"/></form></li>
 													<li class="comments" data-target="comment_boks_Villa"> Kommentere</li>
-																<?php
+												</ul>
+														<?php
 																//php kode for å lese hvor mange likes
-																$filref = fopen("likesUteliv/likerVilla.txt","r"); 
-																$likes = fgets($filref); 
+																$filref = fopen("likesUteliv/likerVilla.txt","r");
+																$likes = fgets($filref);
 																fclose($filref)
 																?>
 
@@ -785,9 +792,9 @@
 																if(isset($_POST['knappVilla']))
 																{
 
-																	$likes++; 
-																	$filref= fopen("likesUteliv/likerVilla.txt","w"); 
-																	fwrite($filref, $likes); 
+																	$likes++;
+																	$filref= fopen("likesUteliv/likerVilla.txt","w");
+																	fwrite($filref, $likes);
 																	fclose($filref);
 
 																	echo "<p class=tekst_like> Du og ".$likes. " andre liker Villa</p>";
@@ -799,7 +806,6 @@
 
 																}
 																?>
-															</ul>
 
 															<div class="comment_boks_Villa">
 																<div class="close_button"> X </div>
@@ -855,16 +861,17 @@
 												</td>
 											</tr>
 
-								<tr>	
+								<tr>
 									<td>
 										<ul>
 											<li class="lesMer" data-target="merinfoRaa"> Les mer..</li>
 											<li> <form action="?page=2" method="post"><input type="submit" name="knappRaa" Value="Lik"/></form></li>
 											<li class="comments" data-target="comment_boks_Raa"> Kommentere</li>
+										</ul>
 												<?php
 												//php kode for å lese hvor mange likes
-												$filref = fopen("likesUteliv/likerRaa.txt","r"); 
-												$likes = fgets($filref); 
+												$filref = fopen("likesUteliv/likerRaa.txt","r");
+												$likes = fgets($filref);
 												fclose($filref)
 												?>
 
@@ -874,9 +881,9 @@
 												if(isset($_POST['knappRaa']))
 												{
 
-												$likes++; 
-												$filref= fopen("likesUteliv/likerRaa.txt","w"); 
-												fwrite($filref, $likes); 
+												$likes++;
+												$filref= fopen("likesUteliv/likerRaa.txt","w");
+												fwrite($filref, $likes);
 												fclose($filref);
 
 												echo "<p class=tekst_like> Du og ".$likes. " andre liker Rå</p>";
@@ -888,7 +895,7 @@
 
 												}
 												?>
-										</ul>
+
 
 						<div class="comment_boks_Raa">
 							<div class="close_button"> X </div>
