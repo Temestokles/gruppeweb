@@ -36,10 +36,7 @@
 						<li class="comments" data-target="comment_boks_Yayas"> Kommentere</li>
 					</ul>
 
-				</td>
-			</tr>
-
-<tr>
+				
 
 	<td>
 			<img src="BilderWebb/plah.jpg" Alt="Bild fra restaurangen Plah" width="150"  height="90">
