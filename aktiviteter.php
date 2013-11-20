@@ -2,36 +2,6 @@
 <h2>AKTIVITETER</h2>
 
 <table>
-<tr>
-	<td>
-		<img src="./BilderWebb/kulturaktiviteter/kulturbygg.jpg" Alt="" width="150">
-	</td>
-	<td>
-		<p>
-			<strong>Kultureiendommer</strong>
-			<br />
-			Kulturetaten forvalter kulturbygg, kulturminner og historiske gårdsanlegg. Etaten fremskaffer lokaler til kunst- og kulturformål i Oslo og tilrettelegger for fornuftig bruk av historiske gårdsanlegg.
-			<br />
-		</p>
-		<div id="merinfoKultureiendommer">
-			<div class="close_button"> X </div>
-			<img src="./BilderWebb/kulturaktiviteter/kulturbygg.jpg" Alt="" width="250">
-			<p>
-
-				Kulturbygg og historiske gårdsanlegg leies ut på subsidierte vilkår, og inneholder kunst- og kulturaktiviteter av byomfattende karakter. Kulturetaten har 40 kultureiendommer med 64 bygninger. I tillegg kommer forvaltningsansvar for Middelalderbeltet på totalt på 90 743 m2 og feriekolonien på Hudøy med sine 64 ulike bygninger. Kulturetaten har ansvaret for drift, eiendomsutvikling, utleie, vedlikehold og rehabilitering av disse kultureiendommene. Det er også mulig å leie lokaler for kortere tidsrom, eksempelvis til foredrag, seminarer, bryllup og lignende.
-
-				Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a></p>
-			</div>
-		</td>
-	</tr>
-
-	<tr>
-		<td>
-			<ul>
-				<li class="lesMer" data-target="merinfoKultureiendommer">Les mer..</li>
-			</ul>
-		</td>
-	</tr>
 
 <tr>
 	<td>
@@ -45,14 +15,14 @@
 		<div id="merinfoSolli">
 			<div class="close_button"> X </div>
 			<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="200" height="120">
-			<p>
-			Solli Bowling er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
+
+			<p>Solli Bowling er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
 			Hallen rommer 11 baner hvor man enten kommer på drop-in eller man kan sikre seg plass ved å bestille i forveien.
 			<br><br>
 			I tillegg til bowling tilbyr vi også biljard og airhocey. I etasjen over bowlinghallen befinner Peppes Pizza seg,
 			og klassikeren på Solli har i en årrekke vært å kombinere Pizza og Bowling for på den måten å få en helaften på by`n.
 			<br><br>
-			Bilde og text hentet fra <a href="http://sollibowling.no/">Sollibowling.no</a>
+			Source og mer info:  <a href="http://sollibowling.no/">Sollibowling.no</a></p>
 			</div>
 		</td>
 	</tr>
@@ -82,13 +52,14 @@
 			trådløs internett fordelt på 700 stemningsfulle kvadratmeter i Oslo sentrum. Ta med vennene dine og nyt kvelden
 			i en behagelig atmosfære med god musikk.
 			<br><br>
-			Åpningstider
-			<ol><li>Mandag - Torsdag  17:00 - 01:00</li>
+			<strong>Åpningstider</strong></p>
+			<ol>
+			<li>Mandag - Torsdag  17:00 - 01:00</li>
 			<li>Fredag            17:00 - 03:00</li>
 			<li>Lørdag            15:00 - 03:00</li>
 			<li>Søndag            15:00 - 01:00</li>
 			</ol>
-			<p>Bilde og text hentet fra <a href="http://sollibowling.no/">Sollibowling.no</a></p>
+			<p>Source og mer info:  <a href="http://sollibowling.no/">Sollibowling.no</a></p>
 			</div>
 		</td>
 	</tr>
@@ -124,7 +95,7 @@
 					<br />Judo er en japansk kampidrett og bestr av kast og kontrollteknikker. Utøvere over 16 år lærer også armbend og kvelinger. Judo er verdens 7. største idrett med over 16 millioner utøvere på verdensbasis og har vært OL- gren siden 1964. Judo gir variert trening med balanse, koordinasjon, smidighet, bevegelighet og styrke. Det er lite skader, selv om det er en fullkontakt kampidrett..
 					<br />
 					Anbefalt alder for  starte med judo er 7-8 r.<br />
-					Source: <a href="http://www.oslojudoklubb.no/">www.oslojudoklubb.no</a>
+					Source og mer info:  <a href="http://www.oslojudoklubb.no/">www.oslojudoklubb.no</a>
 				</p>
 			</div>
 		</td>
@@ -137,27 +108,43 @@
 			</ul>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+				<img src="BilderWebb/aktiviteter/judo_clipart.jpg" Alt="Bilde av noen som klatrer." width="200">
+		</td>
 			<p><strong>Oslo Karateklubb</strong><br />
-				Oslo Karateklubb er Norges eldste Karate og Nanbudoklubb, grunnlagt i 1969 av Rune Hagen. Oslo Karateklubb er medlem av Norges idrettsforbund.
+				Oslo Karateklubb er Norges eldste Karate og Nanbudoklubb, grunnlagt i 1969 av Rune Hagen. Oslo Karateklubb er
+				medlem av Norges idrettsforbund.
 			<br />
 			</p>
 			<div id="merinfoKarate">
 				<div class="close_button"> X </div>
 				<img src="BilderWebb/aktiviteter/shotok3.gif" alt="Bilde av noen som gjennomfører et karatespark mot hodet" width="250">
 
-					<p>Hos oss kan du trene Nanbudo og Karate med erfarne instruktrer i et spennende og positivt milj, i  nye og innbydende lokaler. Vi har et tilbud til alle fra 7 r og oppover, om mlet er mosjon og helse eller toppidrett.
+					<p>Hos oss kan du trene Nanbudo og Karate med erfarne instruktrer i et spennende og positivt milj, i
+					nye og innbydende lokaler. Vi har et tilbud til alle fra 7 r og oppover, om mlet er mosjon og helse eller toppidrett.
 
-					<br />Respekt for det vi trener og menneskene vi omgås, både i og utenfor treningslokalet, er utgangspunkt for all trening i Oslo Karateklubb.
+					<br />Respekt for det vi trener og menneskene vi omgås, både i og utenfor treningslokalet, er utgangspunkt for all
+					trening i Oslo Karateklubb.
 
-					<br />Kampsport dreier seg ikke bare om  trene en idrett, men i stor grad om  f kontroll over bde kropp og sinn. Hos oss kan du lre deg noe som er bde nyttig og morsomt  og viktig.
+					<br />Kampsport dreier seg ikke bare om  trene en idrett, men i stor grad om  f kontroll over bde kropp og sinn.
+					Hos oss kan du lre deg noe som er bde nyttig og morsomt  og viktig.
 					<br />
-					Source: <a href="Source: http://www.oslokarateklubb.no/">www.oslokarateklubb.no</a>
+					Source og mer info:  <a href="Source: http://www.oslokarateklubb.no/">www.oslokarateklubb.no</a>
 				</p>
 			</div>
 		</td>
 	</tr>
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoKarate">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
 
-		<tr>
+	<tr>
 		<td>
 			<img src="BilderWebb/aktiviteter/691904_klatring.bredde.web.jpg" Alt="Bilde av noen som klatrer." width="200">
 		</td>
@@ -166,7 +153,7 @@
 				Klatreverket er Nordens strste og mestomfattende klatresenter, beliggede i Oslo sentrum. Her er det et tilbud til klatrere p alle niver, fra den som aldri fr har klatret til den som konkurrerer i verdensmesterskap. Veggene vre er opp til 14,6 meter hye, men det er ogs lavere vegger som er greiere  klatre p i begynnelsen. Vinkelen p veggene er fra sva (hellende utover) til meget bratt (overhengende) og teksturen er alt fra finrplater med friksjonsoverflate, til stpte vegger med fjell-lignende overflate. Fordelt over tre niver i hovedrommet, er det tauklatring, rappelltrn og omfattende buldrearealer.
 			<br />
 			</p>
-			<div id="merinfoAktiviteter">
+			<div id="merinfoKlatring">
 				<div class="close_button"> X </div>
 				<img src="BilderWebb/aktiviteter/691904_klatring.bredde.web.jpg" alt="Bilde av noen som klatrer" width="250">
 
@@ -178,34 +165,53 @@
 
 					<br />Klatreverket pnet i november 2006, og ble raskt landets mest beskte klatresenter. Ideen om Klatreverket kom da Vegg i Vegg og Villmarkshuset p Grnland gikk mot sin alderdom. Eierne er ivrige klatrere med erfaring blant annet derfra, i tillegg til lang fartstid med sportsklatring og fjellklatring generelt. Vi ville lage landets desidert beste klatresenter, og Klatreverket ble resultatet.
 					<br />
-					Source: <a href="http://klatreverket.no/">www.klatreverket.no</a>
+					Source og mer info:  <a href="http://klatreverket.no/">www.klatreverket.no</a>
 				</p>
 			</div>
 		</td>
 	</tr>
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoKlatring">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
 
-
-		<tr>
+	<tr>
 		<td>
 			<img src="BilderWebb/aktiviteter/tryvann_vinterpark_terrengpark1.jpg" Alt="Bilde av noen som klatrer." width="200">
 		</td>
 		<td>
 			<p><strong>OSLO VINTERPARK - TRYVANN</strong><br />
-				Tryvann Oslo Vinterpark ligger p toppen av Holmenkollen, bare 20 minutter fra Oslo sentrum. Her finnes 14 nedfarter og 7 heiser, hvorav 1 6-seters stolheis, og en 4-seters stolheise, lengste bakke er 1400 meter lang og anlegget har en fallhyde p 381 m. Tryvann har ogs eget omrde for barn og nybegynnere, stor terrengpark med halfpipe av internasjonal standard, utfordrende bakker, x-crosslype og cruisingbakker. Et kraftig snkanon-anlegg og 531 moh gjr at vi har normalsesong fra desember til medio april. Alle bakker er belyst for kveldskjring.
-			<br />
+				Tryvann Oslo Vinterpark ligger p toppen av Holmenkollen, bare 20 minutter fra Oslo sentrum.
+				Her finnes 14 nedfarter og 7 heiser, hvorav 1 6-seters stolheis, og en 4-seters stolheise,
+				lengste bakke er 1400 meter lang og anlegget har en fallhyde p 381 m.
 			</p>
-			<div id="merinfoAktiviteter">
+			<div id="merinfoTryvann">
 				<div class="close_button"> X </div>
 				<img src="BilderWebb/aktiviteter/tryvann_vinterpark_terrengpark1.jpg" alt="Bilde av noen som klatrer" width="250">
-				<br />
+				<p>Tryvann Oslo Vinterpark ligger p toppen av Holmenkollen, bare 20 minutter fra Oslo sentrum.
+				Her finnes 14 nedfarter og 7 heiser, hvorav 1 6-seters stolheis, og en 4-seters stolheise,
+				lengste bakke er 1400 meter lang og anlegget har en fallhyde p 381 m.
+				<br/><br/>
+				Tryvann har også eget område for barn og nybegynnere, stor terrengpark med halfpipe av
+				internasjonal standard, utfordrende bakker, x-crosslype og cruisingbakker. Et kraftig snøkanon-anlegg
+				og 531 moh gjr at vi har normalsesong fra desember til medio april.
+				Alle bakker er belyst for kveldskjring.
 
-
-					Source: <a href="http://www.oslovinterpark.no/">www.oslovinterpark.no</a>
+				Source og mer info:  <a href="http://www.oslovinterpark.no/">www.oslovinterpark.no</a>
 				</p>
 			</div>
 		</td>
 	</tr>
-
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoTryvann">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
 
 
 		<tr>
@@ -214,25 +220,35 @@
 		</td>
 		<td>
 			<p><strong>Bitraf</strong><br />
-				Bitraf er et hackerspace / makerspace i Oslo som er pent for hvem som helst 7 dager i uka. Kom innom om du er interessert i programmering, digital kunst, elektronikk, fresing og fabrikasjon, fri programvare, spillutvikling eller andre liknende aktiviteter.
+				Bitraf er et hackerspace / makerspace i Oslo som er pent for hvem som helst 7 dager i uka.
+				Kom innom om du er interessert i programmering, digital kunst, elektronikk, fresing og fabrikasjon,
+				fri programvare, spillutvikling eller andre liknende aktiviteter.
 			<br />
 			</p>
-			<div id="merinfoAktiviteter">
+			<div id="merinfoBitraf">
 				<div class="close_button"> X </div>
 				<img src="BilderWebb/aktiviteter/fwrecover.jpg" alt="Bilde av noen elektroniske komponenter og kretskort." width="250">
-				<br />
-					Jobb med egne prosjekter i et sosialt milj, hold eller delta p en workshop, et game jam, hackathon, bug squashing party eller et godt gammeldags LAN-party. Bitraf er fullstendig brukerstyrt, s du bestemmer hva som foregr. P dagtid sitter det typisk frilansere og entrepenrer og jobber her, og det kan du ogs.
+
+				<p>	Jobb med egne prosjekter i et sosialt milj, hold eller delta p en workshop, et game jam,
+					hackathon, bug squashing party eller et godt gammeldags LAN-party. Bitraf er fullstendig brukerstyrt,
+					s du bestemmer hva som foregr. P dagtid sitter det typisk frilansere og entrepenrer og jobber her,
+					og det kan du ogs.
 					<br />
 					<br /> Bitraf holder til i store lokaler ved Youngstorget (Youngs gate 6).
 
 					<br />
-					<br />Source: <a href="https://bitraf.no/">https://bitraf.no</a>
+					<br />Source og mer info:  <a href="https://bitraf.no/">https://bitraf.no</a>
 				</p>
 			</div>
-
-
 		</td>
+	</tr>
 
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoBitraf">Les mer..</li>
+			</ul>
+		</td>
 	</tr>
 
 	<tr>
@@ -244,11 +260,26 @@
 			Tradisjonsrikt bad i Oslo. Badet ble totalrenovert for noen år siden og fikk da nytt basseng og boblebad.
 			Bislet Bad har også tilbud med trening og velvære. Du finner badet i Pilestredet i Oslo sentrum. Anbefales!
 
+			<div id="merinfoBad">
+				<div class="close_button"> X </div>
+				<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="200" height="120">
+			<p>Tradisjonsrikt bad i Oslo. Badet ble totalrenovert for noen år siden og fikk da nytt basseng og boblebad.
+			Bislet Bad har også tilbud med trening og velvære. Du finner badet i Pilestredet i Oslo sentrum. Anbefales!
+
 			Her kan du slappe av samt trene i vakre gammeldagse omgivelser. Badet er av den gamle romersk inspirerte
 			typen og fredet av byantikvaren i Oslo. Bassenglengden er på 16,5 meter og selve badet er flott utsmykket.
-		</td>
-		</tr>
+			Source og mer info: <a href="http://sollibowling.no/">Sollibowling.no</a></p>
+			</p></div>
+			</td>
+	</tr>
 
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoBad">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
 
 </table>
 </section>
