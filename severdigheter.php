@@ -70,11 +70,7 @@
 
 	<tr>
 		<td>
-<<<<<<< HEAD
 			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150">
-=======
-			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150" height="110">
->>>>>>> 5d8d2ced7e4d37c4c3a2e41da4ff6e8e029c86e4
 		</td>
 		<td>
 			<p><strong>DET KONGELIGE SLOTT OG SLOTTSPARKEN</strong><br>
