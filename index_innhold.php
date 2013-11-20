@@ -12,7 +12,7 @@
 		</aside>
 
 		<figure id="Tiger">
-			<img src="BilderWebb/Tiger1.JPG" alt="bilde av Tiger på Oslo S" width="60%">
+			<img src="BilderWebb/Tiger1.JPG" alt="bilde av Tiger på Oslo S" width="450">
 		</figure>
 
 		<div>
@@ -25,7 +25,7 @@
 			</aside>
 
 			<figure id="OsloKart">
-				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="55%">
+				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="400">
 			</figure>
 
 		</div>	
