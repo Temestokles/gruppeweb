@@ -162,8 +162,23 @@ bading
 
 
 		</td>
-		Flere aktiviteter? fotball, fridrett, bading, kino
+
 	</tr>
+
+	<tr>
+		<td>
+			<img src="bislet.jpg" alt="bilde" width="200">
+		</td>
+		<td>
+			<p><strong>Bislet Bad</strong><br>
+			Tradisjonsrikt bad i Oslo. Badet ble totalrenovert for noen år siden og fikk da nytt basseng og boblebad.
+			Bislet Bad har også tilbud med trening og velvære. Du finner badet i Pilestredet i Oslo sentrum. Anbefales!
+
+			Her kan du slappe av samt trene i vakre gammeldagse omgivelser. Badet er av den gamle romersk inspirerte
+			typen og fredet av byantikvaren i Oslo. Bassenglengden er på 16,5 meter og selve badet er flott utsmykket.
+		</td>
+		</tr>
+
 
 </table>
 </section>
