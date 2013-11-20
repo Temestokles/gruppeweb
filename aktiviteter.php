@@ -8,7 +8,7 @@ bading
 
 <tr>
 	<td>
-		<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="200">
+		<img src="BilderWebb/aktiviteter/solli.jpg" alt="bilde" width="200">
 	</td>
 	<td>
 		<p><strong>Solli Bowling</strong><br>
@@ -22,7 +22,7 @@ bading
 
 <tr>
 	<td>
-		<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="200">
+		<img src="BilderWebb/aktiviteter/buddha.jpg" alt="bilde" width="200">
 	</td>
 	<td>
 		<p><strong>Buddha Biljard</strong><br>
