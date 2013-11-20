@@ -378,7 +378,7 @@
 
 
 		<tr>
-			<td><img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="100">
+			<td><img src="BilderWebb/blaaLogo.png.jpg" Alt="Bild fra utestedet Blå" width="100">
 			</td>
 
 				<td>	<p><strong>BLÅ</strong><br>
@@ -889,7 +889,7 @@
 
 												}
 												?>
-												
+
 						<div id="comment_boks_Raa">
 							<div class="close_button"> X </div>
 

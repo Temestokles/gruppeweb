@@ -617,7 +617,7 @@
 					</tr>
 
 <tr>
-	<td><img src="BilderWebb/ricebowl.png" Alt="Bild fra Rice bowl" width="150"  height="80">
+	<td><img src="BilderWebb/ricebowl.png.jpg" Alt="Bild fra Rice bowl" width="150"  height="80">
 
 	</td>
 
@@ -629,7 +629,7 @@
 			<div id="merinfoRice">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/ricebowl.png" Alt="Bild fra Rice bowl" width="180" height="150">
+				<img src="BilderWebb/ricebowl.png.jpg" Alt="Bild fra Rice bowl" width="180" height="150">
 			<p>Ricebowl har 54 sitteplasser til sammen så da gjelder det å komme først for å slippe køen.<br>
 			Ricebowl ligger også veldig sentralt og det gjør at du slipper å lete,<br>
 			og enklere finner man ikke så god mat.<br>
