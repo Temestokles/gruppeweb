@@ -4,8 +4,6 @@
 <table>
 
 
-bading
-
 <tr>
 	<td>
 		<img src="BilderWebb/aktiviteter/solli.jpg" alt="bilde" width="200">

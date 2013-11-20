@@ -17,34 +17,34 @@ $val = $loaddag->symbol['number'];
 switch ($val) {
 
 	case 1:
-	$pic = 'BilderWebb/weathersun.png';
+	$pic = 'BilderWebb/weathersun.png.jpg';
 	break;
 	case 2:
 	case 3:
-	$pic = 'BilderWebb/weathersuncloud.png';
+	$pic = 'BilderWebb/weathersuncloud.png.jpg';
 	break;
 	case 4:
 	case 15:
-	$pic = 'BilderWebb/weatherclouds.png';
+	$pic = 'BilderWebb/weatherclouds.png.jpg';
 	break;
     	case 5:
 	case 7:
     	case 9:
 	case 13:
-	$pic = 'BilderWebb/weatherrain.png';
+	$pic = 'BilderWebb/weatherrain.png.jpg';
 	break;
 	case 6:
 	case 11:
     	case 20:
     	case 22:
     	case 23:
-	$pic = 'BilderWebb/weatherbad.png';
+	$pic = 'BilderWebb/weatherbad.png.jpg';
 	break;
 	case 8:
 	case 9:
 	case 14:
 	case 22:
-	$pic = 'BilderWebb/weathersnow.png';
+	$pic = 'BilderWebb/weathersnow.png.jpg';
 	break;
 }
 
