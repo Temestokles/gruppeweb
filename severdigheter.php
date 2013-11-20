@@ -70,7 +70,8 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150">
+
+			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150" height="110">
 		</td>
 		<td>
 			<p><strong>DET KONGELIGE SLOTT OG SLOTTSPARKEN</strong><br>
