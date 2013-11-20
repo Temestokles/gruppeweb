@@ -184,7 +184,7 @@
 						<div class="form">
 							<?php
 							if(isset($_POST["DattraForm"])){
-								skrivKommentarUteliv("commentsDattra.txt", $_POST["navn"], $_POST["comment_text"]);
+								skrivKommentarRestauranter("commentsDattra.txt", $_POST["navn"], $_POST["comment_text"]);
 							}
 							?>
 
@@ -205,7 +205,7 @@
 									</form>
 								</div>
 								<?php
-								echo hentKommentarerUteliv("commentsDattra.txt");
+								echo hentKommentarerRestauranter("commentsDattra.txt");
 								?>
 
 							</div>
