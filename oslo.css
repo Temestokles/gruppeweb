@@ -216,7 +216,7 @@ font-size: 0.9em;
 	width:200%;
 	margin:0 0 0 -45px;
 	margin-top:-35px;
-	margin-bottom:10%;
+	margin-bottom:1%;
 
 }
 
@@ -239,7 +239,8 @@ font-size: 0.9em;
 .tekst_like{
 	color:#1669E6;
 	width:170%;
-	font-size:0.9em;  
+	font-size:0.9em; 
+	margin-top:1%;  
 }
 
 
