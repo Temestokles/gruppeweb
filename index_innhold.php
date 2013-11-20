@@ -25,10 +25,7 @@
 			</aside>
 
 			<figure id="OsloKart">
-<<<<<<< HEAD
-<<<<<<< HEAD
 				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="400">
-=======
 				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="450">
 >>>>>>> 30e456469c845ff23a1960e5ee5741982992797d
 =======
