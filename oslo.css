@@ -1201,14 +1201,56 @@ and (max-device-width : 480px) {
 
 	.container{
 		background-color: white;
-		width: 70%;
+		width: 100%;
 		/*border: 1px solid black;*/
-		margin: 0 auto;
-		padding-top: 2%;
+		margin:auto;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
 	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
 
 
 }
@@ -1220,15 +1262,56 @@ and (min-width : 321px) {
 
 	.container{
 		background-color: white;
-		width: 70%;
+		width: 100%;
 		/*border: 1px solid black;*/
-		margin: 0 auto;
-		padding-top: 2%;
+		margin:auto;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
 	}
+	.container img{
+		width: 150px;
+	}
 
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
 
 
 
@@ -1238,18 +1321,58 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 320px) {
 	/* Styles */
-
 	.container{
 		background-color: white;
-		width: 70%;
+		width: 100%;
 		/*border: 1px solid black;*/
-		margin: 0 auto;
-		padding-top: 2%;
+		margin:auto;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
 	}
+	.container img{
+		width: 150px;
+	}
 
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
 
 
 }
@@ -1263,14 +1386,58 @@ and (max-device-width : 1024px) {
 
 	.container{
 		background-color: white;
-		width: 70%;
+		width: 100%;
 		/*border: 1px solid black;*/
-		margin: 0 auto;
-		padding-top: 2%;
+		margin:auto;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
 	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
 
 }
 
@@ -1281,17 +1448,58 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 	/* Styles */
 
-
 	.container{
 		background-color: white;
-		width: 70%;
+		width: 100%;
 		/*border: 1px solid black;*/
-		margin: 0 auto;
-		padding-top: 2%;
+		margin:auto;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
 	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
 
 }
 
@@ -1301,17 +1509,58 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
 	/* Styles */
-
 	.container{
 		background-color: white;
-		width: 70%;
+		width: 100%;
 		/*border: 1px solid black;*/
-		margin: 0 auto;
-		padding-top: 2%;
+		margin:auto;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
 	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
 
 
 }
@@ -1321,17 +1570,58 @@ and (orientation : portrait) {
 and (min-width : 1224px) {
 	/* Styles */
 
-
 	.container{
 		background-color: white;
-		width: 70%;
+		width: 100%;
 		/*border: 1px solid black;*/
-		margin: 0 auto;
-		padding-top: 2%;
+		margin:auto;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
 	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
 
 
 
@@ -1341,16 +1631,58 @@ and (min-width : 1224px) {
 @media only screen 
 and (min-width : 1824px) {
 	/* Styles */
-
 	.container{
 		background-color: white;
-		width: 70%;
+		width: 100%;
 		/*border: 1px solid black;*/
-		margin: 0 auto;
-		padding-top: 2%;
+		margin:auto;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
 	}
 
 
@@ -1367,21 +1699,25 @@ only screen and (min-device-pixel-ratio : 1.5) {
 		width: 100%;
 		/*border: 1px solid black;*/
 		margin:auto;
-		padding-top: 2%;
+		padding-top: 5%;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 0.9em;
 		box-shadow:0px -3px 5px 5px #FFF;
 	}
-
+	.container img{
+		width: 150px;
+	}
 
 	header{
+		
 		position: absolute;
-		width:100%;	
+		width:95.8%;	
 	}
 	.header-cont{
+		
 		width:100%;
 		position: absolute;
-		top:200px;
+		top:70px;
 		height: 30px;
 		margin:0 auto;
 	}
@@ -1389,24 +1725,30 @@ only screen and (min-device-pixel-ratio : 1.5) {
 		width: 100%;
 		left: 0;
 		right:0;
-		margin-top: 0px;
+		margin-top: 7px;
 		list-style-type: none;
 	}
-
+	#overskrift {
+		height: 100px;
+	}
 	#overskrift h1{
-		float:center;
+		float:left;
+		position: absolute;
+		margin-top:8px;
 		font-size: 2.5em;
 		font-family:"Georgia", sans-serif;
 		color:white;
 		text-shadow:7px 4px 3px #333333;
 		padding-left:6.5%;
-		margin-top:-20px; 
+		padding-top:10px; 
 	}
 
-	#weather {
-		position: absolute;
-		display:none;
-	}
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
+
 
 
 }
