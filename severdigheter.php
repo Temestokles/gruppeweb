@@ -71,8 +71,12 @@
 	<tr>
 		<td>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150" height="110">
 
+=======
+			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150">
+>>>>>>> 1039e7c6466f78237ea030f57f6e2ab16f337554
 =======
 			<img src="BilderWebb/slottet.jpg" alt="Bilde av Det kongelige slott" width="150">
 >>>>>>> 1039e7c6466f78237ea030f57f6e2ab16f337554
