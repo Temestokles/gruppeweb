@@ -279,7 +279,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Horgans{
+#comment_boks_Horgans{
 	display:none;
 	left:25%;
 	width:50%;
@@ -308,7 +308,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Vulkan{
+#comment_boks_Vulkan{
 	display:none;
 	left:25%;
 	width:50%;
@@ -339,7 +339,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Nivou{
+#comment_boks_Nivou{
 	display:none;
 	left:25%;
 	width:50%;
@@ -370,7 +370,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Jaeger{
+#comment_boks_Jaeger{
 	display:none;
 	left:25%;
 	width:50%;
@@ -400,7 +400,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Blaa{
+#comment_boks_Blaa{
 	display:none;
 	left:25%;
 	width:50%;
@@ -430,7 +430,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Vu{
+#comment_boks_Vu{
 	display:none;
 	left:25%;
 	width:50%;
@@ -460,7 +460,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Nox{
+#comment_boks_Nox{
 	display:none;
 	left:25%;
 	width:50%;
@@ -490,7 +490,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_So{
+#comment_boks_So{
 	display:none;
 	left:25%;
 	width:50%;
@@ -520,7 +520,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Villa{
+#comment_boks_Villa{
 	display:none;
 	left:25%;
 	width:50%;
@@ -550,7 +550,7 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.comment_boks_Raa{
+#comment_boks_Raa{
 	display:none;
 	left:25%;
 	width:50%;
