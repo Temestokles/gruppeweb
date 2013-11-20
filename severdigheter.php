@@ -54,7 +54,8 @@
 				<img src="BilderWebb/holmenkollen.jpg" alt="Bilde av Holmenkollbakken" width="250">
 				<p>Holmenkollbakken er blitt ombygd til sammen 19 ganger, siste gang foran ski-VM i 2011.
 					Bakkerekorden holdes i dag av østeriske Andreas Kofler og er på 141 meter.<br>
-					Hentet fra: <a href="http://www.aktivioslo.no/guide/severdigheter/" target="blank">www.aktivioslo.no</a>
+					Hentet fra: <a href="http://www.aktivioslo.no/guide/severdigheter/" target="blank">www.aktivioslo.no</a><br>
+					Bilde: <a href="http://www.holmenkollen.oslo.kommune.no/getfile.php/Webside%20forutbyggingsprosjektet%20i%20Holmenkollen%20til%20VM%202011%20(HKP)/Internett%20(HKP)/Bilder/Holmenkollbakken%20januar%2009.JPG" target="blank">www.holmenkollen.oslo.kommune.no</a>
 				</p>
 			</div>
 		</td>
@@ -92,7 +93,8 @@
 					<br>Slottsparken er en av hovedstadens første, store parker. 
 					Den omgir Slottet på alle kanter og preges av grønne gressbakker og velvoksne trær. 
 					Parken ble anlagt parallelt med byggingen av Slottet, og er basert på naturidealene som var rådende for hagekunsten i Europa midt på 1800-tallet.
-					Hentet fra: <a href="http://www.kongehuset.no/seksjon.html?tid=27160&amp;sek=26983" target="blank">www.kongehuset.no</a>
+					Hentet fra: <a href="http://www.kongehuset.no/seksjon.html?tid=27160&amp;sek=26983" target="blank">www.kongehuset.no</a><br>
+					Bilde: <a href="http://www.byggutengrenser.no/filer/imagecache/full/images/det_kongelige_slott_original.jpg" target="blank">www.byggutengrenser.no</a>
 				</p>
 			</div>
 		</td>
@@ -123,7 +125,8 @@
 				<p>Oslo domkirke (tidligere Vår Frelsers kirke) ble innviet i 1697 som byens tredje domkirke. 
 					Opprinnelig bygget i barokk stil fikk kirken i 1850 nygotisk interiør. 
 					I 1950 ble kirken restaurert på ny, og ført tilbake til sitt opprinnelige barokke interiør.<br>
-					Hentet fra: <a href="http://www.oslodomkirke.no/artikler/1111/om-oslo-domkirke/" target="blank">www.oslodomkirke.no</a>
+					Hentet fra: <a href="http://www.oslodomkirke.no/artikler/1111/om-oslo-domkirke/" target="blank">www.oslodomkirke.no</a><br>
+					Bilde: <a href="http://upload.wikimedia.org/wikipedia/commons/c/c8/Oslo_Cathedral.jpg" target="blank">en.wikipedia.org</a>
 				</p>
 			</div>
 		</td>
@@ -153,7 +156,8 @@
 				<img src="BilderWebb/frognerseteren.jpg" alt="Bilde av frognerseteren" width="250">
 				<p>Til seteren hørte en del av skogen i Nordmarka, tidligere kjent som Trevollskogen og nå som Frognerseterskogen. 
 					Siden 1891 har det vært drevet restaurant på eiendommen som serverer tradisjonell norsk mat. Frognerseteren og Frognerseterskogen ble solgt til Christiania kommune i 1889 og ble den første kommunalt eide skogen.<br>
-					Hentet fra: <a href="http://no.wikipedia.org/wiki/Frognerseteren" target="blank">wikipedia</a>
+					Hentet fra: <a href="http://no.wikipedia.org/wiki/Frognerseteren" target="blank">wikipedia</a><br>
+					Bilde: <a href="http://ds-lands.com/data_images/famous_places/frognerseteren/frognerseteren-05.jpg" target="blank">www.ds-lands.com/places/frognerseteren.html</a>
 				</p>
 			</div>
 		</td>
