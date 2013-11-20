@@ -106,9 +106,41 @@
 				<li class="lesMer" data-target="merinfoPlah">Les mer..</li>
 				<li class="comments" data-target="comment_boks_Plah"> Kommentere</li>
 		</ul>
+			<div id="comment_boks_Plah">
+							<div class="close_button"> X </div>
 
-	</td>
-</tr>
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["PlahForm"])){
+								skrivKommentarRestauranter("commentsPlah.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="PlahForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsPlah.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 </table>
 
 		<h2> SPANSKT</h2>
@@ -144,6 +176,42 @@
 					<li class="comments" data-target="comment_boks_Dattra"> Kommentere</li>
 				</ul>
 
+				<div id="comment_boks_Dattra">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["DattraForm"])){
+								skrivKommentarUteliv("commentsDattra.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="DattraForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerUteliv("commentsDattra.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
+				
 
 				<tr>
 					<td>	<img src="BilderWebb/delikatessen.jpg" Alt="Bild på inngang til delikatessen" width="150"  height="90">
@@ -172,7 +240,43 @@
 								<li class="lesMer" data-target="merinfoDelikatessen"> Les mer..</li>
 								<li class="comments" data-target="comment_boks_Delikatessen"> Kommentere</li>
 							</ul>
-						</table>
+
+					<div id="comment_boks_Delikatessen">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["delikatessenForm"])){
+								skrivKommentarRestauranter("commentsDelikatessen.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="delikatessenForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsDelikatessen.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
+	</table>
 
 	<h2> KINESISKT</h2>
 
@@ -206,9 +310,41 @@
 				<li class="lesMer" data-target="merinfoDinner"> Les mer..</li>
 				<li class="comments" data-target="comment_boks_Dinner"> Kommentere</li>
 		</ul>
+				<div id="comment_boks_Dinner">
+						<div class="close_button"> X </div>
 
-	</td>
-</tr>
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["dinnerForm"])){
+								skrivKommentarRestauranter("commentsDinner.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="dinnerForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsDinner.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 
 
 <tr>
@@ -239,8 +375,41 @@
 				<li class="lesMer" data-target="merinfoBambus"> Les mer..</li>
 				<li class="comments" data-target="comment_boks_Bambus"> Kommentere</li>
 		</ul>
-	</td>
-</tr>
+				<div id="comment_boks_Bambus">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["bambusForm"])){
+								skrivKommentarRestauranter("commentsBambus.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="bambusForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsBambus.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 </table>
 
 	<h2> JAPANSKT</h2>
@@ -275,8 +444,41 @@
 					<li class="comments" data-target="comment_boks_Bislett"> Kommentere</li>
 				</ul>
 
-			</td>
-		</tr>
+						<div id="comment_boks_Bislett">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["bislettForm"])){
+								skrivKommentarRestauranter("commentsBislett.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="bislettForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsBislett.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 	</table>
 
 	<h2>BUDGET</h2>
@@ -312,9 +514,41 @@
 				<li class="lesMer" data-target="merinfoMemphis"> Les mer..</li>
 				<li class="comments" data-target="comment_boks_Memphis"> Kommentere</li>
 		</ul>
+				<div id="comment_boks_Memphis">
+						<div class="close_button"> X </div>
 
-	</td>
-</tr>
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["memphisForm"])){
+								skrivKommentarRestauranter("commentsMemphis.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="memphisForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsMemphis.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 
 <tr>
 	<td><img src="BilderWebb/punjab.jpg" Alt="Bild fra punjab Tandoori" width="150"  height="90">
@@ -346,8 +580,41 @@
 				<li class="lesMer" data-target="merinfoPunjab"> Les mer..</li>
 				<li class="comments" data-target="comment_boks_Punjab"> Kommentere</li>
 		</ul>
-	</td>
-</tr>
+				<div id="comment_boks_Punjab">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["punjabForm"])){
+								skrivKommentarRestauranter("commentsPunjab.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="punjabForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsPunjab.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 
 <tr>
 	<td><img src="BilderWebb/ricebowl.png" Alt="Bild fra Rice bowl" width="150"  height="80">
@@ -377,7 +644,41 @@
 				<li class="lesMer" data-target="merinfoRice"> Les mer..</li>
 				<li class="comments" data-target="comment_boks_Rice"> Kommentere</li>
 		</ul>
-</tr>
+				<div id="comment_boks_Rice">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["riceForm"])){
+								skrivKommentarRestauranter("commentsRice.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="riceForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsRice.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 </table>
 
 	<h2> EKSLUSIVT</h2>
@@ -386,7 +687,7 @@
 
 	<tr>
 
-		<td><img src="BilderWebb/klosteret-logo.png" Alt="Loggo fra klosteret" width="120"  height="90">
+		<td><img src="BilderWebb/klosteret-logo.png.jpg" Alt="Loggo fra klosteret" width="120"  height="90">
 
 		</td>
 
@@ -399,7 +700,7 @@
 			<div id="merinfoKlostret">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/klosteret-logo.png" Alt="Loggo fra klosteret" width="100" height="110">
+				<img src="BilderWebb/backup/klosteret-logo.png" Alt="Loggo fra klosteret" width="100" height="110">
 				<p>Klosteret er et perfekt sted til å ta med din partner på. Romantisk atmosfär.<br>
 					Adresse: Fredensborgveien 13. For mer info, gå in på <a href="http://www.klosteret.no" target="blank"> http://www.klosteret.no</a></p>
 				</div>
@@ -412,8 +713,42 @@
 					<li class="lesMer" data-target="merinfoKlostret"> Les mer..</li>
 					<li class="comments" data-target="comment_boks_Klosteret"> Kommentere</li>
 				</ul>
-			</td>
-		</tr>
+
+					<div id="comment_boks_Klosteret">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["klosteretForm"])){
+								skrivKommentarRestauranter("commentsKlosteret.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="klosteretForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsKlosteret.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 
 		<tr>
 			<td><img src="BilderWebb/nodee.jpg" Alt="Bild fra Nodee Asian cooking" width="150"  height="90">
@@ -442,12 +777,46 @@
 						<li class="lesMer" data-target="merinfoNodee"> Les mer..</li>
 						<li class="comments" data-target="comment_boks_Nodee"> Kommentere</li>
 					</ul>
-				</td>
-			</tr>
+
+				<div id="comment_boks_Nodee">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["nodeeForm"])){
+								skrivKommentarRestauranter("commentsNodee.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="nodeeForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsNodee.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 
 			<tr>
 
-				<td><img src="BilderWebb/alexsushi.png" Alt="Loggo Alex sushi" width="150"  height="90">
+				<td><img src="BilderWebb/alexsushi.png.jpg" Alt="Loggo Alex sushi" width="150"  height="90">
 
 				</td>
 
@@ -458,7 +827,7 @@
 					<div id="merinfoAlex">
 						<div class="close_button"> X </div>
 
-						<img src="BilderWebb/alexsushi.png" Alt="Loggo Alex sushi" width="180" height="110">
+						<img src="BilderWebb/alexsushi.png.jpg" Alt="Loggo Alex sushi" width="180" height="110">
 						<p> Alex sushi håller till på to steder i Oslo. En på tjuvholmen og en på Solli plass.<br>
 							For mer info, gå in på <a href="http://www.alexsushi.no" target="blank"> www.alexsushi.no</a></p>
 						</div>
@@ -472,8 +841,41 @@
 							<li class="comments" data-target="comment_boks_Alex"> Kommentere</li>
 						</ul>
 
-					</td>
-				</tr>
+					<div id="comment_boks_Alex">
+						<div class="close_button"> X </div>
+
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["alexForm"])){
+								skrivKommentarRestauranter("commentsAlex.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="alexForm">
+									</form>
+								</div>
+								<?php
+								echo hentKommentarerRestauranter("commentsAlex.txt");
+								?>
+
+							</div>
+						</td>
+					</tr>
 
 
 </table>
