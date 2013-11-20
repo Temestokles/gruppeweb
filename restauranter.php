@@ -36,7 +36,41 @@
 						<li class="comments" data-target="comment_boks_Yayas"> Kommentere</li>
 					</ul>
 
-				
+					<div id="comment_boks_Yayas">
+						<div class="close_button"> X </div>
+						
+						<h2> Skriv inn her</h2>
+
+						<div class="form">
+							<?php
+							if(isset($_POST["YayasForm"])){
+								skrivKommentarRestauranter("commentsYayas.txt", $_POST["navn"], $_POST["comment_text"]);
+							}
+							?>
+
+							<form action="?page=2" method="post">
+
+								<table>
+									<tr>
+										<td> <strong> Ditt navn</strong> <br>
+											<input type="text" name="navn"/><br></td>
+										</tr>
+
+										<tr>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+												<input type="submit" name="knapp1" Value="Send"/></td>
+											</tr>
+										</table>
+										<input type="hidden" name="YayasForm">
+									</form>
+							</div>
+								<?php
+								echo hentKommentarerREstauranter("commentsYayas.txt");
+								?>
+
+						</div>
+					</td>
+				</tr>
 
 	<td>
 			<img src="BilderWebb/plah.jpg" Alt="Bild fra restaurangen Plah" width="150"  height="90">
