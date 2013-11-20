@@ -2,33 +2,103 @@
 <h2>AKTIVITETER</h2>
 
 <table>
+<tr>
+	<td>
+		<img src="./BilderWebb/kulturaktiviteter/kulturbygg.jpg" Alt="" width="150">
+	</td>
+	<td>
+		<p>
+			<strong>Kultureiendommer</strong>
+			<br />
+			Kulturetaten forvalter kulturbygg, kulturminner og historiske gårdsanlegg. Etaten fremskaffer lokaler til kunst- og kulturformål i Oslo og tilrettelegger for fornuftig bruk av historiske gårdsanlegg.
+			<br />
+		</p>
+		<div id="merinfoKultureiendommer">
+			<div class="close_button"> X </div>
+			<img src="./BilderWebb/kulturaktiviteter/kulturbygg.jpg" Alt="" width="250">
+			<p>
 
+				Kulturbygg og historiske gårdsanlegg leies ut på subsidierte vilkår, og inneholder kunst- og kulturaktiviteter av byomfattende karakter. Kulturetaten har 40 kultureiendommer med 64 bygninger. I tillegg kommer forvaltningsansvar for Middelalderbeltet på totalt på 90 743 m2 og feriekolonien på Hudøy med sine 64 ulike bygninger. Kulturetaten har ansvaret for drift, eiendomsutvikling, utleie, vedlikehold og rehabilitering av disse kultureiendommene. Det er også mulig å leie lokaler for kortere tidsrom, eksempelvis til foredrag, seminarer, bryllup og lignende.
+
+				Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a></p>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoKultureiendommer">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
 
 <tr>
 	<td>
-		<img src="BilderWebb/aktiviteter/solli.jpg" alt="bilde" width="200">
+		<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="200" height="120">
 	</td>
 	<td>
 		<p><strong>Solli Bowling</strong><br>
-		Solli Bowling er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
-		Hallen rommer 11 baner hvor man enten kommer på drop-in eller man kan sikre seg plass ved å bestille i forveien.
-		I tillegg til bowling tilbyr vi også biljard og airhocey. I etasjen over bowlinghallen befinner Peppes Pizza seg,
-		og klassikeren på Solli har i en årrekke vært å kombinere Pizza og Bowling for på den måten å få en helaften på by`n.
-	</td>
-</tr>
+			Solli Bowling er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
+			Hallen rommer 11 baner hvor man enten kommer på drop-in eller man kan sikre seg plass ved å bestille i forveien.
+		</p>
+		<div id="merinfoSolli">
+			<div class="close_button"> X </div>
+			<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="200" height="120">
+			<p>
+			Solli Bowling er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
+			Hallen rommer 11 baner hvor man enten kommer på drop-in eller man kan sikre seg plass ved å bestille i forveien.
+			<br><br>
+			I tillegg til bowling tilbyr vi også biljard og airhocey. I etasjen over bowlinghallen befinner Peppes Pizza seg,
+			og klassikeren på Solli har i en årrekke vært å kombinere Pizza og Bowling for på den måten å få en helaften på by`n.
+			<br><br>
+			Bilde og text hentet fra <a href="http://sollibowling.no/">Sollibowling.no</a>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoSolli">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
 
 
 <tr>
 	<td>
-		<img src="BilderWebb/aktiviteter/buddha.jpg" alt="bilde" width="200">
+		<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="200">
 	</td>
 	<td>
 		<p><strong>Buddha Biljard</strong><br>
 		Buddha Biljard er Oslo’s feteste biljardlounge og sportsbar med 13 biljardbord, storskjerm, gratis dart og
 		trådløs internett fordelt på 700 stemningsfulle kvadratmeter i Oslo sentrum. Ta med vennene dine og nyt kvelden
-		i en behagelig atmosfære med god musikk.
-	</td>
-</tr>
+		i en behagelig atmosfære med god musikk.</p>
+<div id="merinfoBhudda">
+			<div class="close_button"> X </div>
+			<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="200">
+			<p>	Buddha Biljard er Oslo’s feteste biljardlounge og sportsbar med 13 biljardbord, storskjerm, gratis dart og
+			trådløs internett fordelt på 700 stemningsfulle kvadratmeter i Oslo sentrum. Ta med vennene dine og nyt kvelden
+			i en behagelig atmosfære med god musikk.
+			<br><br>
+			Åpningstider
+			<ol><li>Mandag - Torsdag  17:00 - 01:00</li>
+			<li>Fredag            17:00 - 03:00</li>
+			<li>Lørdag            15:00 - 03:00</li>
+			<li>Søndag            15:00 - 01:00</li>
+			</ol>
+			<p>Bilde og text hentet fra <a href="http://sollibowling.no/">Sollibowling.no</a></p>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<ul>
+				<li class="lesMer" data-target="merinfoBhudda">Les mer..</li>
+			</ul>
+		</td>
+	</tr>
 
 
 	<tr>
@@ -41,7 +111,7 @@
 				Vi var den gang 17 medlemmer. Til  begynne med hadde vi ikke egen dojo. De frste tre mnedene trente vi p Kristelig Gymnas p lnte brytematter. Vi var en ivrig treningsvillig gjeng som hadde mye moro. Deretter fikk vi lne en lite rom med matter i Ekeberghallen, fr vi fikk leie dojo i kjelleren p Skullerudstua. Der holdt vi til fram til 2007 fr vi endelig fikk egne lokaler i gamle gymsal p Bler skole.
 			<br />
 			</p>
-			<div id="merinfoAktiviteter">
+			<div id="merinfoJudo">
 				<div class="close_button"> X </div>
 				<img src="BilderWebb/aktiviteter/judo_clipart.jpg" alt="Bilde av noen som gjennomfører et judokast" width="200">
 
@@ -60,16 +130,18 @@
 		</td>
 	</tr>
 
-		<tr>
+	<tr>
 		<td>
-			<img src="BilderWebb/aktiviteter/shotok3.gif" Alt="Bilde av noen som gjennomfører et karatespark mot hodet" width="200">
+			<ul>
+				<li class="lesMer" data-target="merinfoJudo">Les mer..</li>
+			</ul>
 		</td>
-		<td>
+	</tr>
 			<p><strong>Oslo Karateklubb</strong><br />
 				Oslo Karateklubb er Norges eldste Karate og Nanbudoklubb, grunnlagt i 1969 av Rune Hagen. Oslo Karateklubb er medlem av Norges idrettsforbund.
 			<br />
 			</p>
-			<div id="merinfoAktiviteter">
+			<div id="merinfoKarate">
 				<div class="close_button"> X </div>
 				<img src="BilderWebb/aktiviteter/shotok3.gif" alt="Bilde av noen som gjennomfører et karatespark mot hodet" width="250">
 
