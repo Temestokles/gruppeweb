@@ -66,11 +66,6 @@
 						}
 						?>
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5428fec2eae8d678965eab4df733033578fd8bae
 					<div id="comment_boks_Horgans">
 						<div class="close_button"> X </div>
 
@@ -165,10 +160,6 @@
 									}
 									?>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5428fec2eae8d678965eab4df733033578fd8bae
 								<div id="comment_boks_Vulkan">
 									<div class="close_button"> X </div>
 
@@ -258,10 +249,6 @@
 												}
 												?>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5428fec2eae8d678965eab4df733033578fd8bae
 							<div id="comment_boks_Nivou">
 								<div class="close_button"> X </div>
 
@@ -447,10 +434,6 @@
 									}
 									?>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5428fec2eae8d678965eab4df733033578fd8bae
 								<div id="comment_boks_Blaa">
 									<div class="close_button"> X </div>
 
@@ -545,10 +528,6 @@
 												}
 												?>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5428fec2eae8d678965eab4df733033578fd8bae
 											<div id="comment_boks_Vu">
 												<div class="close_button"> X </div>
 
@@ -910,11 +889,7 @@
 
 												}
 												?>
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 5428fec2eae8d678965eab4df733033578fd8bae
+												
 						<div id="comment_boks_Raa">
 							<div class="close_button"> X </div>
 
