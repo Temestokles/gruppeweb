@@ -27,10 +27,9 @@
 			<figure id="OsloKart">
 				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="400">
 				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="450">
->>>>>>> 30e456469c845ff23a1960e5ee5741982992797d
-=======
+
+
 				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="450">
->>>>>>> 5428fec2eae8d678965eab4df733033578fd8bae
 			</figure>
 
 		</div>
