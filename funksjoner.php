@@ -46,10 +46,10 @@ function hentKommentarerRestauranter($filnavn){
 		die("Du må spesifisere filnavn");
 	}
 
-	$fil = count(file("CommentsUteliv/".$filnavn));
+	$fil = count(file("CommentsRestauranter/".$filnavn));
 
 	if($fil != 0){
-		$json = json_decode(file_get_contents("CommentsUteliv/".$filnavn));
+		$json = json_decode(file_get_contents("CommentsRestauranter/".$filnavn));
 
 		$kommentarHTML = "";
 
@@ -77,9 +77,9 @@ function skrivKommentarRestauranter($filnavn, $navn, $kommentar){
 		die("Du må kalle på skrivKommentar-funksjonen riktig");
 	}
 
-	$kommentarer = json_decode(file_get_contents("CommentsUteliv/".$filnavn), true);
+	$kommentarer = json_decode(file_get_contents("CommentsRestauranter/".$filnavn), true);
 	$kommentarer[] = array("navn" => $navn, "comment_text" => $kommentar);
 
-	file_put_contents("CommentsUteliv/".$filnavn, json_encode($kommentarer));
+	file_put_contents("CommentsRestauranter/".$filnavn, json_encode($kommentarer));
 }
 ?>
