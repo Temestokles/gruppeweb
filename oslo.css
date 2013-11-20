@@ -341,12 +341,12 @@ input {
 #comment_boks_Nivou{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
 	padding-bottom:5%;
-	top:70%;
+	top:120%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -372,12 +372,12 @@ input {
 #comment_boks_Jaeger{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
 	padding-bottom:5%;
-	top:100%;
+	top:140%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -402,12 +402,12 @@ input {
 #comment_boks_Blaa{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
 	padding-bottom:5%;
-	top:120%;
+	top:160%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -432,12 +432,12 @@ input {
 #comment_boks_Vu{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
 	padding-bottom:5%;
-	top:150%;
+	top:220%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -462,12 +462,12 @@ input {
 #comment_boks_Nox{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
 	padding-bottom:5%;
-	top:200%;
+	top:270%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -492,12 +492,12 @@ input {
 #comment_boks_So{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
 	padding-bottom:5%;
-	top:210%;
+	top:280%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -522,12 +522,12 @@ input {
 #comment_boks_Villa{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
 	padding-bottom:5%;
-	top:230%;
+	top:330%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -552,12 +552,12 @@ input {
 #comment_boks_Raa{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
 	padding-bottom:5%;
-	top:270%;
+	top:360%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
