@@ -248,8 +248,9 @@ font-size: 0.9em;
 
 
 .form {
-	margin-left:25%;
+	margin-left:15%;
 	margin-right:25%;
+	width:30%;
 
 }
 
@@ -282,11 +283,10 @@ input {
 #comment_boks_Horgans{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
-	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:2%;
 	top:50%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -311,12 +311,11 @@ input {
 #comment_boks_Vulkan{
 	display:none;
 	left:25%;
-	width:50%;
+	width:40%;
 	background-color: white;
 	position:absolute;
-	padding-top:5%;
-	padding-bottom:5%;
-	top:50%;
+	padding-bottom:2%;
+	top:70%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
