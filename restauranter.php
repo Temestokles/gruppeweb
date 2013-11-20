@@ -1,17 +1,18 @@
-
 <section class="restaurants main">
 
+	<h2>THAILANSKT</h2>
+
 	<table>
-		<h2>THAILANSKT</h2>
+
 		<tr>
-			
-			<td> 	
+
+			<td>
 				<img src="BilderWebb/Yayas.JPG" Alt="Bild fra Yayas" width="150"  height="90">
 			</td>
 
 			<td>	<p><strong>YAYAS</strong><br>
-				På restaurangen Yayas kan du oppleve Thailand i Oslo. En atmosphere som må oppleves.<br> 
-				Bra variert mat, som ikke er alltfor kryddet. Hvis man ønsker mer kryddet mat så er det mulig og be om det. 
+				På restaurangen Yayas kan du oppleve Thailand i Oslo. En atmosphere som må oppleves.<br>
+				Bra variert mat, som ikke er alltfor kryddet. Hvis man ønsker mer kryddet mat så er det mulig og be om det.
 				<br></p>
 
 
@@ -28,19 +29,19 @@
 			</tr>
 
 
-			<tr> 
+			<tr>
 				<td>
 					<ul>
 						<li class="lesMer" data-target="merinfoYayas">Les mer..</li>
 						<li class="comments" data-target="comment_boks_Yayas"> Kommentere</li>
-						<ul>
+					</ul>
 
-						</td>
-					</tr>
+				</td>
+			</tr>
 
 <tr>
 
-	<td> 
+	<td>
 			<img src="BilderWebb/plah.jpg" Alt="Bild fra restaurangen Plah" width="150"  height="90">
 	</td>
 
@@ -48,15 +49,15 @@
 			Plah Restaurant åpnet dørene 7. januar 2004, som første moderne thai i Skandinavia,<br>
 			og er fremdeles den eneste i Norge. Man kan spise en stor meny i restauranten, eller street food i baren.
 			<br></p>
-	
-	
+
+
 			<div id="merinfoPlah">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/plah.jpg" Alt="Bild fra restaurangen Plah" width="200"  height="130">
 			<p>Denne variasjonen har ført til at Plah bar og restaurant har blitt et mekka for matinteresserte,<br>
 			 og har gjennom årene fått mye god media omtale.<br>
-			24. juni 2013 utvidet Plah med egen Street Food Bar, vegg i vegg med Plah Restaurant<br/> 
+			24. juni 2013 utvidet Plah med egen Street Food Bar, vegg i vegg med Plah Restaurant<br/>
 			Plah Bar er en moderne gastrobar med cocktails og Street Food fra Thailand og Sørøst Asia.<br>
 			Stilen er uformell og avslappet. Her bestiller man flere retter som man deler seg imellom eller <br>
 			velger en av to ferdigkomponerte menyer for hele bordet. I Plah Bar, skjenker man vinen selv, drikkr øl eller spennende cocktails.<br>
@@ -66,19 +67,21 @@
 </tr>
 
 
-<tr> 
+<tr>
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoPlah">Les mer..</li>
 				<li class="comments" data-target="comment_boks_Plah"> Kommentere</li>
-		<ul>
-				
+		</ul>
+
 	</td>
 </tr>
 </table>
 
+		<h2> SPANSKT</h2>
+
 <table>
-	<h2> SPANSKT</h2>
+
 	<tr>
 
 		<td> 	<img src="BilderWebb/Tapas.JPG" Alt="Bild på tapas fra Dattra" width="150"  height="90">
@@ -110,7 +113,7 @@
 
 
 				<tr>
-					<td>	<img src="BilderWebb/delikatessen.jpg" Alt="Bild på inngang til delikatessen" width="150"  height="90"> 
+					<td>	<img src="BilderWebb/delikatessen.jpg" Alt="Bild på inngang til delikatessen" width="150"  height="90">
 
 					</td>
 
@@ -136,12 +139,14 @@
 								<li class="lesMer" data-target="merinfoDelikatessen"> Les mer..</li>
 								<li class="comments" data-target="comment_boks_Delikatessen"> Kommentere</li>
 							</ul>
-						</table>					
+						</table>
+
+	<h2> KINESISKT</h2>
 
 <table>
-	<h2> KINESISKT</h2>
-<tr>	
-		
+
+<tr>
+
 	<td> <img src="BilderWebb/dinner.jpg" Alt="Bild fra restauranten Dinner" width="150"  height="90">
 
 	</td>
@@ -150,8 +155,8 @@
 			Dinner Restaurant har servert mat fra det Szechuanske- og Kantonesiske kjøkken i hjertet av Oslo siden 1989 <br>
 			og er stolte av å fremdeles tilby våre gjester en spennende reise i Kinesisk matkultur.
 			</p>
-			
-			<div id="merinfoDinner"> 
+
+			<div id="merinfoDinner">
 				<div class="close_button"> X </div>
 
 				<img src="BilderWebb/dinner.jpg" Alt="Bild fra restauranten Dinner" width="200"  height="140">
@@ -168,7 +173,7 @@
 				<li class="lesMer" data-target="merinfoDinner"> Les mer..</li>
 				<li class="comments" data-target="comment_boks_Dinner"> Kommentere</li>
 		</ul>
-					
+
 	</td>
 </tr>
 
@@ -183,7 +188,7 @@
 			Bambus Restaurent i Oslo tilbyr mat fra vietnamesisk, thailandsk, japansk og kinesisk kjökken.<br>
 			Hos Bambus kan du velge mellom et utvalg kinesiske retter. Vi gir deg den ekte smaken av kina <br>
 			med hjemmelagde sauser og krydderblandinger.</p>
-			
+
 			<div id="merinfoBambus">
 				<div class="close_button"> X </div>
 
@@ -205,9 +210,10 @@
 </tr>
 </table>
 
+	<h2> JAPANSKT</h2>
 
 <table>
-	<h2> JAPANSKT</h2>
+
 	<tr>
 
 		<td><img src="BilderWebb/sushi-godbit.jpg" Alt="Sushi Godbit loggo" width="150"  height="90">
@@ -216,7 +222,7 @@
 
 		<td>	<p><strong>SUSHI GODBIT BISLETT</strong><br/>
 			Sushi godbit Bislett har sin beligenhet på Pilestredet 55<br>
-			Her kan du bestille sushi for takeaway eller catering.</p> 
+			Her kan du bestille sushi for takeaway eller catering.</p>
 
 			<div id="merinfoSushiBislett">
 				<div class="close_button"> X </div>
@@ -240,9 +246,10 @@
 		</tr>
 	</table>
 
+	<h2>BUDGET</h2>
 
 <table>
-	<h2>BUDGET</h2>
+
 <tr>
 
 	<td><img src="BilderWebb/logomemphis.jpg" Alt="Loggo fra Memphis" width="150"  height="90">
@@ -253,7 +260,7 @@
 			Memphis ble etablert i mars 2000. Vår konsept er trendy og ungdommelig - et typisk studentsted. <br>
 			Memphis har ca. 60 sitteplasser. Innredning er enkel, men fresh og trendy. <br>
 			Memphis har også uteservering i bakgård og på gateplan.</p>
-			
+
 			<div id="merinfoMemphis">
 				<div class="close_button"> X </div>
 
@@ -272,7 +279,7 @@
 				<li class="lesMer" data-target="merinfoMemphis"> Les mer..</li>
 				<li class="comments" data-target="comment_boks_Memphis"> Kommentere</li>
 		</ul>
- 					
+
 	</td>
 </tr>
 
@@ -286,7 +293,7 @@
 			Harinder Singh som kom fra India i 1983 startet restauranten med sin kone Kiren Jot. <br>
 			På denne tiden var det bare paret og en ansatt som jobbet i restauranten.<br>
 			</p>
-		 	
+
 		 	<div id="merinfoPunjab">
 		 		<div class="close_button"> X </div>
 		 		<img src="BilderWebb/punjab.jpg" Alt="Bild fra punjab Tandoori" width="180" height="110">
@@ -300,7 +307,7 @@
 	</td>
 </tr>
 
-<tr>	
+<tr>
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoPunjab"> Les mer..</li>
@@ -318,11 +325,11 @@
 			Ricebowl er et samlingssted hvor familier kan spise en god middag til en rimelig pris <br>
 			og et sted hvor du som har lyst på eksotisk mat med smak kan komme til.
 			<br></p>
-			
+
 			<div id="merinfoRice">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/ricebowl.png" Alt="Bild fra Rice bowl" width="180" height"150">
+				<img src="BilderWebb/ricebowl.png" Alt="Bild fra Rice bowl" width="180" height="150">
 			<p>Ricebowl har 54 sitteplasser til sammen så da gjelder det å komme først for å slippe køen.<br>
 			Ricebowl ligger også veldig sentralt og det gjør at du slipper å lete,<br>
 			og enklere finner man ikke så god mat.<br>
@@ -331,7 +338,7 @@
 	</td>
 </tr>
 
-<tr>	
+<tr>
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoRice"> Les mer..</li>
@@ -340,12 +347,13 @@
 </tr>
 </table>
 
+	<h2> EKSLUSIVT</h2>
 
 <table>
-	<h2> EKSLUSIVT</h2>
+
 	<tr>
 
-		<td><img src="BilderWebb/klosteret-logo.png" Alt"Loggo fra klosteret" width="120"  height="90">
+		<td><img src="BilderWebb/klosteret-logo.png" Alt="Loggo fra klosteret" width="120"  height="90">
 
 		</td>
 
@@ -354,18 +362,18 @@
 			Restauranten tilbyr dagens 3-5 og 7 retters menyer i tillegg til en a la carte meny som består av både kjøtt og fisk.<br>
 			Klosterets vinkjeller har mer enn 800 forskjellige viner i alle prisklasser.<br>
 			<br></p>
-			
+
 			<div id="merinfoKlostret">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/klosteret-logo.png" Alt"Loggo fra klosteret" width="100" height="110">
+				<img src="BilderWebb/klosteret-logo.png" Alt="Loggo fra klosteret" width="100" height="110">
 				<p>Klosteret er et perfekt sted til å ta med din partner på. Romantisk atmosfär.<br>
 					Adresse: Fredensborgveien 13. For mer info, gå in på <a href="http://www.klosteret.no" target="blank"> http://www.klosteret.no</a></p>
 				</div>
 			</td>
 		</tr>
 
-		<tr>	
+		<tr>
 			<td>
 				<ul>
 					<li class="lesMer" data-target="merinfoKlostret"> Les mer..</li>
@@ -395,7 +403,7 @@
 				</td>
 			</tr>
 
-			<tr>	
+			<tr>
 				<td>
 					<ul>
 						<li class="lesMer" data-target="merinfoNodee"> Les mer..</li>
@@ -412,7 +420,7 @@
 
 				<td>	<p><strong>ALEX SUSHI</strong><br/>
 					Alex suhi er Oslos populäreste Sushi stede. Her håller de höy klasse og kvalitet.<br>
-					Her sitter man og ser når din sushi blir forberedt. Dyrt og ekslusivt men som mange syns er verdt det</p> 
+					Her sitter man og ser når din sushi blir forberedt. Dyrt og ekslusivt men som mange syns er verdt det</p>
 
 					<div id="merinfoAlex">
 						<div class="close_button"> X </div>

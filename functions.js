@@ -21,6 +21,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		$("#"+$(this).data("target")).fadeIn('slow');
 	});
+
 });
 
 /* SLUTT PÅ FUNKSJONER UTELIV */

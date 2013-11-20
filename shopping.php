@@ -26,8 +26,8 @@
 				Med 50 butikker, tjenester og serveringssteder i spennende omgivelser som du kan benytte deg av og nyte. 
 				Du kan også besøke Boxpark som er et spennende konsept med 12 butikker og serveringssteder i spesialdesignede containere.<br/> 
 				Hentet fra:<a href="http://www.akerbrygge.no/FinnFrem/Butikker.aspx" target="blank"> www.akerbrygge.no</a><br/>
-				<a href="http://www.akerbrygge.no/Shopping/Discover_more_shopping.aspx" target="blank">Mer info?</a><br/>
-				Bilde: <a href="http://www.visitoslo.com/ImageVault/Images/id_6605/width_725/scope_0/filename_EKUw9jhvT1fnNDfCayR1.jpg/storage_Edited/conversionFormatType_WebSafe/ImageVaultHandler.aspx" target="blank">www.visitoslo.com</a>
+				Bilde: <a href="http://www.visitoslo.com/ImageVault/Images/id_6605/width_725/scope_0/filename_EKUw9jhvT1fnNDfCayR1.jpg/storage_Edited/conversionFormatType_WebSafe/ImageVaultHandler.aspx" target="blank">www.visitoslo.com</a><br>
+				<a href="http://www.akerbrygge.no/Shopping/Discover_more_shopping.aspx" target="blank">Mer info?</a><brs>
 			</p>
 			</div>
 	</td>
@@ -58,8 +58,8 @@
 				<img src="BilderWebb/bogstadveien.jpg" alt="bilde fra Bogstadveien" width="250" height="190">
 			<p>Med over 300 av butikker er det ikke rart gatene sjelden er tomme. 
 				Butikkene ligger tett og du finner alle de kjente butikkene som HM, BikBok og Cubus og også de store svenske butikkene Tiger of Sweden og Acne. <br>
-				<a href="http://bogstadveien.no/" target="blank">Mer info?</a><br/>
-				Bilde: <a href="http://multimedia.dn.no/archive/00157/LB__Bogstadveien__T_157776c.jpg" target="blank">www.dn.no</a>
+				Bilde: <a href="http://multimedia.dn.no/archive/00157/LB__Bogstadveien__T_157776c.jpg" target="blank">www.dn.no</a><br>
+				<a href="http://bogstadveien.no/" target="blank">Mer info?</a><br>
 			</p>
 			</div>
 
@@ -93,8 +93,8 @@
 				De kjente kjedebutikkene men også andre spennende butikker som du ikke finner andre steder i byen. 
 				I tillegg finner du  kjøpesentrene Paleet, Steen og Strøm og Eger som fører merker som Gucci, Marc Jacobs, Marlene Birger og mange mange flere. 
 				I Akersgata, en av sidegatene til Karl Johan finner du Norges eneste Louis Vuitton butikk og på andre siden, i Øvre Slottsgate, ligger Norges eneste Marc by Marc Jacobs butikk.<br>
-				<a href="http://www.aktivioslo.no/shopping-i-oslo-sentrum/" target="blank">Mer info?</a><br/>
-				Bilde: <a href="http://www.hotelbristoloslo.com/wp-content/uploads/2013/01/The-Karl-Johans-Gate-Shopping-Area-300x225.jpg" target="blank">www.hotelbristoloslo.com</a>
+				Bilde: <a href="http://www.hotelbristoloslo.com/wp-content/uploads/2013/01/The-Karl-Johans-Gate-Shopping-Area-300x225.jpg" target="blank">www.hotelbristoloslo.com</a><br>
+				<a href="http://www.aktivioslo.no/shopping-i-oslo-sentrum/" target="blank">Mer info?</a>
 			</p>
 			</div>
 	</td>
@@ -127,8 +127,8 @@
 				Her ligger de nemlig på rekke og rad: blant annet Velouria Vintage, Lucky Buttons, Trabant og Fretex Unika. 
 				Når du først er i området kan det også være en ide å stikke innom Trøye på Olaf Ryes plass som har spesialisert seg på tøffe t-skjorter med morsomt trykk.<br>
 			Fra: <a href="http://www.visitoslo.com/no/artikler/shopping-grunerlokka" target="blank">www.visitoslo.no</a><br>
-			<a href="http://www.visitoslo.com/no/artikler/shopping-grunerlokka/" target="blank">Mer info?</a><br>
-			Bilde: <a href="http://farm4.static.flickr.com/3610/3675060015_0a5962e8fa_b.jpg" target="blank">www.skyscrapercity.com</a>
+			Bilde: <a href="http://farm4.static.flickr.com/3610/3675060015_0a5962e8fa_b.jpg" target="blank">www.skyscrapercity.com</a><br>
+			<a href="http://www.visitoslo.com/no/artikler/shopping-grunerlokka/" target="blank">Mer info?</a>
 			</p>
 			</div>
 	</td>
@@ -230,7 +230,9 @@
 				<img src="BilderWebb/paleet.jpg" Alt="Bilde fra Paléaleet" width="260" height="150">
 			<p>I følge ordboken betyr Palé "mindre slott, praktfullt byhus". 
 				Paleet har ikke det største utvalget av butikker, men det er til gjengjeld et veldig fint bygg. <br>
-			<a href="http://www.paleet.no/" target="blank">Mer info?</a></p>
+			Bilde: <a href"http://www.bygg.no/cache/image/53771/53/paleet-bredde.jpg" target="blank">www.bygg.no</a><br>
+			<a href="http://www.paleet.no/" target="blank">Mer info?</a>
+			</p>
 			</div>
 	</td>
 </tr>
@@ -261,6 +263,7 @@
 			<p>Oslo City har omtrent alle de kjente kjedebutikkene i tillegg til mange spennende spisesteder. 
 				I tillegg er Oslo City Norges nest største enkeltstående bygning med sine hele 79.791 kvm!<br>
 			Fra: <a href="http://no.wikipedia.org/wiki/Oslo_City" target="blank">www.wikipedia.no </a><br>
+			Bilde: <a href="http://upload.wikimedia.org/wikipedia/commons/3/32/Oslo_City.jpg" target="blank">www.wikipedia.no</a><br>
 			<a href="http://oslocity.no/shop/butikker/">Mer info?</a></p>
 			</div>
 	</td>

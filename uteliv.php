@@ -65,7 +65,7 @@
 						?>
 					</ul>
 
-					<div class="comment_boks_Horgans">
+					<div id="comment_boks_Horgans">
 						<div class="close_button"> X </div>
 						
 						<h2> Skriv inn her</h2>
@@ -73,7 +73,7 @@
 						<div class="form">
 							<?php
 							if(isset($_POST["horgansForm"])){
-								skrivKommentar("commentsHorgans.txt", $_POST["navn"], $_POST["comment_text"]);
+								skrivKommentarUteliv("commentsHorgans.txt", $_POST["navn"], $_POST["comment_text"]);
 							}
 							?>
 
@@ -94,7 +94,7 @@
 									</form>
 								</div>
 								<?php
-								echo hentKommentarer("commentsHorgans.txt");
+								echo hentKommentarerUteliv("commentsHorgans.txt");
 								?>
 
 							</div>
@@ -159,7 +159,7 @@
 									?>
 								</ul>
 
-								<div class="comment_boks_Vulkan">
+								<div id="comment_boks_Vulkan">
 									<div class="close_button"> X </div>
 
 									<h2> Skriv inn her</h2>
@@ -167,7 +167,7 @@
 									<div class="form">
 										<?php
 										if(isset($_POST["vulkanForm"])){
-											skrivKommentar("commentsVulkan.txt", $_POST["navn"], $_POST["comment_text"]);
+											skrivKommentarUteliv("commentsVulkan.txt", $_POST["navn"], $_POST["comment_text"]);
 										}
 										?>
 
@@ -188,7 +188,7 @@
 												</form>
 											</div>
 											<?php
-											echo hentKommentarer("commentsVulkan.txt");
+											echo hentKommentarerUteliv("commentsVulkan.txt");
 											?>
 
 										</div>
@@ -248,7 +248,7 @@
 												?>
 										</ul>
 
-							<div class="comment_boks_Nivou">
+							<div id="comment_boks_Nivou">
 								<div class="close_button"> X </div>
 
 									<h2> Skriv inn her</h2>
@@ -256,7 +256,7 @@
 									<div class="form">
 										<?php
 											if(isset($_POST["nivouForm"])){
-											skrivKommentar("commentsNivou.txt", $_POST["navn"], $_POST["comment_text"]);
+											skrivKommentarUteliv("commentsNivou.txt", $_POST["navn"], $_POST["comment_text"]);
 											}
 										?>
 											<form action="?page=2" method="post">
@@ -276,7 +276,7 @@
 											</form>
 									</div>
 														<?php
-														echo hentKommentarer("commentsNivou.txt");
+														echo hentKommentarerUteliv("commentsNivou.txt");
 														?>
 
 							</div>
@@ -340,7 +340,7 @@
 							?>
 					</ul>
 
-					<div class="comment_boks_Jaeger">
+					<div id="comment_boks_Jaeger">
 						<div class="close_button"> X </div>
 
 						<h2> Skriv inn her</h2>
@@ -348,7 +348,7 @@
 						<div class="form">
 							<?php
 							if(isset($_POST["jaegerForm"])){
-								skrivKommentar("commentsJaeger.txt", $_POST["navn"], $_POST["comment_text"]);
+								skrivKommentarUteliv("commentsJaeger.txt", $_POST["navn"], $_POST["comment_text"]);
 							}
 							?>
 
@@ -369,7 +369,7 @@
 									</form>
 								</div>
 								<?php
-								echo hentKommentarer("commentsJaeger.txt");
+								echo hentKommentarerUteliv("commentsJaeger.txt");
 								?>
 
 							</div>
@@ -434,7 +434,7 @@
 									?>
 								</ul>
 
-								<div class="comment_boks_Blaa">
+								<div id="comment_boks_Blaa">
 									<div class="close_button"> X </div>
 
 									<h2> Skriv inn her</h2>
@@ -442,7 +442,7 @@
 									<div class="form">
 										<?php
 										if(isset($_POST["blaaForm"])){
-											skrivKommentar("commentsBlaa.txt", $_POST["navn"], $_POST["comment_text"]);
+											skrivKommentarUteliv("commentsBlaa.txt", $_POST["navn"], $_POST["comment_text"]);
 										}
 										?>
 
@@ -463,7 +463,7 @@
 												</form>
 											</div>
 											<?php
-											echo hentKommentarer("commentsBlaa.txt");
+											echo hentKommentarerUteliv("commentsBlaa.txt");
 											?>
 
 										</div>
@@ -528,7 +528,7 @@
 												?>
 											</ul>
 
-											<div class="comment_boks_Vu">
+											<div id="comment_boks_Vu">
 												<div class="close_button"> X </div>
 
 												<h2> Skriv inn her</h2>
@@ -536,7 +536,7 @@
 												<div class="form">
 													<?php
 													if(isset($_POST["vuForm"])){
-														skrivKommentar("commentsVu.txt", $_POST["navn"], $_POST["comment_text"]);
+														skrivKommentarUteliv("commentsVu.txt", $_POST["navn"], $_POST["comment_text"]);
 													}
 													?>
 
@@ -557,7 +557,7 @@
 															</form>
 														</div>
 														<?php
-														echo hentKommentarer("commentsVu.txt");
+														echo hentKommentarerUteliv("commentsVu.txt");
 														?>
 
 													</div>
@@ -617,7 +617,7 @@
 															?>
 														</ul>
 
-											<div class="comment_boks_Nox">
+											<div id="comment_boks_Nox">
 												<div class="close_button"> X </div>
 
 													<h2> Skriv inn her</h2>
@@ -625,7 +625,7 @@
 													<div class="form">
 															<?php
 																if(isset($_POST["noxForm"])){
-																	skrivKommentar("commentsNox.txt", $_POST["navn"], $_POST["comment_text"]);
+																	skrivKommentarUteliv("commentsNox.txt", $_POST["navn"], $_POST["comment_text"]);
 																}
 																?>
 
@@ -646,7 +646,7 @@
 													</div>
 
 																	<?php
-																	echo hentKommentarer("commentsNox.txt");
+																	echo hentKommentarerUteliv("commentsNox.txt");
 																	?>
 
 											</div>
@@ -710,7 +710,7 @@
 													?>
 												</ul>
 
-												<div class="comment_boks_So">
+												<div id="comment_boks_So">
 													<div class="close_button"> X </div>
 
 													<h2> Skriv inn her</h2>
@@ -718,7 +718,7 @@
 													<div class="form">
 														<?php
 														if(isset($_POST["soForm"])){
-															skrivKommentar("commentsSo.txt", $_POST["navn"], $_POST["comment_text"]);
+															skrivKommentarUteliv("commentsSo.txt", $_POST["navn"], $_POST["comment_text"]);
 														}
 														?>
 
@@ -739,7 +739,7 @@
 																</form>
 															</div>
 															<?php
-															echo hentKommentarer("commentsSo.txt");
+															echo hentKommentarerUteliv("commentsSo.txt");
 															?>
 
 														</div>
@@ -801,7 +801,7 @@
 																?>
 															</ul>
 
-															<div class="comment_boks_Villa">
+															<div id="comment_boks_Villa">
 																<div class="close_button"> X </div>
 
 																<h2> Skriv inn her</h2>
@@ -809,7 +809,7 @@
 																<div class="form">
 																	<?php
 																	if(isset($_POST["villaForm"])){
-																		skrivKommentar("commentsVilla.txt", $_POST["navn"], $_POST["comment_text"]);
+																		skrivKommentarUteliv("commentsVilla.txt", $_POST["navn"], $_POST["comment_text"]);
 																	}
 																	?>
 
@@ -830,7 +830,7 @@
 																			</form>
 																		</div>
 																		<?php
-																		echo hentKommentarer("commentsVilla.txt");
+																		echo hentKommentarerUteliv("commentsVilla.txt");
 																		?>
 															</div>
 														</td>
@@ -890,7 +890,7 @@
 												?>
 										</ul>
 
-						<div class="comment_boks_Raa">
+						<div id="comment_boks_Raa">
 							<div class="close_button"> X </div>
 
 								<h2> Skriv inn her</h2>
@@ -898,7 +898,7 @@
 								<div class="form">
 									<?php
 									if(isset($_POST["raaForm"])){
-										skrivKommentar("commentsRaa.txt", $_POST["navn"], $_POST["comment_text"]);
+										skrivKommentarUteliv("commentsRaa.txt", $_POST["navn"], $_POST["comment_text"]);
 									}
 									?>
 
@@ -919,7 +919,7 @@
 									</form>
 								</div>
 									<?php
-									echo hentKommentarer("commentsRaa.txt");
+									echo hentKommentarerUteliv("commentsRaa.txt");
 									?>
 
 						</div>

@@ -7,7 +7,7 @@
 				Denne symbol for byen ble nevnt i en veldig kjent dikt på 1800-tallet og ble kalt for "denne kolde by"<br>
 				Begrepet brukes i dag som oftest av folk som bor utenbys uten nødvendigvis med den negative referansen det opprinnelig hadde.<br>
 				For mange folk i Oslo selv er begrepet positivt ladet og brukes med stolthet.<br>
-				Kilde: Wikipedia</p>	
+				Kilde: Wikipedia</p>
 			</article>
 		</aside>
 
@@ -25,8 +25,12 @@
 			</aside>
 
 			<figure id="OsloKart">
+<<<<<<< HEAD
 				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="400">
+=======
+				<img src="BilderWebb/OsloKarta.png" Alt="Bild på Oslo karta" width="450">
+>>>>>>> 30e456469c845ff23a1960e5ee5741982992797d
 			</figure>
 
-		</div>	
+		</div>
 </section>
