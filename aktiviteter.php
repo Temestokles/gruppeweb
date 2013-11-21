@@ -1,6 +1,5 @@
 <section class="aktiviteter main">
 <h2>AKTIVITETER</h2>
-
 <table>
 
 <tr>
