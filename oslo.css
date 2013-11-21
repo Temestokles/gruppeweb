@@ -596,6 +596,20 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+#comment_boks_Yayas{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:40%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
 #merinfoPlah{
 	width:50%;
 	display: none;
@@ -608,6 +622,19 @@ input {
 	padding-top: 1%; 
 	top:60%;
 	z-index:100;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#comment_boks_Plah{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:70%;
+	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
@@ -626,6 +653,20 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+#comment_boks_Dattra{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:110%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
 #merinfoDelikatessen{
 	width:50%;
 	display:none;
@@ -641,6 +682,20 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+#comment_boks_Delikatessen{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:150%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
 #merinfoDinner{
 	width:50%;
 	display:none;
@@ -653,6 +708,19 @@ input {
 	padding-top:1%; 
 	top:210%;
 	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#comment_boks_Dinner{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:190%;
+	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
@@ -671,6 +739,19 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+#comment_boks_Bambus{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:210%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
 #merinfoSushiBislett{
 	width:50%;
 	display: none;
@@ -686,6 +767,20 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+#comment_boks_Bislett{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:250%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
 #merinfoMemphis{
 	width:50%;
 	display: none;
@@ -698,6 +793,19 @@ input {
 	padding-top:1%; 
 	top:350%;
 	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#comment_boks_Memphis{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:310%;
+	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
@@ -716,6 +824,20 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+#comment_boks_Punjab{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:330%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
 #merinfoRice{
 	width:50%;
 	display: none;
@@ -728,6 +850,19 @@ input {
 	padding-top:1%; 
 	top:380%;
 	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#comment_boks_Rice{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:340%;
+	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
@@ -746,6 +881,19 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+#comment_boks_Klosteret{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:410%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
 #merinfoNodee{
 	width:50%;
 	display: none;
@@ -759,6 +907,19 @@ input {
 	top:470%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;;
+}
+
+#comment_boks_Nodee{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:420%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
 }
 
 #merinfoAlex{
@@ -776,16 +937,25 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+#comment_boks_Alex{
+	display:none;
+	left:25%;
+	width:40%;
+	background-color: white;
+	position:absolute;
+	padding-top:5%;
+	padding-bottom:5%;
+	top:430%;
+	z-index:150;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
 /* STYLESHEET TIL SHOPPING */
 input {
 	color: #1669E6;
 
 }
 
-#comment_boks_AkerBrygge, #comment_boks_Bogstadveien, #comment_boks_KarlJ, #comment_boks_Grunerlokka, #comment_boks_SteenStrom, #comment_boks_Eger, 
-#comment_boks_Paleet, #comment_boks_OsloCity {
-	display:none;
-}
 
 #merinfoAkerBrygge{
 	width:50%;
