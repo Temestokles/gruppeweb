@@ -1337,14 +1337,14 @@ input {
 }
 
 
+
 /* Aktiviteter */
 
 input {
 	color: #1669E6;
-
 }
 
-#merinfoAktiviteter{
+#merinfoSolli{
 	width:50%;
 	left:17%;
 	display:none;
@@ -1357,6 +1357,105 @@ input {
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
 }
+
+#merinfoBhudda{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoJudo{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoKarate{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoKlatring{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoTryvann{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoBitraf{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
+#merinfoBad{
+	width:50%;
+	left:17%;
+	display:none;
+	background-color: white;
+	position:absolute;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 1%; 
+	top:30%;
+	z-index:200;
+	box-shadow: 8px 8px 20px 5px #000;
+}
+
 
 
 
