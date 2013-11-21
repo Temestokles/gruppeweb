@@ -1,0 +1,561 @@
+/* MOBILE DEVICES GOES HERE!!!! :D */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	/* Styles */
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	/* Styles */
+
+
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	/* Styles */
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+	/* Styles */
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+	}
+
+
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+	/* Styles */
+
+	.container{
+		background-color: white;
+		width: 100%;
+		/*border: 1px solid black;*/
+		margin:auto;
+		padding-top: 5%;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 0.9em;
+		box-shadow:0px -3px 5px 5px #FFF;
+	}
+	.container img{
+		width: 150px;
+	}
+
+	header{
+		
+		position: absolute;
+		width:95.8%;	
+	}
+	.header-cont{
+		
+		width:100%;
+		position: absolute;
+		top:70px;
+		height: 30px;
+		margin:0 auto;
+	}
+	.mainmenu{
+		width: 100%;
+		left: 0;
+		right:0;
+		margin-top: 7px;
+		list-style-type: none;
+	}
+	#overskrift {
+		height: 100px;
+	}
+	#overskrift h1{
+		float:left;
+		position: absolute;
+		margin-top:8px;
+		font-size: 2.5em;
+		font-family:"Georgia", sans-serif;
+		color:white;
+		text-shadow:7px 4px 3px #333333;
+		padding-left:6.5%;
+		padding-top:10px; 
+	}
+
+	#overskrift h2{ display: none; }
+	#weather { display:none; }
+	.date{ display: none; }
+
+
+
+
+
+}
