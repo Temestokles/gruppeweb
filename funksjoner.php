@@ -31,9 +31,9 @@ function hentKommentarerUteliv($filnavn){
 }
 
 function skrivKommentarUteliv($filnavn, $navn, $kommentar){
-	if(empty($filnavn) || empty($navn) || empty($kommentar)){
+	/*if(empty($filnavn) || empty($navn) || empty($kommentar)){
 		die("Du må kalle på skrivKommentar-funksjonen riktig");
-	}
+	}*/
 
 	$kommentarer = json_decode(file_get_contents("CommentsUteliv/".$filnavn), true);
 	$kommentarer[] = array("navn" => $navn, "comment_text" => $kommentar);

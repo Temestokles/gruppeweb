@@ -1,0 +1,1 @@
+[{"navn":"Saja","comment_text":"Dette stedet er super! Bra blandning p\u00e5 folk og bra mix p\u00e5 alder."},{"navn":"Julie","comment_text":"Helt enig med deg Saja ;)"},{"navn":"Snorre","comment_text":"Jeg er for liten :("},{"navn":"Saja","comment_text":"S\u00e5 bli litt st\u00f8rre da;)"}]

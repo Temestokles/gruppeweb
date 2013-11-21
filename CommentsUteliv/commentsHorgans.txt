@@ -1,1 +1,1 @@
-[{"navn":"Sofie","comment_text":"Yeeah"},{"navn":"Sofie","comment_text":"Yeeah"},{"navn":"Sofie","comment_text":"Yeeah"}]
+[{"navn":"Gruppe 34","comment_text":"Hei webprosjekt. Har dere noen kommentar til siden? :)"}]

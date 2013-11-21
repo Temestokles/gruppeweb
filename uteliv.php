@@ -84,21 +84,22 @@
 								<table>
 									<tr>
 										<td> <strong> Ditt navn</strong> <br>
-											<input type="text" name="navn"/><br></td>
+											<input type="text" name="navn" required/><br></td>
 										</tr>
 
 										<tr>
-											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text"></textarea><br>
+											<td> <h4> Din kommentar</h4> <textarea wrap="Soft" name="comment_text" required></textarea><br>
 												<input type="submit" name="knapp1" Value="Send"/></td>
 											</tr>
 										</table>
 										<input type="hidden" name="horgansForm">
 									</form>
 								</div>
+								<div class="kommentarer">
 								<?php
 								echo hentKommentarerUteliv("commentsHorgans.txt");
 								?>
-
+								</div>
 							</div>
 						</td>
 					</tr>
@@ -191,9 +192,11 @@
 													<input type="hidden" name="vulkanForm">
 												</form>
 											</div>
-											<?php
-											echo hentKommentarerUteliv("commentsVulkan.txt");
-											?>
+											<div class="kommentarer">
+												<?php
+												echo hentKommentarerUteliv("commentsVulkan.txt");
+												?>
+											</div>
 
 										</div>
 									</td>
@@ -280,9 +283,11 @@
 																	<input type="hidden" name="nivouForm">
 											</form>
 									</div>
+												<div class="kommentarer">
 														<?php
 														echo hentKommentarerUteliv("commentsNivou.txt");
 														?>
+												</div>
 
 							</div>
 						</td>
@@ -373,9 +378,11 @@
 										<input type="hidden" name="jaegerForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerUteliv("commentsJaeger.txt");
-								?>
+										<div class="kommentarer">
+										<?php
+											echo hentKommentarerUteliv("commentsJaeger.txt");
+										?>
+										</div>
 
 							</div>
 						</td>
@@ -468,9 +475,11 @@
 													<input type="hidden" name="blaaForm">
 												</form>
 											</div>
-											<?php
-											echo hentKommentarerUteliv("commentsBlaa.txt");
-											?>
+												<div class="kommentarer">
+													<?php
+														echo hentKommentarerUteliv("commentsBlaa.txt");
+													?>
+												</div>
 
 										</div>
 									</td>
@@ -563,9 +572,11 @@
 																<input type="hidden" name="vuForm">
 															</form>
 														</div>
-														<?php
-														echo hentKommentarerUteliv("commentsVu.txt");
-														?>
+															<div class="kommentarer">
+																<?php
+																	echo hentKommentarerUteliv("commentsVu.txt");
+																?>
+															</div>
 
 													</div>
 												</td>
@@ -652,10 +663,11 @@
 																			<input type="hidden" name="noxForm">
 														</form>
 													</div>
-
+																<div class="kommentarer">
 																	<?php
 																	echo hentKommentarerUteliv("commentsNox.txt");
 																	?>
+																</div>
 
 											</div>
 										</td>
@@ -747,9 +759,11 @@
 																	<input type="hidden" name="soForm">
 																</form>
 															</div>
-															<?php
-															echo hentKommentarerUteliv("commentsSo.txt");
-															?>
+																	<div class="kommentarer">
+																		<?php
+																			echo hentKommentarerUteliv("commentsSo.txt");
+																		?>
+																	</div>
 
 														</div>
 													</td>
@@ -839,9 +853,11 @@
 																				<input type="hidden" name="villaForm">
 																			</form>
 																		</div>
-																		<?php
-																		echo hentKommentarerUteliv("commentsVilla.txt");
-																		?>
+																				<div class="kommentarer">
+																					<?php
+																						echo hentKommentarerUteliv("commentsVilla.txt");
+																					?>
+																				</div>
 															</div>
 														</td>
 													</tr>
@@ -928,9 +944,11 @@
 						<input type="hidden" name="raaForm">
 									</form>
 								</div>
-									<?php
-									echo hentKommentarerUteliv("commentsRaa.txt");
-									?>
+										<div class="kommentarer">
+											<?php
+												echo hentKommentarerUteliv("commentsRaa.txt");
+											?>
+										</div>
 
 						</div>
 					</td>
