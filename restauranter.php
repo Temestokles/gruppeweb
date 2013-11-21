@@ -64,9 +64,11 @@
 										<input type="hidden" name="YayasForm">
 									</form>
 								</div>
+									<div class="kommentarer">
 								<?php
 								echo hentKommentarerRestauranter("commentsYayas.txt");
 								?>
+									</div>
 
 							</div>
 						</td>
@@ -134,9 +136,11 @@
 										<input type="hidden" name="PlahForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsPlah.txt");
-								?>
+										<div class="kommentarer">
+											<?php
+												echo hentKommentarerRestauranter("commentsPlah.txt");
+											?>
+										</div>
 
 							</div>
 						</td>
@@ -204,9 +208,11 @@
 										<input type="hidden" name="DattraForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsDattra.txt");
-								?>
+										<div class="kommentarer">
+											<?php
+											echo hentKommentarerRestauranter("commentsDattra.txt");
+											?>
+										</div>
 
 							</div>
 						</td>
@@ -269,9 +275,11 @@
 										<input type="hidden" name="delikatessenForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsDelikatessen.txt");
-								?>
+										<div class="kommentarer">
+											<?php
+											echo hentKommentarerRestauranter("commentsDelikatessen.txt");
+											?>
+										</div>
 
 							</div>
 						</td>
@@ -338,9 +346,11 @@
 										<input type="hidden" name="dinnerForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsDinner.txt");
-								?>
+										<div class="kommentarer">
+											<?php
+											echo hentKommentarerRestauranter("commentsDinner.txt");
+											?>
+										</div>
 
 							</div>
 						</td>
@@ -403,9 +413,11 @@
 										<input type="hidden" name="bambusForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsBambus.txt");
-								?>
+									<div class="kommentarer">
+										<?php
+										echo hentKommentarerRestauranter("commentsBambus.txt");
+										?>
+									</div>
 
 							</div>
 						</td>
@@ -472,9 +484,11 @@
 										<input type="hidden" name="bislettForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsBislett.txt");
-								?>
+										<div class="kommentarer">
+										<?php
+											echo hentKommentarerRestauranter("commentsBislett.txt");
+										?>
+									</div>
 
 							</div>
 						</td>
@@ -542,9 +556,11 @@
 										<input type="hidden" name="memphisForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsMemphis.txt");
-								?>
+										<div class="kommentarer">
+										<?php
+											echo hentKommentarerRestauranter("commentsMemphis.txt");
+										?>
+										</div>
 
 							</div>
 						</td>
@@ -608,9 +624,11 @@
 										<input type="hidden" name="punjabForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsPunjab.txt");
-								?>
+										<div class="kommentarer">
+										<?php
+											echo hentKommentarerRestauranter("commentsPunjab.txt");
+										?>
+									</div>
 
 							</div>
 						</td>
@@ -672,9 +690,11 @@
 										<input type="hidden" name="riceForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsRice.txt");
-								?>
+										<div class="kommentarer">
+										<?php
+											echo hentKommentarerRestauranter("commentsRice.txt");
+										?>
+									</div>
 
 							</div>
 						</td>
@@ -742,9 +762,11 @@
 										<input type="hidden" name="klosteretForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsKlosteret.txt");
-								?>
+									<div class="kommentarer">
+										<?php
+										echo hentKommentarerRestauranter("commentsKlosteret.txt");
+										?>
+									</div>
 
 							</div>
 						</td>
@@ -806,9 +828,11 @@
 										<input type="hidden" name="nodeeForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsNodee.txt");
-								?>
+										<div class="kommentarer">
+										<?php
+											echo hentKommentarerRestauranter("commentsNodee.txt");
+										?>
+									</div>
 
 							</div>
 						</td>
@@ -869,9 +893,11 @@
 										<input type="hidden" name="alexForm">
 									</form>
 								</div>
-								<?php
-								echo hentKommentarerRestauranter("commentsAlex.txt");
-								?>
+										<div class="kommentarer">
+											<?php
+												echo hentKommentarerRestauranter("commentsAlex.txt");
+											?>
+										</div>
 
 							</div>
 						</td>
