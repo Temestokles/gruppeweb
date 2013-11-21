@@ -23,7 +23,8 @@
 					<p>Matrettene er satt sammen av både thailandske og svenske kokker. <br>
 						Restaurangen finnes på tre ulike steder i Oslo, Majorstuen,Vika og på Øvre Vollgata 13 i sentrum. <br>
 						Her trenger man å booke bord før da det er et veldigt populært stede.<br>
-						Source:<a href="http://www.yayas.no" target="blank"> www.yayas.no</a></p>
+						Kilde:<a href="http://www.yayas.no" target="blank"> www.yayas.no</a>
+						Bilde: Fotograf: Saja Andersson</p>
 					</div>
 				</td>
 			</tr>
@@ -96,7 +97,7 @@
 			Plah Bar er en moderne gastrobar med cocktails og Street Food fra Thailand og Sørøst Asia.<br>
 			Stilen er uformell og avslappet. Her bestiller man flere retter som man deler seg imellom eller <br>
 			velger en av to ferdigkomponerte menyer for hele bordet. I Plah Bar, skjenker man vinen selv, drikkr øl eller spennende cocktails.<br>
-			Source:<a href="http://www.plah.no" target="blank"> www.plah.no</a></p>
+			Kilde:<a href="http://www.plah.no" target="blank"> www.plah.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -167,7 +168,8 @@
 				<img src="BilderWebb/Tapas.JPG" Alt="Bild på tapas fra Dattra" width="200">
 				<p>Her er det humane priser på både drykk og mat.<br>
 					Adresse: Grønland 10, 0188 Oslo<br>
-					Source: <a href="http://www.dattra.no" target="blank">www.dattra.no</a></p>
+					Kilde: <a href="http://www.dattra.no" target="blank">www.dattra.no</a><br>
+					Bilde: Fotograf: Saja Andersson </p>
 				</div>
 
 			</td>
@@ -235,7 +237,8 @@
 							<p>Adresse:Aker Brygge, Holmens gate 2<br>
 								Majorstuen,Vibes gate 8<br>
 								Grünerløkka, Søndregate 8<br>
-								For mer info, gå på <a href="http://www.delicatessen.no" target="blank"> www.delicatessen.no</a></p>
+								For mer info, gå på <a href="http://www.delicatessen.no" target="blank"> www.delicatessen.no</a><br>
+								Bilde: www.dn.no</p>
 							</div>
 						</td>
 					</tr>
@@ -307,7 +310,7 @@
 				<img src="BilderWebb/dinner.jpg" Alt="Bild fra restauranten Dinner" width="200"  height="140">
 			<p>Tradisjonelt inneholder et kinesisk måltid mange retter som man deler mellom gjestene ved bordet for å danne en sosial ramme rundt måltidet.<br>
 			 Vår meny er lagt opp på en slik måte at dette er mulig også hos oss.<br>
-			Source: <a href="http://www.dinner.no" target="blank">www.dinner.no</a></p>
+			Kilde: <a href="http://www.dinner.no" target="blank">www.dinner.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -444,7 +447,8 @@
 				<img src="BilderWebb/sushi-godbit.jpg" Alt="Sushi Godbit loggo" width="180" height="110">
 				<p>Her serveres det god og billig sushi. Faste tilbud på eksempel dagens sushi.<br>
 					Her har de åpent alle dager frem til kl.21.00. <br>
-					For mer info, gå in på <a href="http://www.sushigodbit.no" target="blank"> www.sushigodbit.no</a></p>
+					For mer info, gå in på <a href="http://www.sushigodbit.no" target="blank"> www.sushigodbit.no</a><br>
+					Bilde: www.takeawayoslo.no </p>
 				</div>
 			</td>
 		</tr>
@@ -651,7 +655,7 @@
 			<p>Ricebowl har 54 sitteplasser til sammen så da gjelder det å komme først for å slippe køen.<br>
 			Ricebowl ligger også veldig sentralt og det gjør at du slipper å lete,<br>
 			og enklere finner man ikke så god mat.<br>
-			Source:<a href="http://www.ricebowl.no" target="blank"> http://www.ricebowl.no</a></p>
+			Kilde:<a href="http://www.ricebowl.no" target="blank"> http://www.ricebowl.no</a></p>
 			</div>
 	</td>
 </tr>
@@ -902,9 +906,5 @@
 							</div>
 						</td>
 					</tr>
-
-
 </table>
-
-
 </section>
