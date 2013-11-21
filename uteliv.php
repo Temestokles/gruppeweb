@@ -23,7 +23,8 @@
 					<p>Aldersgrensen er 26 år og tilbyr tre ulike musikkprofiler med to dansegulv.<br>
 						Det spilles variert musikk fra rock`n`roll, pop, R&amp;B, hip hop til elektronika som deephouse, <br>
 						NU disco og disco. Kan også spise, Horgan`s serverer amerikanskinspirert mat og er mest kjent for sine<br>
-						legendariske hamburgere.<br/> Source:<a href="http://www.horgans.no" target="blank"> www.horgans.no</a></p>
+						legendariske hamburgere.<br/> Kilde:<a href="http://www.horgans.no" target="blank"> www.horgans.no</a><br>
+						Bilde: www.skjerioslo.dittoslo.no </p>
 					</div>
 				</td>
 			</tr>
@@ -118,7 +119,9 @@
 
 								<img src="BilderWebb/bar_vulkan_oslo1.jpg" alt="bild fra utestedet bar Vulkan" width="250" height="190">
 								<p>Når varmen tillater det kan du benytte deg av deres uteservering tett inn mot Akerselven,
-									eller beundre utsikten fra takterrassen.<br> Byns beste stede for de som er 30 og oppover.</p>
+									eller beundre utsikten fra takterrassen.<br> Byns beste stede for de som er 30 og oppover.<br>
+									<a href="http://www.bygdoyallerestaurant.no">Kilde:www.bygdoyallerestaurant.no</a><br>
+									Bilde: www.skjerioslo.dittoslo.no</p>
 								</div>
 
 							</td>
@@ -209,7 +212,8 @@
 							<p>I underetasjen er det minimalt med møbler, og musikken er noe tyngre enn i første etasje.
 								Flere av Norges beste Djs gjester Nivou hver helg,<br>
 								og med jevne mellomrom kommer også kjente, internasjonale Djs til stedets to scener.<br>
-								Source:<a href="http://www.nivou.no" target="blank"> www.nivou.no</a></p>
+								Source:<a href="http://www.nivou.no" target="blank"> www.nivou.no</a><br>
+								Bilde: www.nivou.no</p>
 							</div>
 						</td>
 					</tr>
@@ -300,7 +304,8 @@
 				mellom øst og vest og trekker ett publikum<br> som strekker seg langt utover de faste klubbgåerene i byen. Gratis før midnatt, 100kr etter. Diskon åpner 23:00. ID 23 fra 23:00.<br>
 				På dagtid kan du drikke kaffe, ta en pils eller spise lunsj i caféen som holder åpent frem til 18.30 hver dag<br>
 				og på kveldstid har vi ett spekket klubbprogram fra mandag til og med søndag.<br>
-				Source: <a href="http://www.jægeroslo.no" target="blank">www.jægeroslo.no</a></p>
+				Source: <a href="http://www.jægeroslo.no" target="blank">www.jægeroslo.no</a><br>
+				Bilde: www.jaeger.no</p>
 				</div>
 		</td>
 </tr>
@@ -393,7 +398,8 @@
 							Visionen er og fylle det gamle diamantlageret til randen med kultur. <br>
 							Tilsammen arrangerer BLÅ ca.380 arrangementer per år.
 							Fin uteservering med utsikt over akerselva.<br>
-							Source:<a href="http://www.blaaoslo.no" target="blank"> www.blaaoslo.no</a></p>
+							Source:<a href="http://www.blaaoslo.no" target="blank"> www.blaaoslo.no</a><br>
+							Bilde: www.playgoogle.com</p>
 							</div>
 			</td>
 		</tr>
@@ -488,7 +494,8 @@
 												Baren har et rikholdig utvalg, og personalet er meget serviceinnstilt.
 												Musikken består av klassisk soul,<br> funk og disko blandet med nyere house
 												og popmusikk. <br>
-												Funktion-One anlegget sørger for knallbra lyd. Source:<a href="http://www.vu-oslo.no" target="blank"> www.vu-oslo.no</a></p>
+												Funktion-One anlegget sørger for knallbra lyd. Source:<a href="http://www.vu-oslo.no" target="blank"> www.vu-oslo.no</a><br>
+												Bilde:www.stay.com</p>
 											</div>
 										</td>
 									</tr>
@@ -576,7 +583,8 @@
 
 														<img src="BilderWebb/nox2.jpg" Alt="Bilde fra utestedet Nox" width="260" height="150">
 														<p>Vil du tilbringe en kveld på Nox så ta med mye penger da drykk koster.<br>
-															Source:<a href="http://www.clubnox.no" target="blank">http://www.clubnox.no/</a></p>
+															Kilde:<a href="http://www.clubnox.no" target="blank">http://www.clubnox.no/</a><br>
+															Bilde: www.clubnox.no</p>
 														</div>
 													</td>
 												</tr>
@@ -669,7 +677,8 @@
 												<img src="BilderWebb/sologgo2.jpg" Alt="Loggo fra utestedet SO" width="200">
 												<p>Finnes også en poledance stang som man kan svinge seg runt mitt på dansegulvet.<br>
 													Her kommer garantert en låt der du kan synge med.<br>
-													Source: <a href="http://www.so-oslo.no" target="blank">www.so-oslo.no </a></p>
+													Kilde: <a href="http://www.so-oslo.no" target="blank">www.so-oslo.no </a><br>
+													Bilde: www.facebook.com/so</p>
 												</div>
 											</td>
 										</tr>
@@ -760,8 +769,9 @@
 
 														<p>Tips, ta med øronpropper. For den som fremst liker club house, elektro og dubstep. Aldersgrense 21+.<br/>
 														Annet stede å ha i baktanke hvis man liker dubstep og elektro beats er Kulturhuset Hausmania
-														<a href="http://www.hausmania.org" target="blank"><br/>(www.hausmania.org)</a>
-														som oftest ordner konserter inom den genren.</p><br/>
+														<a href="http://www.hausmania.org" target="blank"><br>(www.hausmania.org)</a>
+														som oftest ordner konserter inom den genren.<br>
+														Kilde: </p>
 													</div>
 										</td>
 								</tr>
