@@ -112,6 +112,7 @@
 		<td>
 				<img src="BilderWebb/aktiviteter/judo_clipart.jpg" Alt="Bilde av noen som klatrer." width="200">
 		</td>
+		<td>
 			<p><strong>Oslo Karateklubb</strong><br />
 				Oslo Karateklubb er Norges eldste Karate og Nanbudoklubb, grunnlagt i 1969 av Rune Hagen. Oslo Karateklubb er
 				medlem av Norges idrettsforbund.
