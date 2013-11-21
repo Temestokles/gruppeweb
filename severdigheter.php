@@ -156,6 +156,8 @@
 				<img src="BilderWebb/frognerseteren.jpg" alt="Bilde av frognerseteren" width="250">
 				<p>Til seteren hørte en del av skogen i Nordmarka, tidligere kjent som Trevollskogen og nå som Frognerseterskogen. 
 					Siden 1891 har det vært drevet restaurant på eiendommen som serverer tradisjonell norsk mat. Frognerseteren og Frognerseterskogen ble solgt til Christiania kommune i 1889 og ble den første kommunalt eide skogen.<br>
+					I tillegg til å være et fint turområde og en fin hytte er Frognerseteren starten på den populære Korketrekkeren, en 2000 meter lang akebakke. 
+					Så dersom ski ikke er det beste du vet er det bare å ta med seg akebrettet og sette deg på t-banen.<br>
 					Hentet fra: <a href="http://no.wikipedia.org/wiki/Frognerseteren" target="blank">wikipedia</a><br>
 					Bilde: <a href="http://ds-lands.com/data_images/famous_places/frognerseteren/frognerseteren-05.jpg" target="blank">www.ds-lands.com/places/frognerseteren.html</a>
 				</p>
