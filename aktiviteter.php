@@ -4,7 +4,7 @@
 
 <tr>
 	<td>
-		<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="200" height="120">
+		<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="150" height="90">
 	</td>
 	<td>
 		<p><strong>Solli Bowling</strong><br>
@@ -13,7 +13,7 @@
 		</p>
 		<div id="merinfoSolli">
 			<div class="close_button"> X </div>
-			<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="200" height="120">
+			<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="250" height="150">
 
 			<p>Solli Bowling er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
 			Hallen rommer 11 baner hvor man enten kommer på drop-in eller man kan sikre seg plass ved å bestille i forveien.
@@ -37,7 +37,7 @@
 
 <tr>
 	<td>
-		<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="200">
+		<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="150">
 	</td>
 	<td>
 		<p><strong>Buddha Biljard</strong><br>
@@ -46,7 +46,7 @@
 		i en behagelig atmosfære med god musikk.</p>
 <div id="merinfoBhudda">
 			<div class="close_button"> X </div>
-			<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="200">
+			<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="250">
 			<p>	Buddha Biljard er Oslo’s feteste biljardlounge og sportsbar med 13 biljardbord, storskjerm, gratis dart og
 			trådløs internett fordelt på 700 stemningsfulle kvadratmeter i Oslo sentrum. Ta med vennene dine og nyt kvelden
 			i en behagelig atmosfære med god musikk.
@@ -73,19 +73,21 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/aktiviteter/judo_clipart.jpg" Alt="Bilde av noen som gjennomfører et judokast." width="200">
+			<img src="BilderWebb/aktiviteter/judo_clipart.jpg" Alt="Bilde av noen som gjennomfører et judokast." width="150" height="90">
 		</td>
 		<td>
 			<p><strong>Oslo Judo Klubb</strong><br />
 				..ble opprettet i 1984. <br />
-				Vi var den gang 17 medlemmer. Til  begynne med hadde vi ikke egen dojo. De frste tre mnedene trente vi p Kristelig Gymnas p lnte brytematter. Vi var en ivrig treningsvillig gjeng som hadde mye moro. Deretter fikk vi lne en lite rom med matter i Ekeberghallen, fr vi fikk leie dojo i kjelleren p Skullerudstua. Der holdt vi til fram til 2007 fr vi endelig fikk egne lokaler i gamle gymsal p Bler skole.
-			<br />
+				Vi var den gang 17 medlemmer. Til å begynne med hadde vi ikke egen dojo. De første tre månedene trente vi på
+				Kristelig Gymnas på lnte brytematter. Vi var en ivrig treningsvillig gjeng som hadde mye moro.
 			</p>
 			<div id="merinfoJudo">
 				<div class="close_button"> X </div>
-				<img src="BilderWebb/aktiviteter/judo_clipart.jpg" alt="Bilde av noen som gjennomfører et judokast" width="200">
+				<img src="BilderWebb/aktiviteter/judo_clipart.jpg" alt="Bilde av noen som gjennomfører et judokast" width="250">
 
-				<p>Klubben har i dag ca. 200 medlemmer og er en av de største judoklubbene i Norge.
+				<p>	Deretter fikk vi låne en lite rom med matter i Ekeberghallen, før vi fikk leie dojo i kjelleren på Skullerudstua.
+					Der holdt vi til fram til 2007 før vi endelig fikk egne lokaler i gamle gymsal p Bler skole.
+					Klubben har i dag ca. 200 medlemmer og er en av de største judoklubbene i Norge.
 					Klubben er tilsluttet Norges Judoforbund og Norges Idrettsforbund.
 					Gjennom rene har OJK trent frem flere norgesmestere bde individuelt og lag.
 					Klubben satser sterkt på barn og ungdom og har partier på ulike nivåer.
@@ -110,7 +112,7 @@
 
 	<tr>
 		<td>
-				<img src="BilderWebb/aktiviteter/judo_clipart.jpg" Alt="Bilde av noen som klatrer." width="200">
+				<img src="BilderWebb/aktiviteter/judo_clipart.jpg" Alt="Bilde av noen som klatrer." width="150" height="90">
 		</td>
 		<td>
 			<p><strong>Oslo Karateklubb</strong><br />
@@ -146,25 +148,31 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/aktiviteter/691904_klatring.bredde.web.jpg" Alt="Bilde av noen som klatrer." width="200">
+			<img src="BilderWebb/aktiviteter/691904_klatring.bredde.web.jpg" Alt="Bilde av noen som klatrer." width="150">
 		</td>
 		<td>
 			<p><strong>KLATREVERKET OG MYRENS SPORTSSENTER</strong><br />
-				Klatreverket er Nordens strste og mestomfattende klatresenter, beliggede i Oslo sentrum. Her er det et tilbud til klatrere p alle niver, fra den som aldri fr har klatret til den som konkurrerer i verdensmesterskap. Veggene vre er opp til 14,6 meter hye, men det er ogs lavere vegger som er greiere  klatre p i begynnelsen. Vinkelen p veggene er fra sva (hellende utover) til meget bratt (overhengende) og teksturen er alt fra finrplater med friksjonsoverflate, til stpte vegger med fjell-lignende overflate. Fordelt over tre niver i hovedrommet, er det tauklatring, rappelltrn og omfattende buldrearealer.
+				Klatreverket er Nordens største og mestomfattende klatresenter, beliggede i Oslo sentrum.
+				Her er det et tilbud til klatrere på alle niver, fra den som aldri før har klatret til den som konkurrerer
+				i verdensmesterskap.
 			<br />
 			</p>
 			<div id="merinfoKlatring">
 				<div class="close_button"> X </div>
 				<img src="BilderWebb/aktiviteter/691904_klatring.bredde.web.jpg" alt="Bilde av noen som klatrer" width="250">
+				<p>	Veggene våre er opp til 14,6 meter høye, men det er også lavere vegger som er greiere
+					klatre på i begynnelsen. Vinkelen på veggene er fra sva (hellende utover) til meget bratt (overhengende) og
+					teksturen er alt fra finrplater med friksjonsoverflate, til støpte vegger med fjell-lignende overflate.
+					Fordelt over tre niver i hovedrommet, er det tauklatring, rappelltrn og omfattende buldrearealer.
+					Sammen med Golfsenteret, Treningssenteret og Oslo Squash utgjr vi Myrens Sportssenter.
+					Vi har felles inngang og felles garderobeanlegg. Om du er fast kunde hos oss fr du rabatt
+					p de andre aktivitetene p huset. Etter endt sportslig aktivitet kan det friste med mat og drikke p
+					Myrens Kjkken, med samme inngang som oss.
 
-					Sammen med Golfsenteret, Treningssenteret og Oslo Squash utgjr vi Myrens Sportssenter. Vi har felles inngang og felles garderobeanlegg. Om du er fast kunde hos oss fr du rabatt p de andre aktivitetene p huset. Etter endt sportslig aktivitet kan det friste med mat og drikke p Myrens Kjkken, med samme inngang som oss.
+					<br />Vi har et bredt kurs- og aktivitetstilbud til nybegynnere og viderekomne barn, ungdom og voksne.
+					Kurs holdes bde innendrs og utendrs, og vi har opplegg for barnegrupper, bursdagsfester, teambuilding,
+					sosiale events eller spesialtilpassede opplegg.
 
-					<br />Vi har et bredt kurs- og aktivitetstilbud til nybegynnere og viderekomne barn, ungdom og voksne. Kurs holdes bde innendrs og utendrs, og vi har opplegg for barnegrupper, bursdagsfester, teambuilding, sosiale events eller spesialtilpassede opplegg.
-
-					<br />Oslo Klatreklubb har Klatreverket som innendrs hjemmearena. Klubben og klatresenteret har felles glede og nytte av hverandre, noe som sees i ukentlige aktiviteter og lokale og nasjonale konkurranser  for  nevne noe.
-
-					<br />Klatreverket pnet i november 2006, og ble raskt landets mest beskte klatresenter. Ideen om Klatreverket kom da Vegg i Vegg og Villmarkshuset p Grnland gikk mot sin alderdom. Eierne er ivrige klatrere med erfaring blant annet derfra, i tillegg til lang fartstid med sportsklatring og fjellklatring generelt. Vi ville lage landets desidert beste klatresenter, og Klatreverket ble resultatet.
-					<br />
 					Source og mer info:  <a href="http://klatreverket.no/">www.klatreverket.no</a>
 				</p>
 			</div>
@@ -180,7 +188,7 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/aktiviteter/tryvann_vinterpark_terrengpark1.jpg" Alt="Bilde av noen som klatrer." width="200">
+			<img src="BilderWebb/aktiviteter/tryvann_vinterpark_terrengpark1.jpg" Alt="Bilde av noen som klatrer." width="150">
 		</td>
 		<td>
 			<p><strong>OSLO VINTERPARK - TRYVANN</strong><br />
@@ -216,7 +224,7 @@
 
 		<tr>
 		<td>
-			<img src="BilderWebb/aktiviteter/fwrecover.jpg" Alt="Bilde av noen elektroniske komponenter og kretskort." width="200">
+			<img src="BilderWebb/aktiviteter/fwrecover.jpg" Alt="Bilde av noen elektroniske komponenter og kretskort." width="150">
 		</td>
 		<td>
 			<p><strong>Bitraf</strong><br />
@@ -253,7 +261,7 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/aktiviteter/bislet.jpg" alt="bilde" width="200">
+			<img src="BilderWebb/aktiviteter/bislet.jpg" alt="bilde" width="150">
 		</td>
 		<td>
 			<p><strong>Bislet Bad</strong><br>
@@ -262,13 +270,13 @@
 
 			<div id="merinfoBad">
 				<div class="close_button"> X </div>
-				<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="200" height="120">
+				<img src="BilderWebb/aktiviteter/bislet.jpg" alt="bilde" width="250">
 			<p>Tradisjonsrikt bad i Oslo. Badet ble totalrenovert for noen år siden og fikk da nytt basseng og boblebad.
 			Bislet Bad har også tilbud med trening og velvære. Du finner badet i Pilestredet i Oslo sentrum. Anbefales!
 
 			Her kan du slappe av samt trene i vakre gammeldagse omgivelser. Badet er av den gamle romersk inspirerte
 			typen og fredet av byantikvaren i Oslo. Bassenglengden er på 16,5 meter og selve badet er flott utsmykket.
-			Source og mer info: <a href="http://sollibowling.no/">Sollibowling.no</a></p>
+			Source og mer info: <a href="http://www.oslosurf.com/innhold/6654.php">Bislet Bad</a></p>
 			</p></div>
 			</td>
 	</tr>
