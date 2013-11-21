@@ -1,4 +1,4 @@
-html{
+﻿html{
 	background: url('BilderWebb/skyer.jpg') no-repeat center center fixed; 
   	/*-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -1107,20 +1107,6 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-.close_button{
-	right:-0.2%;
-	cursor:pointer;
-	width:20px;
-	line-height:20px;
-	background:#000;
-	color:#fff;
-	text-align: center;
-	font-size: 14px;
-	font-weight: bold;
-	position: absolute;
-	top:-1px;
-	border:solid 1px;
-}
 
 /*STYLESHEET SEVERDIGHETER*/
 
@@ -1203,22 +1189,6 @@ input {
 	top:160%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
-}
-
-
-.close_button{
-	right:-0.2%;
-	cursor:pointer;
-	width:20px;
-	line-height:20px;
-	background:#000;
-	color:#fff;
-	text-align: center;
-	font-size: 14px;
-	font-weight: bold;
-	position: absolute;
-	top:-1px;
-	border:solid 1px;
 }
 
 /*STYLESHEET KULTUR*/
@@ -1349,24 +1319,6 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
-
-.close_button{
-	right:-0.2%;
-	cursor:pointer;
-	width:20px;
-	line-height:20px;
-	background:#000;
-	color:#fff;
-	text-align: center;
-	font-size: 14px;
-	font-weight: bold;
-	position: absolute;
-	top:-1px;
-	border:solid 1px;
-}
-
-
-
 /* Aktiviteter */
 
 input {
@@ -1484,6 +1436,7 @@ input {
 	z-index:1600;
 	box-shadow: 8px 8px 20px 5px #000;
 }
+
 
 
 
