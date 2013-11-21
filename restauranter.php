@@ -711,7 +711,7 @@
 
 	<tr>
 
-		<td><img src="BilderWebb/klosteret-logo.png.jpg" Alt="Loggo fra klosteret" width="120"  height="90">
+		<td><img src="BilderWebb/backup/klosteret-logo.png." Alt="Loggo fra klosteret" width="120"  height="90">
 
 		</td>
 

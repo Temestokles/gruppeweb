@@ -400,7 +400,7 @@
 					<div id="merinfoBlaa">
 						<div class="close_button"> X </div>
 
-							<img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="150">
+							<img src="BilderWebb/blaaLogo.png.jpg" Alt="Bild fra utestedet Blå" width="150">
 							<p>Jazz, elektronisk, hip-hop, pop og rock samt krysningene mellom disse er noe som du kan oppleve på Blå.<br>
 							Visionen er og fylle det gamle diamantlageret til randen med kultur. <br>
 							Tilsammen arrangerer BLÅ ca.380 arrangementer per år.
