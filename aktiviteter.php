@@ -4,16 +4,16 @@
 <h2>Slå ut kjeglene</h2>
 
 
-<img id="hitpin0" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin1" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin2" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin3" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin4" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin5" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin6" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin7" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin8" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
-<img id="hitpin9" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin0" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin1" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin2" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin3" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin4" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin5" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin6" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin7" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin8" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin9" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
 
 </div>
 
@@ -58,7 +58,7 @@
 
 <tr>
 	<td>
-		<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="150">
+		<img src="BilderWebb/aktiviteter/buddha.png" alt="Bhudda Biljard" width="150">
 	</td>
 	<td>
 		<p><strong>Buddha Biljard</strong><br>
@@ -67,7 +67,7 @@
 		i en behagelig atmosfære med god musikk.</p>
 <div id="merinfoBhudda">
 			<div class="close_button"> X </div>
-			<img src="BilderWebb/aktiviteter/buddha.png" alt="bilde" width="250">
+			<img src="BilderWebb/aktiviteter/buddha.png" alt="Bhudda Biljard" width="250">
 			<p>	Buddha Biljard er Oslo’s feteste biljardlounge og sportsbar med 13 biljardbord, storskjerm, gratis dart og
 			trådløs internett fordelt på 700 stemningsfulle kvadratmeter i Oslo sentrum. Ta med vennene dine og nyt kvelden
 			i en behagelig atmosfære med god musikk.
@@ -294,7 +294,7 @@
 
 	<tr>
 		<td>
-			<img src="BilderWebb/aktiviteter/bislet.jpg" alt="bilde" width="150">
+			<img src="BilderWebb/aktiviteter/bislet.jpg" alt="Bislett Bad" width="150">
 		</td>
 		<td>
 			<p><strong>Bislet Bad</strong><br>
@@ -303,7 +303,7 @@
 
 			<div id="merinfoBad">
 				<div class="close_button"> X </div>
-				<img src="BilderWebb/aktiviteter/bislet.jpg" alt="bilde" width="250">
+				<img src="BilderWebb/aktiviteter/bislet.jpg" alt="Bislett Bad" width="250">
 			<p>Tradisjonsrikt bad i Oslo. Badet ble totalrenovert for noen år siden og fikk da nytt basseng og boblebad.
 			Bislet Bad har også tilbud med trening og velvære. Du finner badet i Pilestredet i Oslo sentrum. Anbefales!
 
