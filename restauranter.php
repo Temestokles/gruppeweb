@@ -930,7 +930,7 @@
 							</div>
 						</td>
 						<td>
-							s</td>
+							</td>
 					</tr>
 </table>
 </section>
