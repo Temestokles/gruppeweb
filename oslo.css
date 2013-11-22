@@ -48,6 +48,17 @@ header{
 	margin:0 auto;
 }
 
+form textarea{
+   height:150px;
+   width:350px;
+ }
+ 
+.kommentarer{
+	overflow:auto;
+ 	height:40%; 
+ 	 border-top: 1px solid #D0D0D0;
+ }
+
 #overskrift	h1{
 	float:left;
 	font-size: 4.5em;
@@ -286,6 +297,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-bottom:2%;
@@ -314,6 +326,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-bottom:2%;
@@ -344,6 +357,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -375,6 +389,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -405,6 +420,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -435,6 +451,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -465,6 +482,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -495,6 +513,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -525,6 +544,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -555,6 +575,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -601,6 +622,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -630,6 +652,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -658,6 +681,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -687,6 +711,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -716,6 +741,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -744,6 +770,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -772,6 +799,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -801,6 +829,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -829,6 +858,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -858,6 +888,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -886,6 +917,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -914,6 +946,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -942,6 +975,7 @@ input {
 	display:none;
 	left:25%;
 	width:40%;
+	height:80%;
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
@@ -1746,6 +1780,5 @@ only screen and (min-device-pixel-ratio : 1.5) {
 		position: absolute;
 		display:none;
 	}
-
 
 }
