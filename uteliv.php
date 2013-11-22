@@ -400,7 +400,7 @@
 					<div id="merinfoBlaa">
 						<div class="close_button"> X </div>
 
-							<img src="BilderWebb/blaaLogo.png" Alt="Bild fra utestedet Blå" width="150">
+							<img src="BilderWebb/blaaLogo.png.jpg" Alt="Bild fra utestedet Blå" width="150">
 							<p>Jazz, elektronisk, hip-hop, pop og rock samt krysningene mellom disse er noe som du kan oppleve på Blå.<br>
 							Visionen er og fylle det gamle diamantlageret til randen med kultur. <br>
 							Tilsammen arrangerer BLÅ ca.380 arrangementer per år.
@@ -785,7 +785,7 @@
 														Annet stede å ha i baktanke hvis man liker dubstep og elektro beats er Kulturhuset Hausmania
 														<a href="http://www.hausmania.org" target="blank"><br>(www.hausmania.org)</a>
 														som oftest ordner konserter inom den genren.<br>
-														Kilde: </p>
+														Kilde: <a href="http://www.thevilla.no"> www.thevilla.no</a> </p>
 													</div>
 										</td>
 								</tr>
@@ -876,7 +876,8 @@
 
 													<img src="BilderWebb/raanattklubbLogo.gif" Alt="Loggo fra utestedet Rå" width="200" height="120">
 														<p>Publikum her er 18+. Så et utestede som passer seg for en yngre målgruppe.<br>
-														Source:<a href="http://www.raaoslo.no" target="blank"> http://www.raaoslo.no</a></p>
+														Kilde:<a href="http://www.raaoslo.no" target="blank"> http://www.raaoslo.no</a>
+														Bilde:m.studentkatalogen.no</p>
 													</div>
 												</td>
 											</tr>

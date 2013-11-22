@@ -1,0 +1,18 @@
+body{
+
+}
+
+p{
+	font-size:18px; 
+	font-family: "Times New Roman";
+}
+
+
+
+@media print {
+
+p{
+
+font-size:20px;
+
+}

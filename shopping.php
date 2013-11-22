@@ -27,7 +27,7 @@
 				Du kan også besøke Boxpark som er et spennende konsept med 12 butikker og serveringssteder i spesialdesignede containere.<br/> 
 				Hentet fra:<a href="http://www.akerbrygge.no/FinnFrem/Butikker.aspx" target="blank"> www.akerbrygge.no</a><br/>
 				Bilde: <a href="http://www.visitoslo.com/ImageVault/Images/id_6605/width_725/scope_0/filename_EKUw9jhvT1fnNDfCayR1.jpg/storage_Edited/conversionFormatType_WebSafe/ImageVaultHandler.aspx" target="blank">www.visitoslo.com</a><br>
-				<a href="http://www.akerbrygge.no/Shopping/Discover_more_shopping.aspx" target="blank">Mer info?</a><brs>
+				<a href="http://www.akerbrygge.no/Shopping/Discover_more_shopping.aspx" target="blank">Mer info?</a><br>
 			</p>
 			</div>
 	</td>
@@ -196,8 +196,7 @@
 				<img src="BilderWebb/eger.jpg" Alt="Bild fra Eger" width="250">
 			<p>De kan tilby over 300 internasjonale merkevarer innen mote, skjønnhet og livsstil. 
 			Chloé, Isabel Marant, Alexander Wang, Marc by Marc Jacobs og Givenchy er blant annet å finne der. <br>
-			Fra:<a href="http://www.egerkarljohan.no/artikkel.aspx?nr=93" target="blank"> www.egerkarljohan.no</a><br>
-			Bilde:<a href="http://www.egerkarljohan.no/fasade.jpg.aspx?m=52&amp;w=690&amp;h=350&amp;o=0&amp;c=true" target="blank">www.egerkarljohan.no</a><br>
+			Tekst og Bilde fra:<a href="http://www.egerkarljohan.no/artikkel.aspx?nr=93" target="blank"> www.egerkarljohan.no</a><br>
 			<a href="http://www.egerkarljohan.no/forside.aspx?nr=2" target="blank">Mer info?</a>
 			</p>
 			</div>
@@ -227,10 +226,10 @@
 			<div id="merinfoPaleet">
 				<div class="close_button"> X </div>
 
-				<img src="BilderWebb/paleet.jpg" Alt="Bilde fra Paléaleet" width="260" height="150">
+				<img src="BilderWebb/paleet.jpg" Alt="Bilde fra Paleet" width="260" height="150">
 			<p>I følge ordboken betyr Palé "mindre slott, praktfullt byhus". 
 				Paleet har ikke det største utvalget av butikker, men det er til gjengjeld et veldig fint bygg. <br>
-			Bilde: <a href"http://www.bygg.no/cache/image/53771/53/paleet-bredde.jpg" target="blank">www.bygg.no</a><br>
+			Bilde: <a href="http://www.bygg.no/cache/image/53771/53/paleet-bredde.jpg" target="blank">www.bygg.no</a><br>
 			<a href="http://www.paleet.no/" target="blank">Mer info?</a>
 			</p>
 			</div>
