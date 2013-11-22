@@ -49,7 +49,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -123,7 +123,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -198,7 +198,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -268,7 +268,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -341,7 +341,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -410,7 +410,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -484,7 +484,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -558,7 +558,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -628,7 +628,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -696,7 +696,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -770,7 +770,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -838,7 +838,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
@@ -905,7 +905,7 @@
 							}
 							?>
 
-							<form action="?page=2" method="post">
+							<form action="?page=1" method="post">
 
 								<table>
 									<tr>
