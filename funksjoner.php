@@ -41,20 +41,21 @@ function skrivKommentarUteliv($filnavn, $navn, $kommentar){
 	file_put_contents("CommentsUteliv/".$filnavn, json_encode($kommentarer));
 }
 
-function hentKommentarerRestauranter($filnavn){
-	if(empty($filnavn)){
+//funksjoner til restauranter 
+function hentKommentarerRestauranter($filnavn2){
+	if(empty($filnavn2)){
 		die("Du må spesifisere filnavn");
 	}
 
-	$fil = count(file("CommentsRestauranter/".$filnavn));
+	$fil1 = count(file("CommentsRestauranter/".$filnavn2));
 
-	if($fil != 0){
-		$json = json_decode(file_get_contents("CommentsRestauranter/".$filnavn));
+	if($fil1 != 0){
+		$json = json_decode(file_get_contents("CommentsRestauranter/".$filnavn2));
 
 		$kommentarHTML = "";
 
 		if(!empty($json)){
-			foreach($json as $kommentar){
+			foreach($json as $kommentar2){
 				$kommentarHTML .= "<p class='kommentar'>";
 				$kommentarHTML .= "<strong>Navn:</strong> {$kommentar->navn}<br>";
 				$kommentarHTML .= "<strong>Kommentar:</strong> {$kommentar->comment_text}";
@@ -72,14 +73,14 @@ function hentKommentarerRestauranter($filnavn){
 	
 }
 
-function skrivKommentarRestauranter($filnavn, $navn, $kommentar){
-	if(empty($filnavn) || empty($navn) || empty($kommentar)){
+function skrivKommentarRestauranter($filnavn2, $navn2, $kommentar2){
+	if(empty($filnavn2) || empty($navn2) || empty($kommentar2)){
 		die("Du må kalle på skrivKommentar-funksjonen riktig");
 	}
 
-	$kommentarer = json_decode(file_get_contents("CommentsRestauranter/".$filnavn), true);
-	$kommentarer[] = array("navn" => $navn, "comment_text" => $kommentar);
+	$kommentarer = json_decode(file_get_contents("CommentsRestauranter/".$filnavn2), true);
+	$kommentarer[] = array("navn" => $navn2, "comment_text" => $kommentar2);
 
-	file_put_contents("CommentsRestauranter/".$filnavn, json_encode($kommentarer));
+	file_put_contents("CommentsRestauranter/".$filnavn2, json_encode($kommentarer));
 }
 ?>
