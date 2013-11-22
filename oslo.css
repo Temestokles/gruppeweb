@@ -55,7 +55,7 @@ form textarea{
  
 .kommentarer{
 	overflow:auto;
- 	height:40%; 
+ 	height:20%; 
  	 border-top: 1px solid #D0D0D0;
  }
 
@@ -300,7 +300,7 @@ input {
 	height:80%;
 	background-color: white;
 	position:absolute;
-	padding-bottom:2%;
+	padding-bottom:1%;
 	top:50%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -329,7 +329,7 @@ input {
 	height:80%;
 	background-color: white;
 	position:absolute;
-	padding-bottom:2%;
+	padding-bottom:1%;
 	top:70%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -361,7 +361,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:120%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -393,7 +393,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:140%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -424,7 +424,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:160%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -455,7 +455,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:220%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -486,7 +486,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:270%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -517,7 +517,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:280%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -548,7 +548,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:330%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -579,7 +579,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:360%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -626,7 +626,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:40%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -656,7 +656,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:70%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -685,7 +685,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:110%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -715,7 +715,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:150%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -745,7 +745,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:190%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -774,7 +774,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:210%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -803,7 +803,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:250%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -833,8 +833,8 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
-	top:310%;
+	padding-bottom:1%;
+	top:320%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -862,8 +862,8 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
-	top:330%;
+	padding-bottom:1%;
+	top:340%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -892,8 +892,8 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
-	top:340%;
+	padding-bottom:1%;
+	top:370%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -921,7 +921,7 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
+	padding-bottom:1%;
 	top:410%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
@@ -950,8 +950,8 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
-	top:420%;
+	padding-bottom:1%;
+	top:440%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
@@ -979,8 +979,8 @@ input {
 	background-color: white;
 	position:absolute;
 	padding-top:5%;
-	padding-bottom:5%;
-	top:430%;
+	padding-bottom:1%;
+	top:450%;
 	z-index:150;
 	box-shadow: 8px 8px 20px 5px #000;
 }
