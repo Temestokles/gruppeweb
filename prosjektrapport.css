@@ -15,7 +15,7 @@ section{
 h1{
 	text-align: center;
 	color: #767873;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 table{
@@ -34,6 +34,10 @@ tr td{
 p{
 	font-size:18px; 
 	font-family: "Arial";
+}
+
+ol{
+	margin-bottom: 5%;
 }
 
 li{

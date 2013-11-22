@@ -152,7 +152,7 @@
 					<br />Kampsport dreier seg ikke bare om  trene en idrett, men i stor grad om  f kontroll over bde kropp og sinn.
 					Hos oss kan du lre deg noe som er bde nyttig og morsomt  og viktig.
 					<br />
-					Source og mer info:  <a href="Source: http://www.oslokarateklubb.no/">www.oslokarateklubb.no</a>
+					Source og mer info:  <a href="http://www.oslokarateklubb.no/">www.oslokarateklubb.no</a>
 				</p>
 			</div>
 		</td>
