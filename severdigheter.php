@@ -36,6 +36,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoFrognerp">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>	
 	</tr>
 
@@ -66,6 +68,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoHolmenkollen">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -106,6 +110,8 @@
 				<li class="lesMer" data-target="merinfoSlottet">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 	<tr>
@@ -137,6 +143,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoDomkirken">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -170,6 +178,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoFrognerseteren">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 </table>

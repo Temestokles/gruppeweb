@@ -5,62 +5,71 @@
 	<title>Prosjektrapport</title>
 </head>
 <body>
-
+<section>
 	<header>
-		<h2>Prosjektrapport</h2>
-		<h4> Andersson Saja</h4>
-		<h4> Os, Sofie</h4>
-		<h4> Møgen, Jonas</h4>
-		<h4> Vollebekk, Vegard </h4>
-
+		<h1>PROSJEKTRAPPORT</h1>
+	<table>
+		<tr>
+			<td>Saja Andersson</td>
+			<td>Sofie Os</td>
+			<td>Jonas Møgen</td>
+			<td>Vegard Vollebekk</td>
+		</tr>
+	</table>
 	</header>
 	<h3>Innholdsfortegnelse</h3>
 	<ol>
 		<li>Inledning</li>
 		<li>Implementert på websiden</li>
+		<li>Arbeidsprosess</li>
 		<li>Metoder</li>
 		<li>Verktøy og teknologier</li>
 		<li>Konklusjon</li>
 		<li>Videreutvikling</li>
 	</ol>
 
-
-<h5> 1.</h5>
-	<h2> Inledning </h2>
-		<p>Vårt prosjekt har vart å lage en webbside som vi valt å kalle for Oslo guiden.
-		Dette er fremst en webbside for nyinflyttade til Oslo der man får tips på ting som man kan gjøre i byen.<br>
+	<h2> 1 - Innledning </h2>
+		<p>Vårt prosjekt har vart å lage en webside som vi valgt å kalle for Osloguiden.
+		Dette er først og fremst en webside for nyinflyttede til Oslo, der man kan få tips på ting man kan gjøre i byen.<br>
 		Alt ifra severdigheter, shopping, restauranter, uteliv, kultur og aktiviteter. Websiden er enkel og lettnavigert,
-		der brukeren på enkelt hvis finner ut information.<br> 
+		der brukeren på enkelt vis finner ut information.<br> 
 		Alle medlemmer i prosjektet hadde gode ideer på funksjoner som skulle finnes på siden. I forprosjektrapporten hadde vi forventninger og mål som var satt til at brukeren kunne intregere mer med siden, enn hva det dessverre går å gjøre på slutresultatet. Dog så har webbsiden et stort potensial til å både bli bedre og mer anvansert.</p>
 
 	<br>
 	<br>
 
-<h5> 2.</h5>
-	<h2> Implementert på websiden </h2>
+	<h2>2 - Implementert på websiden </h2>
 		<p>Vi har en menylinje med dagens dato og klokkeslett øverst på siden. Menylinjen/headeren er i en fixed posisjon og henger hele tiden med når man scroller nedover.<br> Menyen har syv valg: “Startside”, “Restauranter”, “Uteliv”, “Shopping”, “Severdigheter”, “Kultur” og “Aktiviteter”. Alle disse er linker til undersider. <br>Går man for eksempel inn på “Restauranter” vil man kunne scrolle nedover og se steder å spise delt inn etter type kjøkken. Hver restaurant eller cafe har litt tekst og et bilde. <br>
 		Finner man et sted som ser interessant ut kan man trykke “Les mer”. Da kommer det opp en boks med litt mer informasjon og et litt større bilde. Øverst til høyre i boksen er det en X som lukker boksen vet et klikk. For å få opp og igjen boksene har vi brukt en jQuery funksjon. På sidene “Restauranter”  og “Uteliv har vi en kommentarfunksjon. <br> Denne er ment for at besøkende på siden kan dele sine erfaringer om stedene. “Uteliv” har i tillegg  en lik-funksjon. Den virker på samme måte som på facebook: <br>likte du stedet, så kan du trykke på “lik” for å fortelle det til andre. 
 		Til høyre for menylinjen har vi laget en værfunksjon med php som henter data fra yr.no. <br>
-		Avhengig av hva slags vær det er kommer det opp et hjemmelaget bilde som beskriver været og temperaturen. Vær-boksen henger også med hvis man scroller nedover på siden.</p>
+		Avhengig av hva slags vær det er kommer det opp et hjemmelaget bilde som beskriver været og temperaturen. Vær-boksen henger også med hvis man scroller nedover på siden.
+		</p>
 
 	<br>
 	<br>
 
-<h5> 3.</h5>
-	<h2> Metoder </h2>
+	<h2>3 - Arbeidsprosess </h2>
+		<p>Innhenting av informasjon og bilder, og grunnarbeidet ble begynt på den første uken. Det var dette vi hadde planlagt å gjøre i forprosjektrapporten. Det vi ikke hadde planlagt var at vi ikke var i nærheten av å være ferdige med dette etter første uke. 
+		I uke to skulle alt av informasjon og undersider settes sammen. Dette skjedde jo ikke, ettersom vi allerede hang langt bak skjema. Det endte med at vi jobbet videre med det vi hadde tenkt å bli ferdige med i uke en. Uke tre ble naturligvis ganske så hektisk. Vi var stort sett ferdige med å hente info og bilder til undersidene. Designet ble forandret en del denne uken og ting begynte å henge sammen. Les mer-knappene var slik vi ville ha dem og det virket som om vi var tilbake der vi hadde tenkt. Men så dukket det jo opp diverse hindringer underveis. Kommentar-knappene og lik-knappene har gitt oss mye trøbbel og har stjålet en del tid. I tillegg fikk vi litt problemer med GitHub og noen ting måtte gjøres både to og tre ganger. Men, i slutten av uke tre ble vi faktisk ferdige, akkurat i tide til innlevering.
+		</p>
+
+	<br>
+	<br>
+
+	<h2>4 - Metoder </h2>
 		<p>På vårt første møte hadde vi en brainstorming der vi alle fikk komme med forslag på ideer. Når vi hadde blitt enige så disskuterte vi hvordan vi skulle legge opp prosessen. Alle ble enige om at vi skulle bruke oss utav to metoder, SCRUM og prototyping.
 		Først lagde vi en skisse på hvordan vi ville at siden skulle se ut og hvilke funksjonaliteter den skulle ha.
 		En prosjektleder utsågs og vi begynte lage en forrapport på hva som skulle gjøres og hvem som skulle gjøre vad.
 		Ut ifra planen arbeidet vi med egne prosjekt for å tilslut nå frem til et felles mål.
 		En i gruppa fikk oppgaven å lage et gemensamt prosjekt på Github som vi alle har brukt oss utav. Etter var endring så bestemte vi oss for å dele det.
 		Fra første start har vi også hatt kontakt via facebook der vi lagde en felles side for å kommunisere med hverandre.
-		Der har vi bestemt alle møter som vi hatt og delt nye ideer.</p>
+		Der har vi bestemt alle møter som vi hatt og delt nye ideer.
+		</p>
 
 	<br>
 	<br>
 
-<h5> 4.</h5>
-	<h2> Verktøy og Teknologier</h2>
+	<h2>5 - Verktøy og Teknologier</h2>
 		<p>Av verktøy så har vi brukt programmer som Sublime Text, Github, Linux og Apache. Vi har også anvendt oss av internett der google har vart et sentralt verktøy for informasjon og bilder. Vi har også anvendt oss av kameraer og telefoner for egne bilder.
 		Vi har arbeidet både på PC og mobiltelefon for å kunne få siden så universellt utformet som mulig. Når vi har skrevet rapportene så har vi også brukt oss av google docs der vi alle hatt tilgang direkte.
 		Av teknologier så har vi valgt å brukt oss utav HTML, CSS, PHP og JQUERY. Det mest brukte har vart HTML og CSS og litt mindre av PHP og JQUERY foreløpig.
@@ -69,8 +78,7 @@
 	<br>
 	<br>
 
-<h5> 5.</h5>
-	<h2>Konsklusjon</h2>
+	<h2>6 - Konsklusjon</h2>
 		<p>Vår store utfordring i dette prosjekt var å bli satt sammen med mennesker med forskjellige interesser og forskjellige smak. Fra begynnelsen ville alle gjøre ulike websider hvilket gjorde at vi hadde uenigheter om hva som skal gjøres og hvordan.
 		Prosjektledere som ble satt i begynnelsen ble også bytta på i midten av prosjektet hvilket gjorde at strukturen ble litt endret.  
 		På tross av vårt ulike utgangspunkt, klarte vi allikevel å bli enige tilslutt. Det viser at vi alle i slutenden har vært samarbeidsvillige.
@@ -85,14 +93,15 @@
 		Dette lærte vi oss etterhvert og nå i sluttet av prosjektet så har vi fått god inblikk i programmet og kan arbeide videre med det.
 		Kommunikasjonen via facebook har fungert bra med avstemning og booking av møter. Det har skjedd at et innlegg ikke har blitt sett men i det store hele så har det fungert bra.
 		Vi har brukt mye tid på HTML koding og CSS der har vi gjort endringer helt frem til siste dag. Det er fordi at man har endt opp med å jobbe lenger enn planlagt på en spesiell ting, isteden for å gå videre å bygge på noe annet. Tidsskjemaet har da delvis på grunn av dette blitt litt tight, noe som også førte til at vi ikke fikk gjennomført alle planene vi hadde for webbsiden.
-		Timeplanen hadde først en plan om at vi hadde en uke på å hente all informasjon til siden men den ble utsatt nesten en ekstra uke til. En stor del av dette var dels fordi at vi ikke brukte databas fra første start og at vi ikke kommuniserade ordentlig på Github,  hvilket gjorde at man fikk gjøre noen oppgaver to ganger</p>
+		Timeplanen hadde først en plan om at vi hadde en uke på å hente all informasjon til siden men den ble utsatt nesten en ekstra uke til. En stor del av dette var dels fordi at vi ikke brukte databas fra første start og at vi ikke kommuniserade ordentlig på Github,  hvilket gjorde at man fikk gjøre noen oppgaver to ganger
+		</p>
 
 	<br>
 	<br>
 
-<h5> 6.</h5>
-	<h2> Videreutvikling</h2>
-		<p>En videreutvikling av siden er å lage en database der vi har mulighet å legge til de funksjoner som var satt ifra begynnelsen:</p>
+	<h2>7 - Videreutvikling</h2>
+		<p>En videreutvikling av siden er å lage en database der vi har mulighet å legge til de funksjoner som var satt ifra begynnelsen:
+		</p>
 			<ul>
 				<li>Aktivitetskalender</li>
 				<li>Forslag på ting å gjøre avhengig av været</li>
@@ -104,11 +113,15 @@
 		En annen videreutvikling er at også gjøre den maksimalt brukervennlig for funksjonshemmede der man f.eks lager et eget stilark med større tekst for de synskadede. Også en bra tabb-funksjon som gjør at man kan "tabba" sig igjennom siden. Dette virker nå bare på hovedmenyen.
 		Mulighetene er mange men med begrenset tid så måtte vi bare løse situasjonen så godt vi kunne.
 
-		CSS strukturen skal endres så at alle “commentsboks” går under samme class, isteden for ett eget ID som de har idag. Det samme gjelder for alle “les-mer” funksjoner. Det vil gjøre en stor forandring i kodingen och det vil også gjøre den mer lettleselig og mer brukbar i fremtiden når fler ting skal in på siden. </p>
+		CSS strukturen skal endres så at alle “commentsboks” går under samme class, isteden for ett eget ID som de har idag. Det samme gjelder for alle “les-mer” funksjoner. Det vil gjøre en stor forandring i kodingen och det vil også gjøre den mer lettleselig og mer brukbar i fremtiden når fler ting skal in på siden. 
+		</p>
 
 	
+<<<<<<< HEAD
 <a href="prosjektrapport.pdf"> Print ut rapport som pdf </a>
+=======
+<a href="prosjektrapport.php"> Print ut rapport som pdf </a>
+</section>
+>>>>>>> 2fe42eb44f57d4dfbaf2fa8e00ce6838f52c3ded
 </body>
-
-
 <html/>

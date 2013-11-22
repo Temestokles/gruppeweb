@@ -8,9 +8,9 @@
 	<td>
 		<p>
 			<strong>Kultureiendommer</strong>
-			<br />
+			<br>
 			Kulturetaten forvalter kulturbygg, kulturminner og historiske gårdsanlegg. Etaten fremskaffer lokaler til kunst- og kulturformål i Oslo og tilrettelegger for fornuftig bruk av historiske gårdsanlegg.
-			<br />
+			<br>
 		</p>
 		<div id="merinfoKultureiendommer">
 			<div class="close_button"> X </div>
@@ -19,7 +19,8 @@
 
 				Kulturbygg og historiske gårdsanlegg leies ut på subsidierte vilkår, og inneholder kunst- og kulturaktiviteter av byomfattende karakter. Kulturetaten har 40 kultureiendommer med 64 bygninger. I tillegg kommer forvaltningsansvar for Middelalderbeltet på totalt på 90 743 m2 og feriekolonien på Hudøy med sine 64 ulike bygninger. Kulturetaten har ansvaret for drift, eiendomsutvikling, utleie, vedlikehold og rehabilitering av disse kultureiendommene. Det er også mulig å leie lokaler for kortere tidsrom, eksempelvis til foredrag, seminarer, bryllup og lignende.
 
-				Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a></p>
+				Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a>
+			</p>
 			</div>
 		</td>
 	</tr>
@@ -29,6 +30,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoKultureiendommer">Les mer..</li>
 			</ul>			
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -40,9 +43,9 @@
 		<td>
 			<p>
 				<strong>Kulturkort for ungdom</strong>
-				<br />
+				<br>
 				Kortet gir unge mellom 16 og 20 år i Oslo tilgang på billetter med 20-50% rabatt på kunst og kulturopplevelser ved 26 institusjoner. Formålet er at unge skal benytte seg av kulturtilbudene oftere, og at nye publikummere skal rekrutteres. Kulturkortet er gratis, og gyldig sammen med aldersbevis fra du har fylt 16 til den dagen du fyller 20.
-				<br />
+				<br>
 			</p>
 			<div id="merinfoKulturkort">
 				<div class="close_button"> X </div>
@@ -68,6 +71,8 @@
 					<li class="lesMer" data-target="merinfoKulturkort">Les mer..</li>
 				</ul>			
 			</td>
+			<td>
+			</td>
 		</tr>
 
 		<tr>
@@ -77,10 +82,10 @@
 			<td>
 				<p>
 					<strong>Kunst i Oslo</strong>
-					<br />
+					<br>
 					Kunst i Oslo har ansvaret for all kunst i Oslo kommunes eie, utenom Munch-, Stenersen- og Vigeland-museet.
 					Samlingen omfatter 18 000 kunstverk. Denne samlingen finnes ikke i et galleri eller museum, men rundt om på kommunale bygg og institusjoner, i offentlige rom og på kontorer.
-					<br />
+					<br>
 				</p>
 				<div id="merinfoKunst">
 					<div class="close_button"> X </div>
@@ -102,6 +107,8 @@
 						<li class="lesMer" data-target="merinfoKunst">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 			<tr>
@@ -111,15 +118,15 @@
 				<td>
 					<p>
 						<strong>Deichmanske bibliotek</strong>
-						<br />
+						<br>
 						Deichmanske bibliotek er Norges største og eldste folkebibliotek, og består av 16 filialer over hele byen, flere spesialavdelinger og et hovedbibliotek i sentrum.  Vi er en viktig møteplass i nærmiljøet og en god støttespiller for frivillige organisasjoner og andre initiativtakere.
-						<br />
+						<br>
 					</p>
 					<div id="merinfoDeichmanske">
 						<div class="close_button"> X </div>
 						<img src="./BilderWebb/kulturaktiviteter/deichman.jpg" Alt="" width="250">
 
-						<p>Biblioteket var helt fra begynnelsen åpent for alle byens borgere, og de eldste låneprotokollene viser at det ble flittig benyttet. Ettersom bibliotekaren Jacob Rosted også var rektor ved Katedralskolen, ble det i 1802 bestemt at samlingen skulle flyttes til skolebygningen og stilles opp sammen med skolens bibliotek.</p>
+						<p>Biblioteket var helt fra begynnelsen åpent for alle byens borgere, og de eldste låneprotokollene viser at det ble flittig benyttet. Ettersom bibliotekaren Jacob Rosted også var rektor ved Katedralskolen, ble det i 1802 bestemt at samlingen skulle flyttes til skolebygningen og stilles opp sammen med skolens bibliotek.
 						Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a></p>
 					</div>
 				</td>
@@ -131,6 +138,8 @@
 						<li class="lesMer" data-target="merinfoDeichmanske">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 			<tr>
@@ -140,15 +149,15 @@
 				<td>
 					<p>
 						<strong>Kulturnatt i Oslo</strong>
-						<br />
+						<br>
 						Én kveld i året er det mulig å teste ut det fantastiske kulturlivet i Oslo - helt gratis.
 						Oslo kulturnatt gir en prøvesmak av det kulturelle mangfoldet, bredden og kvaliteten i Oslos kulturliv.
-						<br />
+						<br>
 					</p>
 					<div id="merinfoKulturnatt">
 						<div class="close_button"> X </div>
 						<img src="./BilderWebb/kulturaktiviteter/kulturnatt.jpg" Alt="" width="250">
-							<p>Målsettingen for Oslo kulturnatt er å gi byens befolkning og tilreisende en prøvesmak av det kulturelle mangfoldet og en opplevelse av bredden og kvaliteten i Oslos kulturliv. Kulturnatten er en årlig tradisjon og et fast tilbud til byens befolkning. I år er det niende gang Oslo kulturnatt arrangeres.</p>
+							<p>Målsettingen for Oslo kulturnatt er å gi byens befolkning og tilreisende en prøvesmak av det kulturelle mangfoldet og en opplevelse av bredden og kvaliteten i Oslos kulturliv. Kulturnatten er en årlig tradisjon og et fast tilbud til byens befolkning. I år er det niende gang Oslo kulturnatt arrangeres.
 						Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a></p>
 					</div>
 				</td>
@@ -160,6 +169,8 @@
 						<li class="lesMer" data-target="merinfoKulturnatt">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 			<tr>
@@ -169,23 +180,24 @@
 				<td>
 					<p>
 						<strong>Popsenteret</strong>
-						<br />
+						<br>
 						Én kveld i året er det mulig å teste ut det fantastiske kulturlivet i Oslo - helt gratis.
 						Oslo kulturnatt gir en prøvesmak av det kulturelle mangfoldet, bredden og kvaliteten i Oslos kulturliv.
-						<br />
+						<br>
 					</p>
 					<div id="merinfoPopsenteret">
 						<div class="close_button"> X </div>
 						<img src="./BilderWebb/kulturaktiviteter/popsenterfasade.jpg" Alt="" width="250">
 						<p>E-post: kontakt@popsenteret.no Tlf: 22 46 80 20</p>
-						<p>ÅPNINGSTIDER <br />
-							Tirs - fre kl. 10:00 - 16:00<br />
-							Torsdag kl. 10:00 - 19:00<br />
-							Lør - søn kl. 11:00 - 17:00<br />
-							Mandag: Stengt<br />
+						<p>ÅPNINGSTIDER <br>
+							Tirs - fre kl. 10:00 - 16:00<br>
+							Torsdag kl. 10:00 - 19:00<br>
+							Lør - søn kl. 11:00 - 17:00<br>
+							Mandag: Stengt<br>
 							Ekstern webside: <a href="http://popsenteret.no">www.popsenteret.no</a>
 						</p>
-						<p>POPSENTERET er et museum og opplevelsessenter som holder til på Grünerløkka i Oslo, og er stedet for deg som ønsker å vite mer om og oppleve norsk populærmusikk på en helt ny måte. Fra Adolf Østby og Rocke-Pelle til Satyricon og Susanne Sundfør, fra Chat Noir til Øyafestivalen - sammen med hundrevis av andre artister og begivenheter, og ikke minst rariteter og tekniske nyvinninger, presenterer de vår omfattende og imponerende musikkhistorie.</p>						Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a></p>
+						<p>POPSENTERET er et museum og opplevelsessenter som holder til på Grünerløkka i Oslo, og er stedet for deg som ønsker å vite mer om og oppleve norsk populærmusikk på en helt ny måte. Fra Adolf Østby og Rocke-Pelle til Satyricon og Susanne Sundfør, fra Chat Noir til Øyafestivalen - sammen med hundrevis av andre artister og begivenheter, og ikke minst rariteter og tekniske nyvinninger, presenterer de vår omfattende og imponerende musikkhistorie.						
+						Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a></p>
 					</div>
 				</td>
 			</tr>
@@ -196,6 +208,8 @@
 						<li class="lesMer" data-target="merinfoPopsenteret">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 			<tr>
@@ -205,9 +219,9 @@
 				<td>
 					<p>
 						<strong>Vigeland-museet</strong>
-						<br />
+						<br>
 						Vigeland-museet er Oslos skulpturmuseum. Museet er viet til Gustav Vigeland. I tillegg er museet det viktigste visningsstedet for tredimensjonal kunst i Oslo.
-						<br />
+						<br>
 					</p>
 					<div id="merinfoVigeland">
 						<div class="close_button"> X </div>
@@ -215,9 +229,9 @@
 						<p>
 							Vigeland-museet er Oslos skulpturmuseum med todelte oppgaver og ambisjoner. På den ene siden er museet dedikert til Gustav Vigeland. Vår kjerneoppgave er å forvalte Vigelands arv for offentligheten og ettertiden. I hovedsak er museets saler, samt leiligheten i museets 3. etasje, en presentasjon av Vigelands kunst fra hele hans kunstneriske virke.
 							I tillegg skal Vigeland-museet være det mest interessante visningsstedet for kunst innenfor det tredimensjonale feltet. Som en naturlig utvikling gjennom de seneste årenes skiftende utstillinger har vi spisset vår profil og styrket vår kompetanse. I hovedsak prioriterer museet kunstnerskap og verk som kan knyttes til det tredimensjonale feltet, det vil si skulptur og installasjon, samt videobasert kunst. Vi legger vekt på å presentere en bredde innenfor dette, både når det gjelder ulike perioder, nasjonalitet, kunstnerskap og teknikker.
-							<br /><br /><a href="http://www.vigeland.museum.no/no/ommuseet/ansatte">Kontaktinformasjon</a>
-							<br /><br />Ekstern webside: <a href="http://www.vigeland.museum.no/">www.vigeland.museum.no</a>
-						</p>
+							<br><br><a href="http://www.vigeland.museum.no/no/ommuseet/ansatte">Kontaktinformasjon</a>
+							<br><br>Ekstern webside: <a href="http://www.vigeland.museum.no/">www.vigeland.museum.no</a>
+					
 						Source:<a href="kulturetaten.oslo.kommune.no" target="blank">kulturetaten.oslo.kommune.no</a></p>
 					</div>
 				</td>
@@ -229,6 +243,8 @@
 						<li class="lesMer" data-target="merinfoVigeland">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 
@@ -239,9 +255,9 @@
 		<td>
 			<p>
 				<strong>Norske Operaen</strong>
-				<br />
+				<br>
 				Den Norske Opera og Ballett er den eneste fullt ut profesjonelle institusjon for produksjon og formidling av opera og ballett i Norge, og ble stiftet i 1957. Institusjonen er organisert som et aksjeselskap og var til 2008 eid av staten (90%) og Det Norske Operafond (10%). Den er nå heleid av den norske stat.
-				<br />
+				<br>
 			</p>
 			<div id="merinfoOpera">
 				<div class="close_button"> X </div>
@@ -260,5 +276,8 @@
 						<li class="lesMer" data-target="merinfoOpera">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 </table>
+</section>

@@ -1,19 +1,38 @@
 <section class="aktiviteter main">
-<h2>AKTIVITETER</h2>
+
+<div class="pins">
+<h2>Slå ut kjeglene</h2>
+
+
+<img id="hitpin0" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin1" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin2" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin3" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin4" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin5" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin6" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin7" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin8" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+<img id="hitpin9" src="BilderWebb/egg/tenpin.jpg" alt="bilde" width="50"/>
+
+</div>
+
+<div id="egghide"><h2>AKTIVITETER</h2>
+
 <table>
 
 <tr>
 	<td>
-		<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="150" height="90">
+		<img src="BilderWebb/aktiviteter/solli.png" alt="Solli Bowling" width="150" height="90">
 	</td>
 	<td>
 		<p><strong>Solli Bowling</strong><br>
-			Solli Bowling er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
+			Solli <strong id="egg">Bowling</strong> er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
 			Hallen rommer 11 baner hvor man enten kommer på drop-in eller man kan sikre seg plass ved å bestille i forveien.
 		</p>
 		<div id="merinfoSolli">
 			<div class="close_button"> X </div>
-			<img src="BilderWebb/aktiviteter/solli.png" alt="bilde" width="250" height="150">
+			<img src="BilderWebb/aktiviteter/solli.png" alt="Solli Bowling" width="250" height="150">
 
 			<p>Solli Bowling er Oslos eldste bowlinghall, og ligger sentralt i Oslo sentrum.
 			Hallen rommer 11 baner hvor man enten kommer på drop-in eller man kan sikre seg plass ved å bestille i forveien.
@@ -31,6 +50,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoSolli">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -67,6 +88,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoBhudda">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -108,6 +131,8 @@
 				<li class="lesMer" data-target="merinfoJudo">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 	<tr>
@@ -133,7 +158,7 @@
 					<br />Kampsport dreier seg ikke bare om  trene en idrett, men i stor grad om  f kontroll over bde kropp og sinn.
 					Hos oss kan du lre deg noe som er bde nyttig og morsomt  og viktig.
 					<br />
-					Source og mer info:  <a href="Source: http://www.oslokarateklubb.no/">www.oslokarateklubb.no</a>
+					Source og mer info:  <a href="http://www.oslokarateklubb.no/">www.oslokarateklubb.no</a>
 				</p>
 			</div>
 		</td>
@@ -143,6 +168,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoKarate">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -184,6 +211,8 @@
 				<li class="lesMer" data-target="merinfoKlatring">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 	<tr>
@@ -218,6 +247,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoTryvann">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -257,6 +288,8 @@
 				<li class="lesMer" data-target="merinfoBitraf">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 	<tr>
@@ -276,7 +309,7 @@
 
 			Her kan du slappe av samt trene i vakre gammeldagse omgivelser. Badet er av den gamle romersk inspirerte
 			typen og fredet av byantikvaren i Oslo. Bassenglengden er på 16,5 meter og selve badet er flott utsmykket.
-			Source og mer info: <a href="http://www.oslosurf.com/innhold/6654.php">Bislet Bad</a></p>
+			Source og mer info: <a href="http://www.oslosurf.com/innhold/6654.php">Bislet Bad</a>
 			</p></div>
 			</td>
 	</tr>
@@ -287,7 +320,10 @@
 				<li class="lesMer" data-target="merinfoBad">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 </table>
+</div>
 </section>

@@ -1,18 +1,50 @@
 body{
+	background-color: #C5D2E6;
+}
 
+section{
+	background-color: white;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 3%;
+	box-shadow:0px -3px 5px 5px #FFF;
+}
+
+h1{
+	text-align: center;
+	color: #767873;
+	font-size: 35px;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 60%;
+	margin-bottom: 8%;
+}
+
+tr td{
+	text-align: center;
+	font-family: "Arial";
+	font-size: 15px;	
 }
 
 p{
 	font-size:18px; 
-	font-family: "Times New Roman";
+	font-family: "Arial";
 }
 
+ol{
+	margin-bottom: 5%;
+}
+
+li{
+	font-size: 18px;
+	font-family: "Arial";
+}
 
 
 @media print {
 
-p{
-
-font-size:20px;
-
-}
