@@ -34,6 +34,8 @@
 </tr>
 <tr> 
 	<td>
+	</td>
+	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoAkerBrygge">Les mer..</li>
 		</ul>			
@@ -67,6 +69,8 @@
  </tr>
  
 <tr>
+	<td>
+	</td>
 	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoBogstadveien"> Les mer..</li>
@@ -102,6 +106,8 @@
 
 <tr>
 	<td>
+	</td>
+	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoKarlJ"> Les mer..</li>
 		</ul>		
@@ -135,6 +141,8 @@
 </tr>
 
 <tr>
+	<td>
+	</td>
 	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoGrunerlokka"> Les mer..</li>
@@ -173,6 +181,8 @@
 
 <tr>
 	<td>
+	</td>
+	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoSteenStrom"> Les mer..</li>
 		</ul>
@@ -204,6 +214,8 @@
 </tr>
 
 <tr>
+	<td>
+	</td>
 	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoEger"> Les mer..</li>
@@ -238,9 +250,12 @@
 
 <tr>
 	<td>
+	</td>
+	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoPaleet"> Les mer..</li>
 		</ul>
+	</td>
 </tr>
 
 
@@ -269,6 +284,8 @@
 </tr>
 
 <tr>
+	<td>
+	</td>
 	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoOsloCity"> Les mer..</li>
