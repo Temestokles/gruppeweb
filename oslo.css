@@ -1,4 +1,4 @@
-﻿html{
+html{
 	background: url('BilderWebb/skyer.jpg') no-repeat center center fixed; 
   	/*-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -37,7 +37,8 @@ header{
 	position: relative;
 	border-bottom: 1px solid black;
 	background-color:#6499E8;
-	width:69.3%;	
+	width:69.3%;
+	z-index:5;
 }
 
 .header-cont{
@@ -46,6 +47,17 @@ header{
 	top:0px;
 	margin:0 auto;
 }
+
+form textarea{
+   height:150px;
+   width:350px;
+ }
+ 
+.kommentarer{
+	overflow:auto;
+ 	height:40%; 
+ 	 border-top: 1px solid #D0D0D0;
+ }
 
 #overskrift	h1{
 	float:left;
@@ -256,19 +268,13 @@ font-size: 0.9em;
 }
 
 form textarea{
-	height:75px;
+	height:150px;
 	width:350px;
 }
 
 }
 input {
 	color: #1669E6;
-}
-
-.kommentarer{
-	overflow:auto;
-	height:40%; 
-	border-top: 1px solid #D0D0D0;
 }
 
 /* HORGANS */
@@ -1107,6 +1113,20 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+.close_button{
+	right:-0.2%;
+	cursor:pointer;
+	width:20px;
+	line-height:20px;
+	background:#000;
+	color:#fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top:-1px;
+	border:solid 1px;
+}
 
 /*STYLESHEET SEVERDIGHETER*/
 
@@ -1189,6 +1209,22 @@ input {
 	top:160%;
 	z-index:200;
 	box-shadow: 8px 8px 20px 5px #000;
+}
+
+
+.close_button{
+	right:-0.2%;
+	cursor:pointer;
+	width:20px;
+	line-height:20px;
+	background:#000;
+	color:#fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top:-1px;
+	border:solid 1px;
 }
 
 /*STYLESHEET KULTUR*/
@@ -1319,11 +1355,98 @@ input {
 	box-shadow: 8px 8px 20px 5px #000;
 }
 
+
+.close_button{
+	right:-0.2%;
+	cursor:pointer;
+	width:20px;
+	line-height:20px;
+	background:#000;
+	color:#fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top:-1px;
+	border:solid 1px;
+}
+
+
+
 /* Aktiviteter */
 
 input {
 	color: #1669E6;
 }
+
+.pins{
+	display: none;
+	width: 96%;
+	height:1000px;
+
+}
+
+#hitpin0{
+	position: absolute;
+	left: 25%;
+	top:50%;
+}
+
+#hitpin1{
+	position: absolute;
+	left: 42%;
+	top:50%;
+}
+
+#hitpin2{
+	position: absolute;
+	left: 58%;
+	top:50%;
+}
+
+#hitpin3{
+	position: absolute;
+	left: 75%;
+	top:50%;
+}
+
+#hitpin4{
+	position: absolute;
+	left:33%;
+	top: 90%;
+}
+
+#hitpin5{
+	position: absolute;
+	left: 50%;
+	top:90%;
+}
+
+#hitpin6{
+	position: absolute;
+	left: 67%;
+	top:90%;
+}
+
+#hitpin7{
+	position: absolute;
+	left: 40%;
+	top:130%;
+}
+
+#hitpin8{
+	position: absolute;
+	left: 60%;
+	top:130%;
+}
+
+#hitpin9{
+	position: absolute;
+	left: 50%;
+	top:160%;
+}
+
+
 
 #merinfoSolli{
 	width:50%;
@@ -1436,7 +1559,6 @@ input {
 	z-index:1600;
 	box-shadow: 8px 8px 20px 5px #000;
 }
-
 
 
 
@@ -1658,6 +1780,5 @@ only screen and (min-device-pixel-ratio : 1.5) {
 		position: absolute;
 		display:none;
 	}
-
 
 }
