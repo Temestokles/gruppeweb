@@ -22,6 +22,27 @@ $(document).ready(function(){
 		$("#"+$(this).data("target")).fadeIn('slow');
 	});
 
+	// Når easteregget blir trigget
+	$("#egg").click(function(e){
+		// Forhindrer normal oppførsel ved klikk
+		e.preventDefault();
+		egghide.style.display="none";
+		$(".pins").fadeIn('fast');
+		
+	});
+	
+	for (var i=0;i<10;i++)
+    {
+ 
+	$("#hitpin"+ i).click(function(e){
+		// Forhindrer normal oppførsel ved klikk
+		e.preventDefault();
+		$(this).fadeOut('fast');
+	});}
+
+
+
+		
 });
 
 /* SLUTT PÅ FUNKSJONER UTELIV */
