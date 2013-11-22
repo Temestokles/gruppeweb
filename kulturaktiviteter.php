@@ -31,6 +31,8 @@
 				<li class="lesMer" data-target="merinfoKultureiendommer">Les mer..</li>
 			</ul>			
 		</td>
+		<td>
+		</td>
 	</tr>
 
 
@@ -69,6 +71,8 @@
 					<li class="lesMer" data-target="merinfoKulturkort">Les mer..</li>
 				</ul>			
 			</td>
+			<td>
+			</td>
 		</tr>
 
 		<tr>
@@ -103,6 +107,8 @@
 						<li class="lesMer" data-target="merinfoKunst">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 			<tr>
@@ -132,6 +138,8 @@
 						<li class="lesMer" data-target="merinfoDeichmanske">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 			<tr>
@@ -160,6 +168,8 @@
 					<ul>
 						<li class="lesMer" data-target="merinfoKulturnatt">Les mer..</li>
 					</ul>			
+				</td>
+				<td>
 				</td>
 			</tr>
 
@@ -198,6 +208,8 @@
 						<li class="lesMer" data-target="merinfoPopsenteret">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 			<tr>
@@ -231,6 +243,8 @@
 						<li class="lesMer" data-target="merinfoVigeland">Les mer..</li>
 					</ul>			
 				</td>
+				<td>
+				</td>
 			</tr>
 
 
@@ -261,6 +275,8 @@
 					<ul>
 						<li class="lesMer" data-target="merinfoOpera">Les mer..</li>
 					</ul>			
+				</td>
+				<td>
 				</td>
 			</tr>
 </table>

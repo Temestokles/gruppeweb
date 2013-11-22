@@ -102,6 +102,8 @@
 								</div>
 							</div>
 						</td>
+						<td>
+						</td>
 					</tr>
 
 
@@ -200,6 +202,8 @@
 
 										</div>
 									</td>
+									<td>
+									</td>
 								</tr>
 
 				<tr>
@@ -290,6 +294,8 @@
 												</div>
 
 							</div>
+						</td>
+						<td>
 						</td>
 				</tr>
 
@@ -385,6 +391,8 @@
 										</div>
 
 							</div>
+						</td>
+						<td>
 						</td>
 					</tr>
 
@@ -483,6 +491,8 @@
 
 										</div>
 									</td>
+									<td>
+									</td>
 								</tr>
 
 			<tr>
@@ -580,6 +590,8 @@
 
 													</div>
 												</td>
+												<td>
+												</td>
 											</tr>
 						<tr>
 							<td><img src="BilderWebb/nox2.jpg" Alt="Bilde fra utestedet Nox" width="160" height="90">
@@ -670,6 +682,8 @@
 																</div>
 
 											</div>
+										</td>
+										<td>
 										</td>
 									</tr>
 
@@ -767,6 +781,8 @@
 
 														</div>
 													</td>
+													<td>
+													</td>
 												</tr>
 
 								<tr>
@@ -860,6 +876,8 @@
 																				</div>
 															</div>
 														</td>
+														<td>
+														</td>
 													</tr>
 
 											<tr>
@@ -952,6 +970,8 @@
 										</div>
 
 						</div>
+					</td>
+					<td>
 					</td>
 				</tr>
 	</table>

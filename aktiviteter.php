@@ -51,6 +51,8 @@
 				<li class="lesMer" data-target="merinfoSolli">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 
@@ -86,6 +88,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoBhudda">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -127,6 +131,8 @@
 				<li class="lesMer" data-target="merinfoJudo">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 	<tr>
@@ -162,6 +168,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoKarate">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -203,6 +211,8 @@
 				<li class="lesMer" data-target="merinfoKlatring">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 	<tr>
@@ -237,6 +247,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoTryvann">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 
@@ -276,6 +288,8 @@
 				<li class="lesMer" data-target="merinfoBitraf">Les mer..</li>
 			</ul>
 		</td>
+		<td>
+		</td>
 	</tr>
 
 	<tr>
@@ -305,6 +319,8 @@
 			<ul>
 				<li class="lesMer" data-target="merinfoBad">Les mer..</li>
 			</ul>
+		</td>
+		<td>
 		</td>
 	</tr>
 

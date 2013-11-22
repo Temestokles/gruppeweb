@@ -33,12 +33,13 @@
 	</td>
 </tr>
 <tr> 
-	<td>
-	</td>
+	
 	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoAkerBrygge">Les mer..</li>
 		</ul>			
+	</td>
+	<td>
 	</td>
 </tr>
 
@@ -70,11 +71,11 @@
  
 <tr>
 	<td>
-	</td>
-	<td>
 		<ul>
 				<li class="lesMer" data-target="merinfoBogstadveien"> Les mer..</li>
 			</ul>
+	</td>
+	<td>
 	</td>
 </tr>
 
@@ -106,11 +107,11 @@
 
 <tr>
 	<td>
-	</td>
-	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoKarlJ"> Les mer..</li>
 		</ul>		
+	</td>
+	<td>
 	</td>
 </tr>
 
@@ -142,11 +143,11 @@
 
 <tr>
 	<td>
-	</td>
-	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoGrunerlokka"> Les mer..</li>
 		</ul>
+	</td>
+	<td>
 	</td>
 </tr>
 
@@ -181,11 +182,11 @@
 
 <tr>
 	<td>
-	</td>
-	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoSteenStrom"> Les mer..</li>
 		</ul>
+	</td>
+	<td>
 	</td>
 </tr>
 
@@ -215,11 +216,11 @@
 
 <tr>
 	<td>
-	</td>
-	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoEger"> Les mer..</li>
 		</ul>
+	</td>
+	<td>
 	</td>
 </tr>
 
@@ -250,14 +251,13 @@
 
 <tr>
 	<td>
-	</td>
-	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoPaleet"> Les mer..</li>
 		</ul>
 	</td>
+	<td>
+	</td>
 </tr>
-
 
 <tr>
 	<td><img src="BilderWebb/oslocity.jpg" Alt="Bilde fra Oslo City" width="130">
@@ -285,11 +285,11 @@
 
 <tr>
 	<td>
-	</td>
-	<td>
 		<ul>
 			<li class="lesMer" data-target="merinfoOsloCity"> Les mer..</li>
 		</ul>
+	</td>
+	<td>
 	</td>
 </tr>
 </table>
