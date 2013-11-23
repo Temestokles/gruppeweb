@@ -27,13 +27,13 @@ table{
 
 tr td{
 	text-align: center;
-	font-family: "Arial";
-	font-size: 15px;	
+	font-family: "Calibri";
+	font-size: 18px;	
 }
 
 p{
 	font-size:18px; 
-	font-family: "Arial";
+	font-family: "Calibri";
 }
 
 ol{
@@ -41,8 +41,13 @@ ol{
 }
 
 li{
-	font-size: 18px;
-	font-family: "Arial";
+	font-size: 20px;
+	font-family: "Calibri";
+	font-weight: bold;
+}
+
+img{
+	border: 2px solid black;
 }
 
 
