@@ -8,7 +8,7 @@ include('funksjoner.php');
 	<meta charset="UTF-8">
 	<link type="text/css" rel="stylesheet" href="oslo.css"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="functions.js"></script>
 </head>
 
