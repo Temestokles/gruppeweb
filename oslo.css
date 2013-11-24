@@ -1,4 +1,4 @@
-html{
+﻿html{
 	background: url('BilderWebb/skyer.jpg') no-repeat center center fixed; 
   	/*-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -81,7 +81,6 @@ form textarea{
 
 #overskrift {
 	height: 170px;
-	padding-bot: 3%;
 	background-color:#6499E8;
 }
 
@@ -94,7 +93,7 @@ form textarea{
 
 #weather img {
 	border: 5px solid white;
-	margin: 2px solid black;
+	margin: 2px;
 }
 
 #weather p {
@@ -276,7 +275,7 @@ form textarea{
 	width:350px;
 }
 
-}
+
 input {
 	color: #1669E6;
 }
