@@ -333,6 +333,7 @@ input {
 	height:80%;
 	background-color: white;
 	position:absolute;
+	padding-top:5%;
 	padding-bottom:1%;
 	top:70%;
 	z-index:150;
@@ -1386,8 +1387,22 @@ input {
 .pins{
 	display: none;
 	width: 96%;
-	height:1000px;
+	height:1100px;
+	border-radius: 6px;
+	cursor: url('BilderWebb/aktiviteter/ball2.png') 5 5, auto;
+	
+}
 
+#egg{
+	font-weight: normal;
+	
+}
+
+#klokka{
+	font-size: xx-large;
+	text-align: center;
+	margin-top: 23%;
+	
 }
 
 #hitpin0{
