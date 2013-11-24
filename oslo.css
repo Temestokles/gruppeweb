@@ -100,7 +100,8 @@ form textarea{
 #weather p {
 	position: relative;
 	text-align: center;
-
+	font-family: "Segoe Script";
+	font-weight: bold;
 	color: black;
 	bottom: 142px;
 	font-size: small;
@@ -158,6 +159,9 @@ form textarea{
 	padding-right:1%; 
 	position:relative;
 	font-size:0.8em; 
+	font-family: "Segoe Script";
+	color:white;
+	font-weight: bold;
 }
 
 
