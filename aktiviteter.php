@@ -1,19 +1,20 @@
 <section class="aktiviteter main">
 
-<div class="pins">
-<h2>Slå ut kjeglene</h2>
+<div class="pins" onclick="Timer()">
+<h2>Hvor mange kjegler klarer du å velte innen 5 sekunder?</h2>
 
+<div id="klokka">5.00</div>
 
-<img id="hitpin0" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin1" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin2" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin3" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin4" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin5" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin6" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin7" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin8" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
-<img id="hitpin9" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin0" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin1" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin2" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin3" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin4" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin5" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin6" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin7" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin8" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
+<img id="hitpin9" onclick="kjegler()" src="BilderWebb/aktiviteter/tenpin.jpg" alt="tenpin" width="50"/>
 
 </div>
 
