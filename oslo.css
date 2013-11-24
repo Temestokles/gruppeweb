@@ -1,4 +1,4 @@
-html{
+﻿html{
 	background: url('BilderWebb/skyer.jpg') no-repeat center center fixed; 
   	/*-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -81,7 +81,6 @@ form textarea{
 
 #overskrift {
 	height: 170px;
-	padding-bot: 3%;
 	background-color:#6499E8;
 }
 
@@ -94,7 +93,7 @@ form textarea{
 
 #weather img {
 	border: 5px solid white;
-	margin: 2px solid black;
+	margin: 2px;
 }
 
 #weather p {
@@ -276,7 +275,7 @@ form textarea{
 	width:350px;
 }
 
-}
+
 input {
 	color: #1669E6;
 }
@@ -333,6 +332,7 @@ input {
 	height:80%;
 	background-color: white;
 	position:absolute;
+	padding-top:5%;
 	padding-bottom:1%;
 	top:70%;
 	z-index:150;
@@ -1386,8 +1386,22 @@ input {
 .pins{
 	display: none;
 	width: 96%;
-	height:1000px;
+	height:1100px;
+	border-radius: 6px;
+	cursor: url('BilderWebb/aktiviteter/ball2.png') 5 5, auto;
+	
+}
 
+#egg{
+	font-weight: normal;
+	
+}
+
+#klokka{
+	font-size: xx-large;
+	text-align: center;
+	margin-top: 23%;
+	
 }
 
 #hitpin0{
